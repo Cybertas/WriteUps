@@ -26,14 +26,17 @@ Q3: What HTTP Header can you use to perform inject
 
 - According to the guide <https://amsghimire.medium.com/php-8-1-0-dev-backdoor-cb224e7f5914>
 - User-agentt is the header field that can be used to inject code
+
 Q4: What user is the web server running as?
 - Use burpsuite for RCE
 - ![[Burp_RCE.png]]
+
 Q5: Submit the flag located in the James user's home directory.
 - Use burpsuite to inject a reverse shell
 - Used <https://www.revshells.com/> to generate a reverse shell
 - Payload: nc mkfifo
 - ![[Burp_ReverseShell.png]]
+
 Q6: Submit the flag located in root's home directory.
 - Run linPeas.sh
 
@@ -48,6 +51,6 @@ User james may run the following commands on knife:
 
 ```
 
-- User james is able to run program knife as root without password
+- Output shows that user james is able to run program knife as root without password
 - <https://gtfobins.github.io/gtfobins/knife/> - exploit the sudo privilege to gain root access.
-- Can be done using by executing a revershell or just use cat to display the flag.txt content.
+- Exploit the sudo access by obtaining a revershell or just use cat to display the flag.txt content.
