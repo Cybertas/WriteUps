@@ -5,7 +5,7 @@
 - Difficulty: Easy
 - Type: Web, HTTP, PHP, Linux, Priv-Esc
 
-#### Enum ####
+#### Tasks
 
 Q1: How many ports on running on the target machine
 
