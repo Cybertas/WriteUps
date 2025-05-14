@@ -3,11 +3,11 @@
 - Preping for CPTS & OSCP 
 
 
-Easy (Pwned - 2) / (Difficulty /10)
+Easy - (Pwned - 2) / (Difficulty /10)
 - Knife 2/10
 - Sunday 3/10 
 
-Medium (Pwned - 0)
+Medium - (Pwned - 0) / (Difficulty /10)
 
 
-Hard (Pwned - 0)
+Hard - (Pwned - 0) / (Difficulty /10)
