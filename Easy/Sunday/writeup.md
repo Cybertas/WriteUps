@@ -3,7 +3,7 @@
 ### Lab Details 
 
 - Difficulty: Easy 
-- Type: Solaris 
+- Type: Solaris, Finger, User Enum, Password Brute, Priv Esc
 
 #### Tasks
 
