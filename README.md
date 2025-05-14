@@ -3,9 +3,9 @@
 - Preping for CPTS & OSCP 
 
 
-Easy (Pwned - 1)
+Easy (Pwned - 2)
 - Knife
-- Sunday (WIP) 
+- Sunday 
 
 Medium (Pwned - 0)
 
