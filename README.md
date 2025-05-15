@@ -3,16 +3,15 @@
 - Preping for CPTS & OSCP 
 
 
-Easy   (Pwned 3) / (Difficulty /10)
+Easy   (Pwned 4) / (Difficulty /10)
 - Knife  2/10
 - Sunday 3/10 
 - Keeper 1/10
 - Bashed 1/10
 - Beep (WIP)
+- Access (WIP)
 
 Medium (Pwned 0) / (Difficulty /10)
-- Tabby (WIP)
-
 
 
 Hard   (Pwned 0) / (Difficulty /10)
