@@ -12,3 +12,6 @@ Medium (Pwned - 0) / (Difficulty /10)
 
 
 Hard (Pwned - 0) / (Difficulty /10)
+
+---
+If you have any questions or want to learn together, feel free to reach out - I'm always open to connect. - [Linkedin](http://www.linkedin.com/in/yuhao-/)
