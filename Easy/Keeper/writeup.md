@@ -98,7 +98,8 @@ Q10: Submit the flag located in the root user's home directory.
  puttygen keeper.ppk -O private-openssh -o id_rsa
  ``` 
  - where keeper.ppk is the file that contains the note section and id_rsa is the private key we can use to login to root via ssh 
- ``` ssh -i id_rsa target_ip 
+ ``` 
+ ssh -i id_rsa target_ip 
  ```
 
 
