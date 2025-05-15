@@ -60,7 +60,7 @@ Q7: What is filename of the file that is being run by root every couple minutes?
 
 Q8: Submit the flag located in root's home directory.
 - since test.py is getting executed as cronjob and scriptmanager has read/write access over /scripts
-- a reverse shell can be load and will be executed when the next cronjob runs  
+- a reverse shell can be loaded to /scripts and it will be executed when the next cronjob runs  
 - below is test.py 
  ```
  import socket,subprocess,os
