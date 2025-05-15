@@ -7,9 +7,12 @@ Easy   (Pwned 3) / (Difficulty /10)
 - Knife  2/10
 - Sunday 3/10 
 - Keeper 1/10
-- Bashed (WIP)
+- Bashed 1/10
+- Beep (WIP)
 
 Medium (Pwned 0) / (Difficulty /10)
+- Tabby (WIP)
+
 
 
 Hard   (Pwned 0) / (Difficulty /10)
