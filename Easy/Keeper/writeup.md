@@ -3,7 +3,7 @@
 ### Lab Details 
 
 - Difficulty: Easy
-- Type: Web App, KeePass, Priv Esc
+- Type: Web App, KeePass, Priv Esc, Linux
 
 #### Tasks
 
