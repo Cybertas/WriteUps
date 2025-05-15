@@ -7,5 +7,7 @@
 
 #### Tasks
 
+Q1: How many open TCP ports are listening on Bashed?
+
 
 #### Lesson Learned
