@@ -4,12 +4,12 @@
 
 
 Easy   (Pwned 4) / (Difficulty /10)
-- Knife  2/10
-- Sunday 3/10 
-- Keeper 1/10
-- Bashed 1/10
-- Beep (WIP)
-- Access (WIP)
+- Knife - retired  2/10
+- Sunday - retired 3/10 
+- Keeper - retired 1/10
+- Bashed - retired 1/10
+- Beep - retired  (WIP)
+- Access - retired (WIP)
 
 Medium (Pwned 0) / (Difficulty /10)
 
@@ -17,4 +17,4 @@ Medium (Pwned 0) / (Difficulty /10)
 Hard   (Pwned 0) / (Difficulty /10)
 
 ---
-If you have any questions or want to learn together, feel free to reach out - I'm always open to connect. - [Linkedin](http://www.linkedin.com/in/yuhao-/)
+If you have any questions or want to learn together, feel free to reach outt. - [Linkedin](http://www.linkedin.com/in/yuhao-/)
