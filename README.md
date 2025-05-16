@@ -5,7 +5,7 @@ Difficulty is relative – difficulty ratings are subjective (x/10)
 
 ---
 
-### 🟢 Easy (Pwned 5)  
+### 🟢 Easy (Pwned 6)  
 <details>
 <summary>Easy labs (Click to expand)</summary>
 
@@ -14,7 +14,7 @@ Difficulty is relative – difficulty ratings are subjective (x/10)
 - Keeper  – retired (1/10)  
 - Bashed  – retired (1/10)  
 - Beep    – retired (1/10)  
-- Armageddon – retired (4/10) - Privilege Escalation time consuming, learned a lot
+- Armageddon – retired (4/10)
 - Popcorn - retired (**WIP**)
 - Access  – retired (**WIP**)
 
