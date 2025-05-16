@@ -7,7 +7,7 @@ Difficulty is relative – difficulty ratings are subjective (x/10)
 
 ### 🟢 Easy (Pwned 5)  
 <details>
-<summary>Show completed Easy labs (Click to expand)</summary>
+<summary>Easy labs (Click to expand)</summary>
 
 - Knife – retired (2/10)  
 - Sunday – retired (3/10)  
@@ -24,7 +24,7 @@ Difficulty is relative – difficulty ratings are subjective (x/10)
 ### 🟡 Medium (Pwned 0)
 
 <details>
-<summary>Show Medium labs</summary>
+<summary>Medium labs (Click to expand)</summary>
 
 *Coming soon*
 
@@ -35,7 +35,7 @@ Difficulty is relative – difficulty ratings are subjective (x/10)
 ### 🔴 Hard (Pwned 0)
 
 <details>
-<summary>Show Hard labs</summary>
+<summary>Hard labs (Click to expand)</summary>
 
 *Coming soon*
 
