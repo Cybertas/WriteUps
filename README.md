@@ -15,6 +15,7 @@ Difficulty is relative – difficulty ratings are subjective (x/10)
 - Bashed  – retired (1/10)  
 - Beep    – retired (1/10)  
 - Armageddon – retired (4/10)
+- Blunder - retired (**WIP**)
 - Popcorn - retired (**WIP**)
 - Access  – retired (**WIP**)
 
