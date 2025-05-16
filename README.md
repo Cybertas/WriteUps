@@ -9,13 +9,14 @@ Difficulty is relative – difficulty ratings are subjective (x/10)
 <details>
 <summary>Easy labs (Click to expand)</summary>
 
-- Knife – retired (2/10)  
-- Sunday – retired (3/10)  
-- Keeper – retired (1/10)  
-- Bashed – retired (1/10)  
-- Beep – retired (1/10)  
-- Armageddon – retired (**WIP**)  
-- Access – retired (**WIP**)
+- Knife   – retired (2/10)  
+- Sunday  – retired (3/10)  
+- Keeper  – retired (1/10)  
+- Bashed  – retired (1/10)  
+- Beep    – retired (1/10)  
+- Armageddon – retired (4/10) - Privilege Escalation time consuming, learned a lot
+- Popcorn - retired (**WIP**)
+- Access  – retired (**WIP**)
 
 </details>
 
