@@ -3,13 +3,14 @@
 - Preping for CPTS & OSCP 
 
 
-Easy   (Pwned 4) / (Difficulty /10)
-- Knife - retired  2/10
-- Sunday - retired 3/10 
-- Keeper - retired 1/10
-- Bashed - retired 1/10
-- Beep - retired  (WIP)
-- Access - retired (WIP)
+Easy   (Pwned 5) / (Difficulty /10)
+- Knife - retired       (2/10)
+- Sunday - retired      (3/10)
+- Keeper - retired      (1/10)
+- Bashed - retired      (1/10)
+- Beep - retired        (1/10) -- Not too difficult, concepts are new
+- Armageddon - retired  (WIP)   
+- Access - retired      (WIP)
 
 Medium (Pwned 0) / (Difficulty /10)
 
