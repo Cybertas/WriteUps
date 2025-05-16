@@ -1,11 +1,10 @@
-## Title
+## [Title]
 
 ### Lab Details 
 
 - Difficulty:
-- Type: 
+- Type:
 
 #### Tasks
-
 
 #### Lesson Learned

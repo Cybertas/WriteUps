@@ -3,7 +3,7 @@
 ### Lab Details 
 
 - Difficulty: Easy
-- Type: Web app, Webb exploit, SSH
+- Type: Web app, Webb exploit, SSH, Linux
 
 #### Tasks
 

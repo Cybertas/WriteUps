@@ -85,7 +85,7 @@ Q6: What is the name of the table in the Drupal database that holder usernames a
 
 Q7: What is the brucetherealadmin's password?
  - there is algorithm for drupal encryption
- - `hashcat -m 7900 hash rockyou.txt
+ - `hashcat -m 7900 hash rockyou.txt`
 
 Q8: What is the full path to the binary on this machine that brucetherealadmin can run as root?
  - /usr/bin/snap -> `sudo -l'
