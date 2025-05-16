@@ -1,7 +1,7 @@
 ## WriteUps
 - Contains WriteUps for HTB Labs (As of Now)
 - Preping for CPTS & OSCP 
-
+- Difficulty is relative, provide reference on how difficult each machine are. 
 
 Easy   (Pwned 5) / (Difficulty /10)
 - Knife - retired       (2/10)
