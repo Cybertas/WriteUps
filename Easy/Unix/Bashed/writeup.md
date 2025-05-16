@@ -3,7 +3,7 @@
 ### Lab Details 
 
 - Difficulty: Easy 
-- Type: Linux
+- Type: Linux, Web Shell, Priv Esc
 
 #### Tasks
 
