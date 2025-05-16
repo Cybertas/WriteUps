@@ -8,7 +8,7 @@ Easy   (Pwned 5) / (Difficulty /10)
 - Sunday - retired      (3/10)
 - Keeper - retired      (1/10)
 - Bashed - retired      (1/10)
-- Beep - retired        (1/10) -- Not too difficult, concepts are new
+- Beep - retired        (1/10)
 - Armageddon - retired  (WIP)   
 - Access - retired      (WIP)
 
