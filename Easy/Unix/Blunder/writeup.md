@@ -11,7 +11,8 @@ Q1: How many TCP ports are open on the remote host?
  - `nmap -sT -T4 -vv -A -p- -oA Blunder 10.10.10.191`
 
 Q2: What is the name of the unusual file that dirbusting reveals?
- - scanned for - using /usr/share/wordlists/dirb/big.txt, unable to find any interesting files
+ - scanned for target using /usr/share/wordlists/dirb/big.txt, unable to find any interesting files
+ - used below extensions
  ``` 
    ffuf -u http://10.10.10.191/FUZZ -w /usr/share/wordlists/dirb/big.txt -e .ext1 .ext2 .ext3
    .php 
