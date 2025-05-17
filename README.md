@@ -1,6 +1,6 @@
 ## WriteUps
 WriteUps for HTB Labs (As of Now)  
-Prepping for CPTS & OSCP # Got 0 out of 100 for OSCP exam
+Prepping for CPTS & OSCP \# Got 0 out of 100 for OSCP exam
 Difficulty is relative – difficulty ratings are subjective (x/10)
 
 ---
