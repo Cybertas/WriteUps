@@ -5,7 +5,7 @@ Difficulty is relative – difficulty ratings are subjective (x/10)
 
 ---
 
-### 🟢 Easy (Pwned 6)  
+### 🟢 Easy (Pwned 7)  
 <details>
 <summary>Easy labs (Click to expand)</summary>
 
@@ -15,7 +15,7 @@ Difficulty is relative – difficulty ratings are subjective (x/10)
 - Bashed  – retired (1/10)  
 - Beep    – retired (1/10)  
 - Armageddon – retired (4/10)
-- Blunder - retired (**WIP**)
+- Blunder - retired (3.5/10)
 - Popcorn - retired (**WIP**)
 - Access  – retired (**WIP**)
 
