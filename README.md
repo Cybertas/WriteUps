@@ -1,11 +1,11 @@
 ## WriteUps
 WriteUps for HTB Labs (As of Now)  
-Prepping for CPTS & OSCP  
+Prepping for CPTS & OSCP # Got 0 out of 100 for OSCP exam
 Difficulty is relative – difficulty ratings are subjective (x/10)
 
 ---
 
-### 🟢 Easy (Pwned 7)  
+### 🟢 Easy (Pwned 8)  
 <details>
 <summary>Easy labs (Click to expand)</summary>
 
@@ -16,7 +16,7 @@ Difficulty is relative – difficulty ratings are subjective (x/10)
 - Beep    – retired (1/10)  
 - Armageddon – retired (4/10)
 - Blunder - retired (3.5/10)
-- Popcorn - retired (**WIP**)
+- Popcorn - retired (1.5/10)
 - Access  – retired (**WIP**)
 
 </details>
