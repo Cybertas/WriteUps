@@ -1,0 +1,47 @@
+# Nmap 7.95 scan initiated Fri May 16 21:12:58 2025 as: /usr/lib/nmap/nmap --privileged -sT -T4 -vv -A -p- -oA Blunder 10.10.10.191
+Nmap scan report for 10.10.10.191
+Host is up, received echo-reply ttl 63 (0.32s latency).
+Scanned at 2025-05-16 21:13:00 AEST for 329s
+Not shown: 65533 filtered tcp ports (no-response)
+PORT   STATE  SERVICE REASON       VERSION
+21/tcp closed ftp     conn-refused
+80/tcp open   http    syn-ack      Apache httpd 2.4.41 ((Ubuntu))
+|_http-generator: Blunder
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+|_http-title: Blunder | A blunder of interesting facts
+|_http-favicon: Unknown favicon MD5: A0F0E5D852F0E3783AF700B6EE9D00DA
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+OS fingerprint not ideal because: Didn't receive UDP response. Please try again with -sSU
+Aggressive OS guesses: Linux 5.0 - 5.14 (98%), MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3) (98%), Linux 4.15 - 5.19 (94%), Linux 2.6.32 - 3.13 (93%), Linux 5.0 (92%), OpenWrt 22.03 (Linux 5.10) (92%), Linux 3.10 - 4.11 (91%), Linux 3.2 - 4.14 (90%), Linux 4.15 (90%), Linux 2.6.32 - 3.10 (90%)
+No exact OS matches for host (test conditions non-ideal).
+TCP/IP fingerprint:
+SCAN(V=7.95%E=4%D=5/16%OT=80%CT=21%CU=%PV=Y%DS=2%DC=T%G=N%TM=68271F05%P=aarch64-unknown-linux-gnu)
+SEQ(SP=104%GCD=1%ISR=10B%TI=Z%CI=Z%II=I%TS=A)
+SEQ(SP=F6%GCD=1%ISR=10F%TI=Z%CI=Z%II=I%TS=A)
+OPS(O1=M552ST11NW7%O2=M552ST11NW7%O3=M552NNT11NW7%O4=M552ST11NW7%O5=M552ST11NW7%O6=M552ST11)
+WIN(W1=FE88%W2=FE88%W3=FE88%W4=FE88%W5=FE88%W6=FE88)
+ECN(R=Y%DF=Y%TG=40%W=FAF0%O=M552NNSNW7%CC=Y%Q=)
+T1(R=Y%DF=Y%TG=40%S=O%A=S+%F=AS%RD=0%Q=)
+T2(R=N)
+T3(R=N)
+T4(R=Y%DF=Y%TG=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)
+T5(R=Y%DF=Y%TG=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=Y%DFI=N%TG=40%CD=S)
+
+Uptime guess: 15.110 days (since Thu May  1 18:40:01 2025)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=246 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT       ADDRESS
+1   321.43 ms 10.10.14.1
+2   321.97 ms 10.10.10.191
+
+Read data files from: /usr/share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri May 16 21:18:29 2025 -- 1 IP address (1 host up) scanned in 331.09 seconds
