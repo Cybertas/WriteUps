@@ -1,5 +1,5 @@
 ## WriteUps
-Contains WriteUps for HTB Labs (As of Now)  
+WriteUps for HTB Labs (As of Now)  
 Prepping for CPTS & OSCP  
 Difficulty is relative – difficulty ratings are subjective (x/10)
 
@@ -28,7 +28,7 @@ Difficulty is relative – difficulty ratings are subjective (x/10)
 <details>
 <summary>Medium labs (Click to expand)</summary>
 
-*Coming soon*
+[Place Holder]
 
 </details>
 
@@ -39,12 +39,12 @@ Difficulty is relative – difficulty ratings are subjective (x/10)
 <details>
 <summary>Hard labs (Click to expand)</summary>
 
-*Coming soon*
+[Place Holder]
 
 </details>
 
 ---
 
-### 💬 Contact
+Contact
 If you have any questions or want to learn together, feel free to [reach out on LinkedIn](https://www.linkedin.com/in/yourprofile).
 
