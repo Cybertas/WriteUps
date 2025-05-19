@@ -92,12 +92,13 @@ redis
 
 Q5: What is the password for the SSH key?
 - the private key requires password when `ssh -i id_rsa Matt@target_ip`
-- therefore need to crack it before, below is using john as hashcat does not support ssh 
+- therefore need to crack it, below is using john as hashcat does not support ssh hash type
 ```
 $: ssh2john id_rsa > rsa.hash 
 $: john --wordlist=/usr/share/wordlists/rockyou.txt rsa.hash 
 ...
 computer2008     (id_rsa_matt)
+```
 
 Q6: Which user uses the same password as the one used to decrypt the SSH key?
  - Matt is the user as its owned by Matt
