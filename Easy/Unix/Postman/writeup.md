@@ -142,5 +142,5 @@ cat /root/root.txt
 
 
 #### Lesson Learned
-- learned how to compromise weakly configured redis server but using readily available info
-- use john to crack ssh private key passwords
+- Learned how to compromise weakly configured redis server by using readily available info
+- Using john to crack ssh private key passwords
