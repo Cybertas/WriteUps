@@ -1,0 +1,5 @@
+# Nmap 7.95 scan initiated Sat May 17 20:14:48 2025 as: /usr/lib/nmap/nmap --privileged -sT -T4 -vv -A -p- -oA Postman 10.10.10.160
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.10.10.160 ()	Status: Up
+Host: 10.10.10.160 ()	Ports: 22/open/tcp//ssh//OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.29 ((Ubuntu))/, 6379/open/tcp//redis//Redis key-value store 4.0.9/, 10000/open/tcp//http//MiniServ 1.910 (Webmin httpd)/	Seq Index: 263	IP ID Seq: All zeros
+# Nmap done at Sat May 17 20:40:27 2025 -- 1 IP address (1 host up) scanned in 1539.86 seconds
