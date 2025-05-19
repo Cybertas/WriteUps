@@ -130,8 +130,8 @@ root        724  0.0  3.1  90944 28832 ?        Ss   11:51   0:00 /usr/bin/perl 
 
 
 Q10: Submit root flag
-- use linux/http/webmin_packageup_rce from msfconsole
-- set SSL = True and the rest of the info, username is Matt and password is computer2008
+- use `linux/http/webmin_packageup_rce` module from msfconsole
+- set SSL = True and rest of the info, username is Matt and password is computer2008
 - will get a root shell back 
 ```
 root@Postman:/usr/share/webmin/package-updates/# cat /root/root.txt
