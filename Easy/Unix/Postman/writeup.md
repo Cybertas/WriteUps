@@ -3,7 +3,7 @@
 ### Lab Details 
 
 - Difficulty: Easy
-- Type: Redis, Web, SSH, Priv Esc, Linux
+- Type: Redis, Webmin, SSH, Priv Esc, Linux
 
 #### Tasks
 Q1: What version of Redis is running on port 6379?
