@@ -20,6 +20,7 @@ Some writeups will contain POCs but highly recommend to get from source
 - Postman - retired (4/10)
 - Shocker - retired (1/10)
 - Access  – retired (**WIP**)
+- Swagshop   - retired (**WIP**)
 
 </details>
 
