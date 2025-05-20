@@ -18,7 +18,7 @@ Some writeups will contain POCs but highly recommend to get from source
 - Blunder - retired (3.5/10)
 - Popcorn - retired (1.5/10)
 - Postman - retired (4/10)
-- Shocker - retired (**WIP**)
+- Shocker - retired (1/10)
 - Access  – retired (**WIP**)
 
 </details>
