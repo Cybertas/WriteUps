@@ -1,0 +1,5 @@
+# Nmap 7.95 scan initiated Tue May 20 00:10:07 2025 as: /usr/lib/nmap/nmap --privileged -sT -T4 -vv -A -p- -oA Shocker 10.10.10.56
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.10.10.56 ()	Status: Up
+Host: 10.10.10.56 ()	Ports: 80/open/tcp//http//Apache httpd 2.4.18 ((Ubuntu))/, 2222/open/tcp//ssh//OpenSSH 7.2p2 Ubuntu 4ubuntu2.2 (Ubuntu Linux; protocol 2.0)/	Ignored State: closed (65533)	OS: Linux 3.10 - 4.11	Seq Index: 262	IP ID Seq: All zeros
+# Nmap done at Tue May 20 00:28:46 2025 -- 1 IP address (1 host up) scanned in 1119.66 seconds
