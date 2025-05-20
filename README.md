@@ -5,7 +5,7 @@ Some writeups will contain POCs but highly recommend to get from source
 
 ---
 
-### 🟢 Easy (Pwned 9)  
+### 🟢 Easy (Pwned 10)  
 <details>
 <summary>Easy labs (Click to expand)</summary>
 
