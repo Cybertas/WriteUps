@@ -62,7 +62,7 @@ ftp> mget backup.mdb
 ```
 
 Q3: What table in the database has user passwords?
-- to interact with mdb file, tool like Mdbtools can be installed. 
+- to interact with mdb file, tools like Mdbtools can be installed. 
 ```
 # list tables in mdb
 mdb-tables backup.mdb
@@ -72,6 +72,7 @@ mdb-tables backup.mdb -1
 
 # output data in a table in json format
 mdb-json backup.md auth_user
+```
 - table auth_user looks interesting below is the data
 ```
 {"id":25,"username":"admin","password":"admin","Status":1,"last_login":"08/23/18 21:11:47","RoleID":26}
