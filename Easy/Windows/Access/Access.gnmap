@@ -1,0 +1,5 @@
+# Nmap 7.95 scan initiated Tue May 20 21:52:30 2025 as: /usr/lib/nmap/nmap --privileged -sT -T4 -vv -A -p- -oA Access 10.10.10.98
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.10.10.98 ()	Status: Up
+Host: 10.10.10.98 ()	Ports: 21/open/tcp//ftp//Microsoft ftpd/, 23/open/tcp//telnet//Microsoft Windows XP telnetd (no more connections allowed)/, 80/open/tcp//http//Microsoft IIS httpd 7.5/	Ignored State: filtered (65532)	Seq Index: 259	IP ID Seq: Incremental
+# Nmap done at Tue May 20 21:59:50 2025 -- 1 IP address (1 host up) scanned in 440.18 seconds

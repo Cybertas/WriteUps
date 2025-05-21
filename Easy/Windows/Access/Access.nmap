@@ -1,0 +1,63 @@
+# Nmap 7.95 scan initiated Tue May 20 21:52:30 2025 as: /usr/lib/nmap/nmap --privileged -sT -T4 -vv -A -p- -oA Access 10.10.10.98
+Nmap scan report for 10.10.10.98
+Host is up, received echo-reply ttl 127 (0.30s latency).
+Scanned at 2025-05-20 21:52:32 AEST for 437s
+Not shown: 65532 filtered tcp ports (no-response)
+PORT   STATE SERVICE REASON  VERSION
+21/tcp open  ftp     syn-ack Microsoft ftpd
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+|_Can't get directory listing: PASV failed: 425 Cannot open data connection.
+| ftp-syst: 
+|_  SYST: Windows_NT
+23/tcp open  telnet  syn-ack Microsoft Windows XP telnetd (no more connections allowed)
+| telnet-ntlm-info: 
+|   Target_Name: ACCESS
+|   NetBIOS_Domain_Name: ACCESS
+|   NetBIOS_Computer_Name: ACCESS
+|   DNS_Domain_Name: ACCESS
+|   DNS_Computer_Name: ACCESS
+|_  Product_Version: 6.1.7600
+80/tcp open  http    syn-ack Microsoft IIS httpd 7.5
+|_http-server-header: Microsoft-IIS/7.5
+|_http-title: MegaCorp
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|phone|specialized
+Running (JUST GUESSING): Microsoft Windows 2008|7|Vista|2012|Phone (97%)
+OS CPE: cpe:/o:microsoft:windows_server_2008:r2 cpe:/o:microsoft:windows_7 cpe:/o:microsoft:windows_vista cpe:/o:microsoft:windows_server_2012:r2 cpe:/o:microsoft:windows_8 cpe:/o:microsoft:windows
+OS fingerprint not ideal because: Missing a closed TCP port so results incomplete
+Aggressive OS guesses: Microsoft Windows 7 or Windows Server 2008 R2 (97%), Microsoft Windows Server 2008 R2 or Windows 7 SP1 (92%), Microsoft Windows Vista or Windows 7 (92%), Microsoft Windows Server 2012 R2 (91%), Microsoft Windows Server 2008 R2 SP1 or Windows 8 (89%), Microsoft Windows 7 Professional or Windows 8 (89%), Microsoft Windows 7 SP1 or Windows Server 2008 SP2 or 2008 R2 SP1 (89%), Microsoft Windows 8.1 Update 1 (89%), Microsoft Windows Phone 7.5 or 8.0 (89%), Microsoft Windows Vista SP0 or SP1, Windows Server 2008 SP1, or Windows 7 (89%)
+No exact OS matches for host (test conditions non-ideal).
+TCP/IP fingerprint:
+SCAN(V=7.95%E=4%D=5/20%OT=21%CT=%CU=%PV=Y%DS=2%DC=T%G=N%TM=682C6EB5%P=aarch64-unknown-linux-gnu)
+SEQ(SP=100%GCD=1%ISR=10F%TI=I%II=I%SS=S%TS=7)
+SEQ(SP=103%GCD=1%ISR=10E%TI=I%TS=7)
+OPS(O1=M552NW8ST11%O2=M552NW8ST11%O3=M552NW8NNT11%O4=M552NW8ST11%O5=M552NW8ST11%O6=M552ST11)
+WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=2000%W6=2000)
+ECN(R=Y%DF=Y%TG=80%W=2000%O=M552NW8NNS%CC=N%Q=)
+T1(R=Y%DF=Y%TG=80%S=O%A=S+%F=AS%RD=0%Q=)
+T2(R=N)
+T3(R=N)
+T4(R=N)
+U1(R=N)
+IE(R=Y%DFI=N%TG=80%CD=Z)
+
+Uptime guess: 0.011 days (since Tue May 20 21:43:54 2025)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=259 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OSs: Windows, Windows XP; CPE: cpe:/o:microsoft:windows, cpe:/o:microsoft:windows_xp
+
+Host script results:
+|_clock-skew: -46s
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT       ADDRESS
+1   306.19 ms 10.10.14.1
+2   306.62 ms 10.10.10.98
+
+Read data files from: /usr/share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue May 20 21:59:50 2025 -- 1 IP address (1 host up) scanned in 440.18 seconds
