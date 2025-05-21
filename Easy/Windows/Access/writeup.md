@@ -3,7 +3,7 @@
 ### Lab Details 
 
 - Difficulty: Easy
-- Type: Windows
+- Type: Telnet, FTP, Priv Esc, Windows
 
 #### Tasks
 Q1:How many TCP ports are listening on Access?
