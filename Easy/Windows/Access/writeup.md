@@ -110,12 +110,12 @@ Q6: To which open TCP port on Access can we connect to get a shell after logging
  - login with password found in the pst file
 
 Q7: Submit the flag located on the security user's desktop.
- -  after gaining shell access run below to get the flag
+ -  after gaining shell access execute below to get the flag
  -  `type \Desktop\user.txt
 
 Q8: What is the name of the executable called by the link file on the Public desktop?
  - there is a `.lnk` file located at `C:\Users\Public\Desktop`
- - to see the file that its executing by using `type` similar to `cat`
+ - we can output the link file to acertain the file been executed using`type`
  - `type ZKAccess3.5 Security System.lnk`
 ```
 PS C:\Users\Public\desktop> type "ZKAccess3.5 Security System.lnk"
