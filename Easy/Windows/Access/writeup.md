@@ -115,7 +115,7 @@ Q7: Submit the flag located on the security user's desktop.
 
 Q8: What is the name of the executable called by the link file on the Public desktop?
  - there is a `.lnk` file located at `C:\Users\Public\Desktop`
- - we can output the link file to acertain the file been executed using`type`
+ - we can output the link file to acertain the file been executed using `type`
  - `type ZKAccess3.5 Security System.lnk`
 ```
 PS C:\Users\Public\desktop> type "ZKAccess3.5 Security System.lnk"
@@ -127,10 +127,10 @@ L?F?@ ??7???7???#?P/P?O? ?:i?+00?/C:\R1M?:Windows???:?▒M?:*wWindowsV1MV?System
                                       O?j)?H???
                                                )??[?    ??1SPS??XF?L8C???&?m?e*S-1-5-21-953262931-566350628-63446256-500
 ```
- - the program thats executed is runas
+ - the program executed is runas
 
 Q9: What Windows command, when given the /list option, will print information about the stored credentials available to the current user?
- - the Windows command will print stored creds given /list flag is `cmdkeys` - read more on this check out `Windows Privilege Escalation -> Further Credential Theft` module from HTB Academy, goes in depth on this topic
+ - the Windows command will print stored creds given `/list` flag is `cmdkeys` - read more on this check out `Windows Privilege Escalation -> Further Credential Theft` module from HTB Academy, goes in depth on this topic
   
 Q10: What option can be given to the runas Windows command to have it use the saved credentials and run as that user? Include the leading /.
 - flag `/savecred` will use the saved cred instead of user input
