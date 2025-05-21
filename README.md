@@ -1,11 +1,11 @@
-## WriteUps
+# WriteUps
 WriteUps for HTB Labs (As of Now)  
 Difficulty ratings are subjective (x/10)<br>
 Some writeups will contain POCs but highly recommend to get from source
 
 ---
 
-### 🟢 Easy (Pwned 10)  
+### 🟢 Easy (Pwned 11)  
 <details>
 <summary>Easy labs (Click to expand)</summary>
 
@@ -19,7 +19,7 @@ Some writeups will contain POCs but highly recommend to get from source
 - Popcorn - retired (1.5/10)
 - Postman - retired (4/10)
 - Shocker - retired (1/10)
-- Access  – retired (**WIP**)
+- Access  – retired (3/10)
 - Swagshop   - retired (**WIP**)
 
 </details>
