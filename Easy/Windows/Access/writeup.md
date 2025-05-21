@@ -82,12 +82,12 @@ mdb-json backup.md auth_user
 
 Q4: What is the password for Access Control.zip?
 - Access Control.zip is located in Engineers directory in target ftp server 
-- to obtain the password we will need to use `zip2john` then crack it with `john`
-- however we can also try using the password found in the mdb file to access it
+- initially i wanted to crack the password by using `zip2john` and `john`
+- however that method did not work then tried using the password found in the mdb file to access it
 - password = `access4u@security`
 
 Q5: What is the password for the security user?
-- we get Access Control.pst file which is used to stored Microsoft Outlook data
+- after extracting the zipped file we get Access Control.pst file which is used to stored Microsoft Outlook data
 - install `pst-utls` tool to interact with `.pst` file
 - we can use `readpst` to get the output 
 ```
