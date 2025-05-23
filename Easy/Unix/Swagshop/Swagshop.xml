@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.95 scan initiated Thu May 22 15:42:02 2025 as: /usr/lib/nmap/nmap -&#45;privileged -sT -T4 -vv -A -p- -oA Swagshop 10.10.10.140 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -&#45;privileged -sT -T4 -vv -A -p- -oA Swagshop 10.10.10.140" start="1747892522" startstr="Thu May 22 15:42:02 2025" version="7.95" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1747892522"/>
+<taskend task="NSE" time="1747892522"/>
+<taskbegin task="NSE" time="1747892522"/>
+<taskend task="NSE" time="1747892522"/>
+<taskbegin task="NSE" time="1747892522"/>
+<taskend task="NSE" time="1747892522"/>
+<taskbegin task="Ping Scan" time="1747892522"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.10.10.140" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskend task="Ping Scan" time="1747892523" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1747892523"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1747892523"/>
+<taskbegin task="Connect Scan" time="1747892523"/>
+<taskprogress task="Connect Scan" time="1747892554" percent="2.85" remaining="1056" etc="1747893609"/>
+<taskprogress task="Connect Scan" time="1747892584" percent="5.06" remaining="1144" etc="1747893728"/>
+<taskprogress task="Connect Scan" time="1747892614" percent="8.56" remaining="973" etc="1747893586"/>
+<taskprogress task="Connect Scan" time="1747892662" percent="13.14" remaining="919" etc="1747893581"/>
+<taskprogress task="Connect Scan" time="1747892692" percent="16.47" remaining="858" etc="1747893549"/>
+<taskprogress task="Connect Scan" time="1747892713" percent="18.67" remaining="828" etc="1747893541"/>
+<taskprogress task="Connect Scan" time="1747892746" percent="22.33" remaining="776" etc="1747893522"/>
+<taskprogress task="Connect Scan" time="1747892797" percent="27.40" remaining="727" etc="1747893523"/>
+<taskprogress task="Connect Scan" time="1747892866" percent="30.64" remaining="777" etc="1747893642"/>
+<taskprogress task="Connect Scan" time="1747892950" percent="37.28" remaining="719" etc="1747893668"/>
+<taskprogress task="Connect Scan" time="1747892986" percent="41.30" remaining="659" etc="1747893644"/>
+<taskprogress task="Connect Scan" time="1747893028" percent="45.66" remaining="601" etc="1747893629"/>
+<taskprogress task="Connect Scan" time="1747893076" percent="50.40" remaining="545" etc="1747893620"/>
+<taskprogress task="Connect Scan" time="1747893124" percent="55.26" remaining="487" etc="1747893611"/>
+<taskprogress task="Connect Scan" time="1747893160" percent="59.60" remaining="432" etc="1747893592"/>
+<taskprogress task="Connect Scan" time="1747893211" percent="64.53" remaining="379" etc="1747893589"/>
+<taskprogress task="Connect Scan" time="1747893265" percent="69.69" remaining="323" etc="1747893588"/>
+<taskprogress task="Connect Scan" time="1747893322" percent="74.98" remaining="267" etc="1747893589"/>
+<taskprogress task="Connect Scan" time="1747893364" percent="79.80" remaining="213" etc="1747893577"/>
+<taskprogress task="Connect Scan" time="1747893400" percent="84.79" remaining="158" etc="1747893557"/>
+<taskprogress task="Connect Scan" time="1747893463" percent="90.12" remaining="104" etc="1747893566"/>
+<taskprogress task="Connect Scan" time="1747893502" percent="95.22" remaining="50" etc="1747893551"/>
+<taskend task="Connect Scan" time="1747893562" extrainfo="65535 total ports"/>
+<taskbegin task="Service scan" time="1747893563"/>
+<taskend task="Service scan" time="1747893570" extrainfo="2 services on 1 host"/>
+<taskbegin task="Traceroute" time="1747893572"/>
+<taskend task="Traceroute" time="1747893573"/>
+<taskbegin task="Parallel DNS resolution of 2 hosts." time="1747893573"/>
+<taskend task="Parallel DNS resolution of 2 hosts." time="1747893573"/>
+<taskbegin task="NSE" time="1747893573"/>
+<taskend task="NSE" time="1747893582"/>
+<taskbegin task="NSE" time="1747893582"/>
+<taskend task="NSE" time="1747893583"/>
+<taskbegin task="NSE" time="1747893583"/>
+<taskend task="NSE" time="1747893583"/>
+<host starttime="1747892523" endtime="1747893583"><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.10.10.140" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65524">
+<extrareasons reason="conn-refused" count="65524" proto="tcp" ports="1-21,23-79,81-27418,27420-27643,27645-46604,46606-48044,48046-48918,48920-52100,52102-53304,53306-55859,55861-56909,56911-65535"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="7.6p1 Ubuntu 4ubuntu0.7" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.6p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  2048 b6:55:2b:d2:4e:8f:a3:81:72:61:37:9a:12:f6:24:ec (RSA)&#xa;ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCgTCefp89MPJm2oaJqietdslSBur+eCMVQRW19iUL2DQSdZrIctssf/ws4HWN9DuXWB1p7OR9GWQhjeFv+xdb8OLy6EQ72zQOk+cNU9ANi72FZIkpD5A5vHUyhhUSUcnn6hwWMWW4dp6BFVxczAiutSWBVIm2YLmcqwOEOJhfXLVvsVqu8KUmybJQWFaJIeLVHzVgrF1623ekDXMwT7Ktq49RkmqGGE+e4pRy5pWlL2BPVcrSv9nMRDkJTXuoGQ53CRcp9VVi2V7flxTd6547oSPck1N+71Xj/x17sMBDNfwik/Wj3YLjHImAlHNZtSKVUT9Ifqwm973YRV9qtqtGT&#xa;  256 2e:30:00:7a:92:f0:89:30:59:c1:77:56:ad:51:c0:ba (ECDSA)&#xa;ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBEG18M3bq7HSiI8XlKW9ptWiwOvrIlftuWzPEmynfU6LN26hP/qMJModcHS+idmLoRmZnC5Og9sj5THIf0ZtxPY=&#xa;  256 4c:50:d5:f2:70:c5:fd:c4:b2:f0:bc:42:20:32:64:34 (ED25519)&#xa;ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINmmpsnVsVEZ9KB16eRdxpe75vnX8B/AZMmhrN2i4ES7"><table>
+<elem key="fingerprint">b6552bd24e8fa3817261379a12f624ec</elem>
+<elem key="bits">2048</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABAQCgTCefp89MPJm2oaJqietdslSBur+eCMVQRW19iUL2DQSdZrIctssf/ws4HWN9DuXWB1p7OR9GWQhjeFv+xdb8OLy6EQ72zQOk+cNU9ANi72FZIkpD5A5vHUyhhUSUcnn6hwWMWW4dp6BFVxczAiutSWBVIm2YLmcqwOEOJhfXLVvsVqu8KUmybJQWFaJIeLVHzVgrF1623ekDXMwT7Ktq49RkmqGGE+e4pRy5pWlL2BPVcrSv9nMRDkJTXuoGQ53CRcp9VVi2V7flxTd6547oSPck1N+71Xj/x17sMBDNfwik/Wj3YLjHImAlHNZtSKVUT9Ifqwm973YRV9qtqtGT</elem>
+<elem key="type">ssh-rsa</elem>
+</table>
+<table>
+<elem key="fingerprint">2e30007a92f0893059c17756ad51c0ba</elem>
+<elem key="bits">256</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBEG18M3bq7HSiI8XlKW9ptWiwOvrIlftuWzPEmynfU6LN26hP/qMJModcHS+idmLoRmZnC5Og9sj5THIf0ZtxPY=</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+</table>
+<table>
+<elem key="fingerprint">4c50d5f270c5fdc4b2f0bc4220326434</elem>
+<elem key="bits">256</elem>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAINmmpsnVsVEZ9KB16eRdxpe75vnX8B/AZMmhrN2i4ES7</elem>
+<elem key="type">ssh-ed25519</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Apache httpd" version="2.4.29" extrainfo="(Ubuntu)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.29</cpe></service><script id="http-title" output="Did not follow redirect to http://swagshop.htb/"><elem key="redirect_url">http://swagshop.htb/</elem>
+</script><script id="http-methods" output="&#xa;  Supported Methods: GET HEAD POST OPTIONS"><table key="Supported Methods">
+<elem>GET</elem>
+<elem>HEAD</elem>
+<elem>POST</elem>
+<elem>OPTIONS</elem>
+</table>
+</script><script id="http-server-header" output="Apache/2.4.29 (Ubuntu)"><elem>Apache/2.4.29 (Ubuntu)</elem>
+</script><script id="http-favicon" output="Unknown favicon MD5: 88733EE53676A47FC354A61C32516E82"/></port>
+<port protocol="tcp" portid="27419"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="27644"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="46605"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="48045"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="48919"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="52101"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="53305"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="55860"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="56910"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="22"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="36534"/>
+<osmatch name="Linux 5.0 - 5.14" accuracy="100" line="71713">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="5.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:5</cpe></osclass>
+</osmatch>
+<osmatch name="MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3)" accuracy="100" line="91792">
+<osclass type="router" vendor="MikroTik" osfamily="RouterOS" osgen="7.X" accuracy="100"><cpe>cpe:/o:mikrotik:routeros:7</cpe></osclass>
+<osclass type="router" vendor="Linux" osfamily="Linux" osgen="5.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:5.6.3</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="OS:SCAN(V=7.95%E=4%D=5/22%OT=22%CT=1%CU=36534%PV=Y%DS=2%DC=T%G=Y%TM=682EBD4&#xa;OS:F%P=aarch64-unknown-linux-gnu)SEQ(SP=106%GCD=1%ISR=106%TI=Z%CI=Z%II=I%TS&#xa;OS:=A)OPS(O1=M552ST11NW7%O2=M552ST11NW7%O3=M552NNT11NW7%O4=M552ST11NW7%O5=M&#xa;OS:552ST11NW7%O6=M552ST11)WIN(W1=FE88%W2=FE88%W3=FE88%W4=FE88%W5=FE88%W6=FE&#xa;OS:88)ECN(R=Y%DF=Y%T=40%W=FAF0%O=M552NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=&#xa;OS:S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q&#xa;OS:=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A&#xa;OS:%A=Z%F=R%O=%RD=0%Q=)T7(R=N)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RI&#xa;OS:PCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)&#xa;"/>
+</os>
+<uptime seconds="1778352" lastboot="Fri May  2 02:00:31 2025"/>
+<distance value="2"/>
+<tcpsequence index="262" difficulty="Good luck!" values="A59CE82,CF18CB58,DE24C971,65AC7FC,9C3F4AF0,9C638EFD"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="69FF4E27,69FF4E8A,69FF4EEF,69FF4F53,69FF4FB7,69FF501B"/>
+<trace proto="icmp">
+<hop ttl="1" ipaddr="10.10.14.1" rtt="315.10"/>
+<hop ttl="2" ipaddr="10.10.10.140" rtt="315.62"/>
+</trace>
+<times srtt="315347" rttvar="715" to="318207"/>
+</host>
+<taskbegin task="NSE" time="1747893583"/>
+<taskend task="NSE" time="1747893583"/>
+<taskbegin task="NSE" time="1747893583"/>
+<taskend task="NSE" time="1747893583"/>
+<taskbegin task="NSE" time="1747893583"/>
+<taskend task="NSE" time="1747893583"/>
+<runstats><finished time="1747893583" timestr="Thu May 22 15:59:43 2025" summary="Nmap done at Thu May 22 15:59:43 2025; 1 IP address (1 host up) scanned in 1062.34 seconds" elapsed="1062.34" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

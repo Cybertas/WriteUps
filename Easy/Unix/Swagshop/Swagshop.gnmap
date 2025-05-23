@@ -1,0 +1,5 @@
+# Nmap 7.95 scan initiated Thu May 22 15:42:02 2025 as: /usr/lib/nmap/nmap --privileged -sT -T4 -vv -A -p- -oA Swagshop 10.10.10.140
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.10.10.140 ()	Status: Up
+Host: 10.10.10.140 ()	Ports: 22/open/tcp//ssh//OpenSSH 7.6p1 Ubuntu 4ubuntu0.7 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.29 ((Ubuntu))/, 27419/filtered/tcp/////, 27644/filtered/tcp/////, 46605/filtered/tcp/////, 48045/filtered/tcp/////, 48919/filtered/tcp/////, 52101/filtered/tcp/////, 53305/filtered/tcp/////, 55860/filtered/tcp/////, 56910/filtered/tcp/////	Ignored State: closed (65524)	OS: Linux 5.0 - 5.14|MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3)	Seq Index: 262	IP ID Seq: All zeros
+# Nmap done at Thu May 22 15:59:43 2025 -- 1 IP address (1 host up) scanned in 1062.34 seconds
