@@ -5,7 +5,7 @@ Some writeups will contain POCs but highly recommend to get from source
 
 ---
 
-### 🟢 Easy (Pwned 11)  
+### 🟢 Easy (Pwned 12)  
 <details>
 <summary>Easy labs (Click to expand)</summary>
 
@@ -20,7 +20,8 @@ Some writeups will contain POCs but highly recommend to get from source
 - Postman - retired (4/10)
 - Shocker - retired (1/10)
 - Access  – retired (3/10)
-- Swagshop   - retired (**WIP**)
+- Swagshop   - retired (3/10)
+- Artic   - retired (**WIP**)
 
 </details>
 
