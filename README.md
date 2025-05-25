@@ -5,7 +5,7 @@ Some writeups will contain POCs but highly recommend to get from source
 
 ---
 
-### 🟢 Easy (Pwned 13)  
+### 🟢 Easy (Pwned 14)  
 <details>
 <summary>Easy labs (Click to expand)</summary>
 
@@ -22,7 +22,7 @@ Some writeups will contain POCs but highly recommend to get from source
 - Access  – retired (3/10)
 - Swagshop   - retired (3/10)
 - Artic   - retired (2/10)
-- Blue    - retired (**WIP**)
+- Blue    - retired (1/10)
 - Buff    - retired (**WIP**)
 - Chatterbox - retired (**WIP**)
 - Devel   - retired (**WIP**)
