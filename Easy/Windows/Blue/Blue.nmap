@@ -1,0 +1,144 @@
+# Nmap 7.95 scan initiated Sun May 25 21:48:40 2025 as: /usr/lib/nmap/nmap --privileged -sT -T4 -vv -A -p- -oA Blue 10.10.10.40
+Warning: 10.10.10.40 giving up on port because retransmission cap hit (6).
+Nmap scan report for 10.10.10.40
+Host is up, received echo-reply ttl 127 (0.31s latency).
+Scanned at 2025-05-25 21:48:41 AEST for 1201s
+Not shown: 65455 closed tcp ports (conn-refused)
+PORT      STATE    SERVICE       REASON      VERSION
+135/tcp   open     msrpc         syn-ack     Microsoft Windows RPC
+139/tcp   open     netbios-ssn   syn-ack     Microsoft Windows netbios-ssn
+157/tcp   filtered knet-cmp      no-response
+445/tcp   open     microsoft-ds  syn-ack     Windows 7 Professional 7601 Service Pack 1 microsoft-ds (workgroup: WORKGROUP)
+2070/tcp  filtered ah-esp-encap  no-response
+2892/tcp  filtered snifferdata   no-response
+4867/tcp  filtered unify-debug   no-response
+5713/tcp  filtered proshareaudio no-response
+6928/tcp  filtered unknown       no-response
+7927/tcp  filtered unknown       no-response
+8892/tcp  filtered seosload      no-response
+9493/tcp  filtered unknown       no-response
+11305/tcp filtered unknown       no-response
+11566/tcp filtered unknown       no-response
+11742/tcp filtered unknown       no-response
+12515/tcp filtered unknown       no-response
+12624/tcp filtered unknown       no-response
+13332/tcp filtered unknown       no-response
+14473/tcp filtered unknown       no-response
+17292/tcp filtered unknown       no-response
+18865/tcp filtered unknown       no-response
+19393/tcp filtered unknown       no-response
+19412/tcp filtered hp-sessmon    no-response
+19823/tcp filtered unknown       no-response
+20316/tcp filtered unknown       no-response
+21485/tcp filtered unknown       no-response
+21870/tcp filtered unknown       no-response
+22290/tcp filtered unknown       no-response
+23505/tcp filtered unknown       no-response
+23914/tcp filtered unknown       no-response
+24101/tcp filtered unknown       no-response
+27011/tcp filtered unknown       no-response
+28656/tcp filtered unknown       no-response
+28701/tcp filtered unknown       no-response
+29364/tcp filtered unknown       no-response
+29883/tcp filtered unknown       no-response
+30492/tcp filtered unknown       no-response
+31931/tcp filtered unknown       no-response
+32217/tcp filtered unknown       no-response
+32940/tcp filtered unknown       no-response
+33400/tcp filtered unknown       no-response
+33859/tcp filtered unknown       no-response
+35195/tcp filtered unknown       no-response
+35672/tcp filtered unknown       no-response
+37547/tcp filtered unknown       no-response
+38170/tcp filtered unknown       no-response
+41215/tcp filtered unknown       no-response
+42228/tcp filtered unknown       no-response
+43748/tcp filtered unknown       no-response
+44331/tcp filtered unknown       no-response
+44883/tcp filtered unknown       no-response
+46965/tcp filtered unknown       no-response
+46973/tcp filtered unknown       no-response
+47016/tcp filtered unknown       no-response
+49010/tcp filtered unknown       no-response
+49152/tcp open     msrpc         syn-ack     Microsoft Windows RPC
+49153/tcp open     msrpc         syn-ack     Microsoft Windows RPC
+49154/tcp open     msrpc         syn-ack     Microsoft Windows RPC
+49155/tcp open     msrpc         syn-ack     Microsoft Windows RPC
+49156/tcp open     msrpc         syn-ack     Microsoft Windows RPC
+49157/tcp open     msrpc         syn-ack     Microsoft Windows RPC
+49178/tcp filtered unknown       no-response
+50614/tcp filtered unknown       no-response
+51048/tcp filtered unknown       no-response
+52159/tcp filtered unknown       no-response
+53060/tcp filtered unknown       no-response
+53353/tcp filtered unknown       no-response
+56853/tcp filtered unknown       no-response
+59584/tcp filtered unknown       no-response
+59630/tcp filtered unknown       no-response
+60005/tcp filtered unknown       no-response
+60243/tcp filtered unknown       no-response
+60261/tcp filtered unknown       no-response
+60897/tcp filtered unknown       no-response
+61918/tcp filtered unknown       no-response
+62361/tcp filtered unknown       no-response
+64576/tcp filtered unknown       no-response
+65185/tcp filtered unknown       no-response
+65201/tcp filtered unknown       no-response
+65464/tcp filtered unknown       no-response
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.95%E=4%D=5/25%OT=135%CT=1%CU=35985%PV=Y%DS=2%DC=T%G=Y%TM=683308
+OS:4A%P=aarch64-unknown-linux-gnu)SEQ(SP=100%GCD=1%ISR=106%TI=I%CI=I%II=I%S
+OS:S=S%TS=7)SEQ(SP=103%GCD=1%ISR=109%TI=I%CI=I%II=I%SS=S%TS=7)SEQ(SP=104%GC
+OS:D=1%ISR=10F%TI=I%CI=I%II=I%SS=S%TS=7)SEQ(SP=FA%GCD=1%ISR=FF%TI=I%CI=I%II
+OS:=I%SS=S%TS=7)SEQ(SP=FF%GCD=1%ISR=FD%TI=I%CI=I%II=I%SS=S%TS=7)OPS(O1=M552
+OS:NW8ST11%O2=M552NW8ST11%O3=M552NW8NNT11%O4=M552NW8ST11%O5=M552NW8ST11%O6=
+OS:M552ST11)WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=2000%W6=2000)ECN(R=Y%DF=
+OS:Y%T=80%W=2000%O=M552NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%RD=0%Q
+OS:=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%
+OS:T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD
+OS:=0%Q=)T7(R=N)U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%R
+OS:UD=G)IE(R=Y%DFI=N%T=80%CD=Z)
+
+Uptime guess: 0.055 days (since Sun May 25 20:49:40 2025)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=250 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: Host: HARIS-PC; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb-os-discovery: 
+|   OS: Windows 7 Professional 7601 Service Pack 1 (Windows 7 Professional 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1:professional
+|   Computer name: haris-PC
+|   NetBIOS computer name: HARIS-PC\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2025-05-25T13:08:30+01:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-time: 
+|   date: 2025-05-25T12:08:31
+|_  start_date: 2025-05-25T10:49:53
+| p2p-conficker: 
+|   Checking for Conficker.C or higher...
+|   Check 1 (port 12383/tcp): CLEAN (Couldn't connect)
+|   Check 2 (port 13150/tcp): CLEAN (Couldn't connect)
+|   Check 3 (port 19006/udp): CLEAN (Failed to receive data)
+|   Check 4 (port 37868/udp): CLEAN (Timeout)
+|_  0/4 checks are positive: Host is CLEAN or ports are blocked
+| smb2-security-mode: 
+|   2:1:0: 
+|_    Message signing enabled but not required
+|_clock-skew: mean: -19m58s, deviation: 34m36s, median: 0s
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT       ADDRESS
+1   307.85 ms 10.10.14.1
+2   309.37 ms 10.10.10.40
+
+Read data files from: /usr/share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun May 25 22:08:42 2025 -- 1 IP address (1 host up) scanned in 1201.88 seconds

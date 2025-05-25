@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.95 scan initiated Sun May 25 21:48:40 2025 as: /usr/lib/nmap/nmap -&#45;privileged -sT -T4 -vv -A -p- -oA Blue 10.10.10.40 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -&#45;privileged -sT -T4 -vv -A -p- -oA Blue 10.10.10.40" start="1748173720" startstr="Sun May 25 21:48:40 2025" version="7.95" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1748173721"/>
+<taskend task="NSE" time="1748173721"/>
+<taskbegin task="NSE" time="1748173721"/>
+<taskend task="NSE" time="1748173721"/>
+<taskbegin task="NSE" time="1748173721"/>
+<taskend task="NSE" time="1748173721"/>
+<taskbegin task="Ping Scan" time="1748173721"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.10.10.40" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskend task="Ping Scan" time="1748173721" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1748173721"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1748173721"/>
+<taskbegin task="Connect Scan" time="1748173721"/>
+<taskprogress task="Connect Scan" time="1748173752" percent="3.88" remaining="768" etc="1748174519"/>
+<taskprogress task="Connect Scan" time="1748173782" percent="5.38" remaining="1072" etc="1748174854"/>
+<taskprogress task="Connect Scan" time="1748173812" percent="7.37" remaining="1143" etc="1748174955"/>
+<taskprogress task="Connect Scan" time="1748173842" percent="10.17" remaining="1069" etc="1748174911"/>
+<taskprogress task="Connect Scan" time="1748173872" percent="13.24" remaining="990" etc="1748174862"/>
+<taskprogress task="Connect Scan" time="1748173953" percent="19.96" remaining="931" etc="1748174883"/>
+<taskprogress task="Connect Scan" time="1748174055" percent="27.75" remaining="870" etc="1748174924"/>
+<taskprogress task="Connect Scan" time="1748174103" percent="32.11" remaining="808" etc="1748174911"/>
+<taskprogress task="Connect Scan" time="1748174154" percent="36.74" remaining="746" etc="1748174900"/>
+<taskprogress task="Connect Scan" time="1748174187" percent="40.54" remaining="684" etc="1748174871"/>
+<taskprogress task="Connect Scan" time="1748174235" percent="45.10" remaining="626" etc="1748174861"/>
+<taskprogress task="Connect Scan" time="1748174286" percent="49.90" remaining="568" etc="1748174853"/>
+<taskprogress task="Connect Scan" time="1748174337" percent="54.74" remaining="510" etc="1748174846"/>
+<taskprogress task="Connect Scan" time="1748174400" percent="60.12" remaining="451" etc="1748174850"/>
+<taskprogress task="Connect Scan" time="1748174442" percent="64.80" remaining="392" etc="1748174834"/>
+<taskprogress task="Connect Scan" time="1748174493" percent="69.67" remaining="337" etc="1748174829"/>
+<taskprogress task="Connect Scan" time="1748174541" percent="74.70" remaining="278" etc="1748174819"/>
+<taskprogress task="Connect Scan" time="1748174583" percent="79.58" remaining="222" etc="1748174804"/>
+<taskprogress task="Connect Scan" time="1748174649" percent="84.87" remaining="166" etc="1748174814"/>
+<taskprogress task="Connect Scan" time="1748174697" percent="89.98" remaining="109" etc="1748174806"/>
+<taskprogress task="Connect Scan" time="1748174766" percent="95.06" remaining="55" etc="1748174820"/>
+<taskend task="Connect Scan" time="1748174824" extrainfo="65535 total ports"/>
+<taskbegin task="Service scan" time="1748174824"/>
+<taskprogress task="Service scan" time="1748174883" percent="44.44" remaining="74" etc="1748174957"/>
+<taskend task="Service scan" time="1748174888" extrainfo="9 services on 1 host"/>
+<taskbegin task="Traceroute" time="1748174905"/>
+<taskend task="Traceroute" time="1748174906"/>
+<taskbegin task="Parallel DNS resolution of 2 hosts." time="1748174906"/>
+<taskend task="Parallel DNS resolution of 2 hosts." time="1748174906"/>
+<taskbegin task="NSE" time="1748174906"/>
+<taskend task="NSE" time="1748174922"/>
+<taskbegin task="NSE" time="1748174922"/>
+<taskend task="NSE" time="1748174922"/>
+<taskbegin task="NSE" time="1748174922"/>
+<taskend task="NSE" time="1748174922"/>
+<host starttime="1748173721" endtime="1748174922"><status state="up" reason="echo-reply" reason_ttl="127"/>
+<address addr="10.10.10.40" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65455">
+<extrareasons reason="conn-refused" count="65455" proto="tcp" ports="1-134,136-138,140-156,158-444,446-2069,2071-2891,2893-4866,4868-5712,5714-6927,6929-7926,7928-8891,8893-9492,9494-11304,11306-11565,11567-11741,11743-12514,12516-12623,12625-13331,13333-14472,14474-17291,17293-18864,18866-19392,19394-19411,19413-19822,19824-20315,20317-21484,21486-21869,21871-22289,22291-23504,23506-23913,23915-24100,24102-27010,27012-28655,28657-28700,28702-29363,29365-29882,29884-30491,30493-31930,31932-32216,32218-32939,32941-33399,33401-33858,33860-35194,35196-35671,35673-37546,37548-38169,38171-41214,41216-42227,42229-43747,43749-44330,44332-44882,44884-46964,46966-46972,46974-47015,47017-49009,49011-49151,49158-49177,49179-50613,50615-51047,51049-52158,52160-53059,53061-53352,53354-56852,56854-59583,59585-59629,59631-60004,60006-60242,60244-60260,60262-60896,60898-61917,61919-62360,62362-64575,64577-65184,65186-65200,65202-65463,65465-65535"/>
+</extraports>
+<port protocol="tcp" portid="135"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="netbios-ssn" product="Microsoft Windows netbios-ssn" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="157"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="knet-cmp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="microsoft-ds" product="Windows 7 Professional 7601 Service Pack 1 microsoft-ds" extrainfo="workgroup: WORKGROUP" hostname="HARIS-PC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="2070"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ah-esp-encap" method="table" conf="3"/></port>
+<port protocol="tcp" portid="2892"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="snifferdata" method="table" conf="3"/></port>
+<port protocol="tcp" portid="4867"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="unify-debug" method="table" conf="3"/></port>
+<port protocol="tcp" portid="5713"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="proshareaudio" method="table" conf="3"/></port>
+<port protocol="tcp" portid="6928"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="7927"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="8892"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="seosload" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9493"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="11305"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="11566"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="11742"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="12515"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="12624"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="13332"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="14473"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="17292"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="18865"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="19393"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="19412"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="hp-sessmon" method="table" conf="3"/></port>
+<port protocol="tcp" portid="19823"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="20316"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="21485"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="21870"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="22290"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="23505"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="23914"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="24101"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="27011"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="28656"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="28701"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="29364"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="29883"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="30492"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="31931"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="32217"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="32940"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="33400"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="33859"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="35195"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="35672"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="37547"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="38170"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="41215"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="42228"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="43748"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="44331"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="44883"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="46965"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="46973"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="47016"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="49010"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="49152"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49153"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49154"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49155"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49156"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49157"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49178"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="50614"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="51048"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="52159"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="53060"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="53353"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="56853"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="59584"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="59630"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="60005"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="60243"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="60261"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="60897"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="61918"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="62361"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="64576"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="65185"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="65201"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="65464"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="135"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="35985"/>
+<osmatch name="Microsoft Windows 7 SP1 or Windows Server 2008 R2 or Windows 8.1" accuracy="98" line="83409">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="98"><cpe>cpe:/o:microsoft:windows_7</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="98"><cpe>cpe:/o:microsoft:windows_server_2008:r2</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="8.1" accuracy="98"><cpe>cpe:/o:microsoft:windows_8.1</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Server 2012 R2" accuracy="96" line="81235">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2012" accuracy="96"><cpe>cpe:/o:microsoft:windows_server_2012:r2</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 7 SP1" accuracy="95" line="83244">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="95"><cpe>cpe:/o:microsoft:windows_7::sp1</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 7 SP1 or Windows Server 2008 SP2" accuracy="95" line="83432">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="95"><cpe>cpe:/o:microsoft:windows_7::sp1</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="95"><cpe>cpe:/o:microsoft:windows_server_2008::sp2</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Windows 7 SP1" accuracy="95" line="83576">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="95"><cpe>cpe:/o:microsoft:windows_7::sp1</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Vista Home Premium SP1, Windows 7, or Windows Server 2008" accuracy="95" line="85537">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="Vista" accuracy="95"><cpe>cpe:/o:microsoft:windows_vista::sp1:home_premium</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="95"><cpe>cpe:/o:microsoft:windows_7</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="95"><cpe>cpe:/o:microsoft:windows_server_2008</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 7 or Windows Server 2008 R2 or Windows 8.1" accuracy="95" line="82823">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="95"><cpe>cpe:/o:microsoft:windows_7</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="95"><cpe>cpe:/o:microsoft:windows_server_2008:r2</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="8.1" accuracy="95"><cpe>cpe:/o:microsoft:windows_8.1</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Vista SP1" accuracy="95" line="85778">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="Vista" accuracy="95"><cpe>cpe:/o:microsoft:windows_vista::sp1</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Server 2016" accuracy="93" line="81667">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2016" accuracy="93"><cpe>cpe:/o:microsoft:windows_server_2016</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Server 2008 R2" accuracy="93" line="80281">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="93"><cpe>cpe:/o:microsoft:windows_server_2008:r2</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="OS:SCAN(V=7.95%E=4%D=5/25%OT=135%CT=1%CU=35985%PV=Y%DS=2%DC=T%G=Y%TM=683308&#xa;OS:4A%P=aarch64-unknown-linux-gnu)SEQ(SP=100%GCD=1%ISR=106%TI=I%CI=I%II=I%S&#xa;OS:S=S%TS=7)SEQ(SP=103%GCD=1%ISR=109%TI=I%CI=I%II=I%SS=S%TS=7)SEQ(SP=104%GC&#xa;OS:D=1%ISR=10F%TI=I%CI=I%II=I%SS=S%TS=7)SEQ(SP=FA%GCD=1%ISR=FF%TI=I%CI=I%II&#xa;OS:=I%SS=S%TS=7)SEQ(SP=FF%GCD=1%ISR=FD%TI=I%CI=I%II=I%SS=S%TS=7)OPS(O1=M552&#xa;OS:NW8ST11%O2=M552NW8ST11%O3=M552NW8NNT11%O4=M552NW8ST11%O5=M552NW8ST11%O6=&#xa;OS:M552ST11)WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=2000%W6=2000)ECN(R=Y%DF=&#xa;OS:Y%T=80%W=2000%O=M552NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%RD=0%Q&#xa;OS:=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%&#xa;OS:T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD&#xa;OS:=0%Q=)T7(R=N)U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%R&#xa;OS:UD=G)IE(R=Y%DFI=N%T=80%CD=Z)&#xa;"/>
+</os>
+<uptime seconds="4742" lastboot="Sun May 25 20:49:40 2025"/>
+<distance value="2"/>
+<tcpsequence index="250" difficulty="Good luck!" values="FC8E3217,D861FD58,EA727A69,12DD86A5,18F80872,A67AE28"/>
+<ipidsequence class="Incremental" values="1143,1144,1145,1146,1147,1148"/>
+<tcptssequence class="100HZ" values="734F7,73501,7350B,73515,7351F,73529"/>
+<hostscript><script id="smb-os-discovery" output="&#xa;  OS: Windows 7 Professional 7601 Service Pack 1 (Windows 7 Professional 6.1)&#xa;  OS CPE: cpe:/o:microsoft:windows_7::sp1:professional&#xa;  Computer name: haris-PC&#xa;  NetBIOS computer name: HARIS-PC\x00&#xa;  Workgroup: WORKGROUP\x00&#xa;  System time: 2025-05-25T13:08:30+01:00&#xa;"><elem key="os">Windows 7 Professional 7601 Service Pack 1</elem>
+<elem key="lanmanager">Windows 7 Professional 6.1</elem>
+<elem key="server">HARIS-PC\x00</elem>
+<elem key="date">2025-05-25T13:08:30+01:00</elem>
+<elem key="fqdn">haris-PC</elem>
+<elem key="domain_dns">haris-PC</elem>
+<elem key="workgroup">WORKGROUP\x00</elem>
+<elem key="cpe">cpe:/o:microsoft:windows_7::sp1:professional</elem>
+</script><script id="smb-security-mode" output="&#xa;  account_used: guest&#xa;  authentication_level: user&#xa;  challenge_response: supported&#xa;  message_signing: disabled (dangerous, but default)"><elem key="account_used">guest</elem>
+<elem key="authentication_level">user</elem>
+<elem key="challenge_response">supported</elem>
+<elem key="message_signing">disabled</elem>
+</script><script id="smb2-time" output="&#xa;  date: 2025-05-25T12:08:31&#xa;  start_date: 2025-05-25T10:49:53"><elem key="date">2025-05-25T12:08:31</elem>
+<elem key="start_date">2025-05-25T10:49:53</elem>
+</script><script id="p2p-conficker" output="&#xa;  Checking for Conficker.C or higher...&#xa;  Check 1 (port 12383/tcp): CLEAN (Couldn&apos;t connect)&#xa;  Check 2 (port 13150/tcp): CLEAN (Couldn&apos;t connect)&#xa;  Check 3 (port 19006/udp): CLEAN (Failed to receive data)&#xa;  Check 4 (port 37868/udp): CLEAN (Timeout)&#xa;  0/4 checks are positive: Host is CLEAN or ports are blocked&#xa;"/><script id="smb2-security-mode" output="&#xa;  2:1:0: &#xa;    Message signing enabled but not required"><table key="2:1:0">
+<elem>Message signing enabled but not required</elem>
+</table>
+</script><script id="clock-skew" output="mean: -19m58s, deviation: 34m36s, median: 0s"><elem key="median">0</elem>
+<elem key="stddev">2076</elem>
+<elem key="count">3</elem>
+<elem key="mean">-1198</elem>
+</script></hostscript><trace proto="icmp">
+<hop ttl="1" ipaddr="10.10.14.1" rtt="307.85"/>
+<hop ttl="2" ipaddr="10.10.10.40" rtt="309.37"/>
+</trace>
+<times srtt="309249" rttvar="653" to="311861"/>
+</host>
+<taskbegin task="NSE" time="1748174922"/>
+<taskend task="NSE" time="1748174922"/>
+<taskbegin task="NSE" time="1748174922"/>
+<taskend task="NSE" time="1748174922"/>
+<taskbegin task="NSE" time="1748174922"/>
+<taskend task="NSE" time="1748174922"/>
+<runstats><finished time="1748174922" timestr="Sun May 25 22:08:42 2025" summary="Nmap done at Sun May 25 22:08:42 2025; 1 IP address (1 host up) scanned in 1201.88 seconds" elapsed="1201.88" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
