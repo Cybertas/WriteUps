@@ -23,14 +23,13 @@ Some writeups will contain POCs but highly recommend to get from source
 - Swagshop   - retired (3/10)
 - Artic   - retired (2/10)
 - Blue    - retired (1/10)
-- Buff    - retired (**WIP**)
-- Chatterbox - retired (**WIP**)
+- Buff    - retired (3/10) 
 - Devel   - retired (**WIP**)
-- Jerry   - retired (**WIP**)
-- Legacy  - retired (**WIP**)
-- Netmon  - retired (**WIP**)
-- Remote  - retired (**WIP**)
-- Secnotes - retired (**WIP**)
+- [ ] Jerry   - retired
+- [ ] Legacy  - retired 
+- [ ] Netmon  - retired
+- [ ] Remote  - retired 
+- [ ] Secnotes - retired
 
 </details>
 
@@ -40,8 +39,7 @@ Some writeups will contain POCs but highly recommend to get from source
 
 <details>
 <summary>Medium labs (Click to expand)</summary>
-
-[Place Holder]
+- [ ] Chatterbox
 
 </details>
 
