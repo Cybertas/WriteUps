@@ -36,6 +36,7 @@ Q3: What operating system is running on the target machine? Give a two-word answ
 <snip>
  |   OS: Windows 7 Professional 7601 Service Pack 1 (Windows 7 Professional 6.1)
 <snip>
+```
 
 Q4: How many SMB shares are available on Blue?
 - enum SMB share using `smbclient`
