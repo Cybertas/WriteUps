@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.95 scan initiated Tue May 27 22:07:57 2025 as: /usr/lib/nmap/nmap -&#45;privileged -sT -T4 -vv -A -p- -oA Devel 10.10.10.5 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -&#45;privileged -sT -T4 -vv -A -p- -oA Devel 10.10.10.5" start="1748347677" startstr="Tue May 27 22:07:57 2025" version="7.95" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1748347677"/>
+<taskend task="NSE" time="1748347677"/>
+<taskbegin task="NSE" time="1748347677"/>
+<taskend task="NSE" time="1748347677"/>
+<taskbegin task="NSE" time="1748347677"/>
+<taskend task="NSE" time="1748347677"/>
+<taskbegin task="Ping Scan" time="1748347677"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.10.10.5" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskend task="Ping Scan" time="1748347677" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1748347677"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1748347677"/>
+<taskbegin task="Connect Scan" time="1748347677"/>
+<taskprogress task="Connect Scan" time="1748347708" percent="3.97" remaining="751" etc="1748348458"/>
+<taskprogress task="Connect Scan" time="1748347738" percent="10.91" remaining="498" etc="1748348236"/>
+<taskprogress task="Connect Scan" time="1748347768" percent="17.30" remaining="436" etc="1748348203"/>
+<taskprogress task="Connect Scan" time="1748347798" percent="23.70" remaining="390" etc="1748348187"/>
+<taskprogress task="Connect Scan" time="1748347828" percent="33.78" remaining="296" etc="1748348124"/>
+<taskprogress task="Connect Scan" time="1748347858" percent="43.55" remaining="235" etc="1748348093"/>
+<taskprogress task="Connect Scan" time="1748347888" percent="51.02" remaining="203" etc="1748348091"/>
+<taskprogress task="Connect Scan" time="1748347918" percent="59.58" remaining="164" etc="1748348082"/>
+<taskprogress task="Connect Scan" time="1748347948" percent="70.22" remaining="115" etc="1748348063"/>
+<taskprogress task="Connect Scan" time="1748347978" percent="78.77" remaining="82" etc="1748348059"/>
+<taskprogress task="Connect Scan" time="1748348008" percent="84.43" remaining="62" etc="1748348069"/>
+<taskend task="Connect Scan" time="1748348056" extrainfo="65535 total ports"/>
+<taskbegin task="Service scan" time="1748348056"/>
+<taskend task="Service scan" time="1748348063" extrainfo="2 services on 1 host"/>
+<taskbegin task="Traceroute" time="1748348071"/>
+<taskend task="Traceroute" time="1748348071"/>
+<taskbegin task="Parallel DNS resolution of 2 hosts." time="1748348071"/>
+<taskend task="Parallel DNS resolution of 2 hosts." time="1748348071"/>
+<taskbegin task="NSE" time="1748348071"/>
+<taskend task="NSE" time="1748348077"/>
+<taskbegin task="NSE" time="1748348077"/>
+<taskend task="NSE" time="1748348080"/>
+<taskbegin task="NSE" time="1748348080"/>
+<taskend task="NSE" time="1748348080"/>
+<host starttime="1748347677" endtime="1748348080"><status state="up" reason="echo-reply" reason_ttl="127"/>
+<address addr="10.10.10.5" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="65533">
+<extrareasons reason="no-response" count="65533" proto="tcp" ports="1-20,22-79,81-65535"/>
+</extraports>
+<port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Microsoft ftpd" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:ftp_service</cpe><cpe>cpe:/o:microsoft:windows</cpe></service><script id="ftp-syst" output="&#xa;  SYST: Windows_NT"><elem key="SYST">Windows_NT</elem>
+</script><script id="ftp-anon" output="Anonymous FTP login allowed (FTP code 230)&#xa;03-18-17  02:06AM       &lt;DIR&gt;          aspnet_client&#xa;03-17-17  05:37PM                  689 iisstart.htm&#xa;03-17-17  05:37PM               184946 welcome.png"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft IIS httpd" version="7.5" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:internet_information_services:7.5</cpe><cpe>cpe:/o:microsoft:windows</cpe></service><script id="http-server-header" output="Microsoft-IIS/7.5"><elem>Microsoft-IIS/7.5</elem>
+</script><script id="http-title" output="IIS7"><elem key="title">IIS7</elem>
+</script><script id="http-methods" output="&#xa;  Supported Methods: OPTIONS TRACE GET HEAD POST&#xa;  Potentially risky methods: TRACE"><table key="Supported Methods">
+<elem>OPTIONS</elem>
+<elem>TRACE</elem>
+<elem>GET</elem>
+<elem>HEAD</elem>
+<elem>POST</elem>
+</table>
+<table key="Potentially risky methods">
+<elem>TRACE</elem>
+</table>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="21"/>
+<osmatch name="Microsoft Windows 7 or Windows Server 2008 R2" accuracy="97" line="79935">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="97"><cpe>cpe:/o:microsoft:windows_server_2008:r2</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="97"><cpe>cpe:/o:microsoft:windows_7</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Server 2008 R2 or Windows 7 SP1" accuracy="92" line="80355">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="92"><cpe>cpe:/o:microsoft:windows_server_2008:r2</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="92"><cpe>cpe:/o:microsoft:windows_7</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Vista or Windows 7" accuracy="92" line="85562">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="Vista" accuracy="92"><cpe>cpe:/o:microsoft:windows_vista</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="92"><cpe>cpe:/o:microsoft:windows_7</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Server 2012 R2" accuracy="91" line="81162">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2012" accuracy="91"><cpe>cpe:/o:microsoft:windows_server_2012:r2</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 8.1 Update 1" accuracy="90" line="83702">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="8" accuracy="90"><cpe>cpe:/o:microsoft:windows_8</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Phone 7.5 or 8.0" accuracy="90" line="84956">
+<osclass type="phone" vendor="Microsoft" osfamily="Windows" osgen="Phone" accuracy="90"><cpe>cpe:/o:microsoft:windows</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Embedded Standard 7" accuracy="89" line="83594">
+<osclass type="specialized" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="89"><cpe>cpe:/o:microsoft:windows_7</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Server 2008 R2" accuracy="89" line="80263">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="89"><cpe>cpe:/o:microsoft:windows_server_2008:r2</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Server 2008 R2 SP1 or Windows 8" accuracy="89" line="80583">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="89"><cpe>cpe:/o:microsoft:windows_server_2008:r2:sp1</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="8" accuracy="89"><cpe>cpe:/o:microsoft:windows_8</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 7 Professional or Windows 8" accuracy="89" line="82882">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="89"><cpe>cpe:/o:microsoft:windows_7::-:professional</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="8" accuracy="89"><cpe>cpe:/o:microsoft:windows_8</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="SCAN(V=7.95%E=4%D=5/27%OT=21%CT=%CU=%PV=Y%DS=2%DC=T%G=N%TM=6835ACB0%P=aarch64-unknown-linux-gnu)&#xa;SEQ(SP=106%GCD=1%ISR=10F%TI=I%II=I%SS=S%TS=7)&#xa;SEQ(SP=107%GCD=1%ISR=10E%TI=I%TS=7)&#xa;OPS(O1=M552NW8ST11%O2=M552NW8ST11%O3=M552NW8NNT11%O4=M552NW8ST11%O5=M552NW8ST11%O6=M552ST11)&#xa;WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=2000%W6=2000)&#xa;ECN(R=Y%DF=Y%TG=80%W=2000%O=M552NW8NNS%CC=N%Q=)&#xa;T1(R=Y%DF=Y%TG=80%S=O%A=S+%F=AS%RD=0%Q=)&#xa;T2(R=N)&#xa;T3(R=N)&#xa;T4(R=N)&#xa;U1(R=N)&#xa;IE(R=Y%DFI=N%TG=80%CD=Z)&#xa;"/>
+</os>
+<uptime seconds="932" lastboot="Tue May 27 21:59:08 2025"/>
+<distance value="2"/>
+<tcpsequence index="262" difficulty="Good luck!" values="98CCADF7,3436C56A,AC545587,984DEE91,21FDDF82,9AC1D238"/>
+<ipidsequence class="Incremental" values="1D5,1D6,1D7,1D8,1D9,1DA"/>
+<tcptssequence class="100HZ" values="16769,16773,1677D,16788,16792,1679C"/>
+<trace proto="icmp">
+<hop ttl="1" ipaddr="10.10.14.1" rtt="310.36"/>
+<hop ttl="2" ipaddr="10.10.10.5" rtt="310.66"/>
+</trace>
+<times srtt="306611" rttvar="7832" to="337939"/>
+</host>
+<taskbegin task="NSE" time="1748348080"/>
+<taskend task="NSE" time="1748348080"/>
+<taskbegin task="NSE" time="1748348080"/>
+<taskend task="NSE" time="1748348080"/>
+<taskbegin task="NSE" time="1748348080"/>
+<taskend task="NSE" time="1748348080"/>
+<runstats><finished time="1748348080" timestr="Tue May 27 22:14:40 2025" summary="Nmap done at Tue May 27 22:14:40 2025; 1 IP address (1 host up) scanned in 403.87 seconds" elapsed="403.87" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
