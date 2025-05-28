@@ -1,8 +1,8 @@
 # WriteUps-HTB
 WriteUps for HTB Labs  
 Difficulty ratings are subjective (x/10)<br>
-Some writeups will contain POCs but highly recommend to get from source
-Practing for CPTS + OSCP<br>
+Some writeups will contain POCs but highly recommend to get from source<br>
+Practing for CPTS + OSCP
 
 ---
 
