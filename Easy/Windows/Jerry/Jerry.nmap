@@ -1,0 +1,46 @@
+# Nmap 7.95 scan initiated Wed May 28 23:06:22 2025 as: /usr/lib/nmap/nmap --privileged -sT -T4 -vv -A -p- -oA Jerry 10.10.10.95
+Nmap scan report for 10.10.10.95
+Host is up, received echo-reply ttl 127 (0.31s latency).
+Scanned at 2025-05-28 23:06:24 AEST for 347s
+Not shown: 65534 filtered tcp ports (no-response)
+PORT     STATE SERVICE REASON  VERSION
+8080/tcp open  http    syn-ack Apache Tomcat/Coyote JSP engine 1.1
+|_http-title: Apache Tomcat/7.0.88
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-favicon: Apache Tomcat
+|_http-server-header: Apache-Coyote/1.1
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows 2012|2008|7 (97%)
+OS CPE: cpe:/o:microsoft:windows_server_2012:r2 cpe:/o:microsoft:windows_server_2008:r2 cpe:/o:microsoft:windows_7
+OS fingerprint not ideal because: Missing a closed TCP port so results incomplete
+Aggressive OS guesses: Microsoft Windows Server 2012 R2 (97%), Microsoft Windows 7 or Windows Server 2008 R2 (91%), Microsoft Windows Server 2012 or Windows Server 2012 R2 (89%)
+No exact OS matches for host (test conditions non-ideal).
+TCP/IP fingerprint:
+SCAN(V=7.95%E=4%D=5/28%OT=8080%CT=%CU=%PV=Y%DS=2%DC=T%G=N%TM=68370BAB%P=aarch64-unknown-linux-gnu)
+SEQ(SP=102%GCD=1%ISR=109%TI=I%II=I%SS=S%TS=7)
+SEQ(SP=107%GCD=1%ISR=10A%TI=I%II=I%SS=S%TS=7)
+OPS(O1=M552NW8ST11%O2=M552NW8ST11%O3=M552NW8NNT11%O4=M552NW8ST11%O5=M552NW8ST11%O6=M552ST11)
+WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=2000%W6=2000)
+ECN(R=Y%DF=Y%TG=80%W=2000%O=M552NW8NNS%CC=Y%Q=)
+T1(R=Y%DF=Y%TG=80%S=O%A=S+%F=AS%RD=0%Q=)
+T2(R=N)
+T3(R=N)
+T4(R=N)
+U1(R=N)
+IE(R=Y%DFI=N%TG=80%CD=Z)
+
+Uptime guess: 0.010 days (since Wed May 28 22:58:09 2025)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=258 (Good luck!)
+IP ID Sequence Generation: Incremental
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT       ADDRESS
+1   314.73 ms 10.10.14.1
+2   314.97 ms 10.10.10.95
+
+Read data files from: /usr/share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed May 28 23:12:12 2025 -- 1 IP address (1 host up) scanned in 349.94 seconds

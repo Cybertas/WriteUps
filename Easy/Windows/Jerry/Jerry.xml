@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.95 scan initiated Wed May 28 23:06:22 2025 as: /usr/lib/nmap/nmap -&#45;privileged -sT -T4 -vv -A -p- -oA Jerry 10.10.10.95 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -&#45;privileged -sT -T4 -vv -A -p- -oA Jerry 10.10.10.95" start="1748437582" startstr="Wed May 28 23:06:22 2025" version="7.95" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1748437584"/>
+<taskend task="NSE" time="1748437584"/>
+<taskbegin task="NSE" time="1748437584"/>
+<taskend task="NSE" time="1748437584"/>
+<taskbegin task="NSE" time="1748437584"/>
+<taskend task="NSE" time="1748437584"/>
+<taskbegin task="Ping Scan" time="1748437584"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.10.10.95" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskend task="Ping Scan" time="1748437584" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1748437584"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1748437584"/>
+<taskbegin task="Connect Scan" time="1748437584"/>
+<taskprogress task="Connect Scan" time="1748437590" percent="0.10"/>
+<taskprogress task="Connect Scan" time="1748437620" percent="5.73" remaining="592" etc="1748438212"/>
+<taskprogress task="Connect Scan" time="1748437650" percent="12.84" remaining="448" etc="1748438098"/>
+<taskprogress task="Connect Scan" time="1748437680" percent="25.02" remaining="288" etc="1748437968"/>
+<taskprogress task="Connect Scan" time="1748437710" percent="39.50" remaining="193" etc="1748437903"/>
+<taskprogress task="Connect Scan" time="1748437740" percent="49.17" remaining="162" etc="1748437901"/>
+<taskprogress task="Connect Scan" time="1748437770" percent="62.47" remaining="112" etc="1748437882"/>
+<taskprogress task="Connect Scan" time="1748437800" percent="72.24" remaining="84" etc="1748437883"/>
+<taskprogress task="Connect Scan" time="1748437830" percent="79.11" remaining="65" etc="1748437895"/>
+<taskprogress task="Connect Scan" time="1748437860" percent="85.92" remaining="46" etc="1748437905"/>
+<taskend task="Connect Scan" time="1748437907" extrainfo="65535 total ports"/>
+<taskbegin task="Service scan" time="1748437907"/>
+<taskend task="Service scan" time="1748437914" extrainfo="1 service on 1 host"/>
+<taskbegin task="Traceroute" time="1748437920"/>
+<taskend task="Traceroute" time="1748437921"/>
+<taskbegin task="Parallel DNS resolution of 2 hosts." time="1748437921"/>
+<taskend task="Parallel DNS resolution of 2 hosts." time="1748437921"/>
+<taskbegin task="NSE" time="1748437921"/>
+<taskend task="NSE" time="1748437930"/>
+<taskbegin task="NSE" time="1748437930"/>
+<taskend task="NSE" time="1748437931"/>
+<taskbegin task="NSE" time="1748437931"/>
+<taskend task="NSE" time="1748437931"/>
+<host starttime="1748437584" endtime="1748437931"><status state="up" reason="echo-reply" reason_ttl="127"/>
+<address addr="10.10.10.95" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="65534">
+<extrareasons reason="no-response" count="65534" proto="tcp" ports="1-8079,8081-65535"/>
+</extraports>
+<port protocol="tcp" portid="8080"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Apache Tomcat/Coyote JSP engine" version="1.1" method="probed" conf="10"><cpe>cpe:/a:apache:coyote_http_connector:1.1</cpe></service><script id="http-title" output="Apache Tomcat/7.0.88"><elem key="title">Apache Tomcat/7.0.88</elem>
+</script><script id="http-methods" output="&#xa;  Supported Methods: GET HEAD POST OPTIONS"><table key="Supported Methods">
+<elem>GET</elem>
+<elem>HEAD</elem>
+<elem>POST</elem>
+<elem>OPTIONS</elem>
+</table>
+</script><script id="http-favicon" output="Apache Tomcat"/><script id="http-server-header" output="Apache-Coyote/1.1"><elem>Apache-Coyote/1.1</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="8080"/>
+<osmatch name="Microsoft Windows Server 2012 R2" accuracy="97" line="81162">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2012" accuracy="97"><cpe>cpe:/o:microsoft:windows_server_2012:r2</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 7 or Windows Server 2008 R2" accuracy="91" line="79935">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="91"><cpe>cpe:/o:microsoft:windows_server_2008:r2</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="91"><cpe>cpe:/o:microsoft:windows_7</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Server 2012 or Windows Server 2012 R2" accuracy="89" line="81123">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2012" accuracy="89"><cpe>cpe:/o:microsoft:windows_server_2012:r2</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="SCAN(V=7.95%E=4%D=5/28%OT=8080%CT=%CU=%PV=Y%DS=2%DC=T%G=N%TM=68370BAB%P=aarch64-unknown-linux-gnu)&#xa;SEQ(SP=102%GCD=1%ISR=109%TI=I%II=I%SS=S%TS=7)&#xa;SEQ(SP=107%GCD=1%ISR=10A%TI=I%II=I%SS=S%TS=7)&#xa;OPS(O1=M552NW8ST11%O2=M552NW8ST11%O3=M552NW8NNT11%O4=M552NW8ST11%O5=M552NW8ST11%O6=M552ST11)&#xa;WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=2000%W6=2000)&#xa;ECN(R=Y%DF=Y%TG=80%W=2000%O=M552NW8NNS%CC=Y%Q=)&#xa;T1(R=Y%DF=Y%TG=80%S=O%A=S+%F=AS%RD=0%Q=)&#xa;T2(R=N)&#xa;T3(R=N)&#xa;T4(R=N)&#xa;U1(R=N)&#xa;IE(R=Y%DFI=N%TG=80%CD=Z)&#xa;"/>
+</os>
+<uptime seconds="842" lastboot="Wed May 28 22:58:09 2025"/>
+<distance value="2"/>
+<tcpsequence index="258" difficulty="Good luck!" values="58FAF588,7A090988,3ED3AF14,E95C2FC7,41344139,5632A8F1"/>
+<ipidsequence class="Incremental" values="1AA5,1AA6,1AA7,1AA8,1AA9,1AAA"/>
+<tcptssequence class="100HZ" values="143E1,143EB,143F5,143FF,14409,14413"/>
+<trace proto="icmp">
+<hop ttl="1" ipaddr="10.10.14.1" rtt="314.73"/>
+<hop ttl="2" ipaddr="10.10.10.95" rtt="314.97"/>
+</trace>
+<times srtt="314341" rttvar="846" to="317725"/>
+</host>
+<taskbegin task="NSE" time="1748437931"/>
+<taskend task="NSE" time="1748437931"/>
+<taskbegin task="NSE" time="1748437931"/>
+<taskend task="NSE" time="1748437931"/>
+<taskbegin task="NSE" time="1748437931"/>
+<taskend task="NSE" time="1748437932"/>
+<runstats><finished time="1748437932" timestr="Wed May 28 23:12:12 2025" summary="Nmap done at Wed May 28 23:12:12 2025; 1 IP address (1 host up) scanned in 349.94 seconds" elapsed="349.94" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
