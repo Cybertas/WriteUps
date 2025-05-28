@@ -90,6 +90,15 @@ Some writeups will contain POCs but highly recommend to get from source
 
 ---
 
+### Pro Labs (Pwned 0)
+<details>
+<summary> Pro Labs (Click to expand)</summary>
+- Dante
+- Offshore
+</details>
+
+---
+
 Contact
 If you have any questions or want to learn together, feel free to [reach out on LinkedIn](https://www.linkedin.com/in/yourprofile).
 
