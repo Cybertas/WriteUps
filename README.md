@@ -1,7 +1,8 @@
-# WriteUps
-WriteUps for HTB Labs (As of Now)  
+# WriteUps-HTB
+WriteUps for HTB Labs  
 Difficulty ratings are subjective (x/10)<br>
 Some writeups will contain POCs but highly recommend to get from source
+Practing for CPTS + OSCP
 
 ---
 
@@ -69,7 +70,7 @@ Some writeups will contain POCs but highly recommend to get from source
 
 ---
 
-### AD (Pwned 0)
+### 🔵 AD (Pwned 0)
 
 <details>
 <summary>AD labs (Click to expand)</summary>
@@ -92,7 +93,7 @@ Some writeups will contain POCs but highly recommend to get from source
 
 ---
 
-### Pro Labs (Pwned 0)
+### 🔗 Pro Labs (Pwned 0)
 
 <details>
 <summary> Pro Labs (Click to expand)</summary>
