@@ -6,7 +6,7 @@ Practing for CPTS + OSCP
 
 ---
 
-### 🟢 Easy (Pwned 16)  
+### 🟢 Easy (Pwned 17)  
 <details>
 <summary>Easy labs (Click to expand)</summary>
 
@@ -26,8 +26,8 @@ Practing for CPTS + OSCP
 - Blue    - retired (1/10)
 - Buff    - retired (3/10) 
 - Devel   - retired (2/10)
-- Jerry
-- Legacy 
+- Jerry   - retired (0/10)
+- Legacy  - retired **WIP**
 - Netmon
 - Remote 
 - Secnotes
