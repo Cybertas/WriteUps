@@ -5,7 +5,7 @@ Some writeups will contain POCs but highly recommend to get from source
 
 ---
 
-### 🟢 Easy (Pwned 16 / 25)  
+### 🟢 Easy (Pwned 16)  
 <details>
 <summary>Easy labs (Click to expand)</summary>
 
@@ -35,7 +35,7 @@ Some writeups will contain POCs but highly recommend to get from source
 
 ---
 
-### 🟡 Medium (Pwned 0/35)
+### 🟡 Medium (Pwned 0)
 
 <details>
 <summary>Medium labs (Click to expand)</summary>
