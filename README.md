@@ -5,7 +5,7 @@ Some writeups will contain POCs but highly recommend to get from source
 
 ---
 
-### 🟢 Easy (Pwned 15)  
+### 🟢 Easy (Pwned 16 / 25)  
 <details>
 <summary>Easy labs (Click to expand)</summary>
 
@@ -24,7 +24,7 @@ Some writeups will contain POCs but highly recommend to get from source
 - Artic   - retired (2/10)
 - Blue    - retired (1/10)
 - Buff    - retired (3/10) 
-- Devel   - retired (**WIP**)
+- Devel   - retired (2/10)
 - [ ] Jerry   - retired
 - [ ] Legacy  - retired 
 - [ ] Netmon  - retired
@@ -35,7 +35,7 @@ Some writeups will contain POCs but highly recommend to get from source
 
 ---
 
-### 🟡 Medium (Pwned 0)
+### 🟡 Medium (Pwned 0/35)
 
 <details>
 <summary>Medium labs (Click to expand)</summary>
