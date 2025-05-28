@@ -73,6 +73,7 @@ Some writeups will contain POCs but highly recommend to get from source
 
 <details>
 <summary>AD labs (Click to expand)</summary>
+
 - Active
 - Forest
 - Sauna
@@ -86,15 +87,19 @@ Some writeups will contain POCs but highly recommend to get from source
 - Escape
 - TheFrizz
 - Adagio
+
 </details>
 
 ---
 
 ### Pro Labs (Pwned 0)
+
 <details>
 <summary> Pro Labs (Click to expand)</summary>
+
 - Dante
 - Offshore
+
 </details>
 
 ---
