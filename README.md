@@ -25,11 +25,23 @@ Some writeups will contain POCs but highly recommend to get from source
 - Blue    - retired (1/10)
 - Buff    - retired (3/10) 
 - Devel   - retired (2/10)
-- [ ] Jerry   - retired
-- [ ] Legacy  - retired 
-- [ ] Netmon  - retired
-- [ ] Remote  - retired 
-- [ ] Secnotes - retired
+- Jerry
+- Legacy 
+- Netmon
+- Remote 
+- Secnotes
+- Broker
+- Soccer
+- Sau
+- Dog
+- Help
+- Usage
+- LinkVortex
+- Pandora
+- Editorial
+- Networked
+- Cozyhosting
+- Broadlight
 
 </details>
 
@@ -39,7 +51,8 @@ Some writeups will contain POCs but highly recommend to get from source
 
 <details>
 <summary>Medium labs (Click to expand)</summary>
-- [ ] Chatterbox
+- Chatterbox
+
 
 </details>
 
@@ -52,6 +65,27 @@ Some writeups will contain POCs but highly recommend to get from source
 
 [Place Holder]
 
+</details>
+
+---
+
+### AD (Pwned 0)
+
+<details>
+<summary>AD labs (Click to expand)</summary>
+- Active
+- Forest
+- Sauna
+- Monteverde
+- Timelapse
+- Return
+- Cascade
+- Flight
+- Blackfield
+- Cicada
+- Escape
+- TheFrizz
+- Adagio
 </details>
 
 ---
