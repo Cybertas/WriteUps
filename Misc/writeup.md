@@ -7,4 +7,6 @@
 
 #### Tasks
 
+#### Resources
+
 #### Lesson Learned
