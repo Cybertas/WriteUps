@@ -1,0 +1,156 @@
+# Nmap 7.95 scan initiated Sat May 31 02:54:26 2025 as: /usr/lib/nmap/nmap --privileged -sT -T4 -vv -A -p- -Pn -oA Legacy 10.10.10.4
+Warning: 10.10.10.4 giving up on port because retransmission cap hit (6).
+adjust_timeouts2: packet supposedly had rtt of -1829174 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1829174 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1829635 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1829635 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1827675 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1827675 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1827918 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1827918 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1827077 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1827077 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1829055 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1829055 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1826918 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1826918 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1827202 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1827202 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1827529 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1827529 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1824840 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1824840 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1825208 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1825208 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1785181 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1785181 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1794967 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1794967 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1804937 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1804937 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1822522 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1822522 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1823037 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1823037 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1822898 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1822898 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1820173 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1820173 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1822859 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1822859 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1820160 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1820160 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1820011 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1820011 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1816747 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1816747 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1819792 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1819792 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1821175 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1821175 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1818656 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1818656 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1814557 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1814557 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1815393 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1815393 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1812224 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1812224 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1821626 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1821626 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1819852 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1819852 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1742791 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1742791 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1753275 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1753275 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1763275 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1763275 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1817495 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1817495 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1818433 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1818433 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1734999 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1734999 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1743854 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1743854 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1748516 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1748516 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1618217 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1618217 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1628217 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1628217 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1638374 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -1638374 microseconds.  Ignoring time.
+Nmap scan report for 10.10.10.4
+Host is up, received user-set (0.32s latency).
+Scanned at 2025-05-31 02:54:26 EDT for 1575s
+Not shown: 65299 closed tcp ports (conn-refused), 233 filtered tcp ports (no-response)
+PORT    STATE SERVICE      REASON  VERSION
+135/tcp open  msrpc        syn-ack Microsoft Windows RPC
+139/tcp open  netbios-ssn  syn-ack Microsoft Windows netbios-ssn
+445/tcp open  microsoft-ds syn-ack Windows XP microsoft-ds
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.95%E=4%D=5/31%OT=135%CT=1%CU=43928%PV=Y%DS=2%DC=T%G=Y%TM=683AAD
+OS:C9%P=x86_64-pc-linux-gnu)SEQ(SP=103%GCD=1%ISR=10F%TI=I%CI=I%II=I%SS=S%TS
+OS:=0)SEQ(SP=106%GCD=1%ISR=10B%TI=I%CI=I%II=I%SS=S%TS=0)SEQ(SP=106%GCD=1%IS
+OS:R=10C%TI=I%CI=I%II=I%SS=S%TS=0)SEQ(SP=FB%GCD=1%ISR=10C%TI=I%CI=I%II=I%SS
+OS:=S%TS=0)SEQ(SP=FD%GCD=1%ISR=10F%TI=I%CI=I%II=I%SS=S%TS=0)OPS(O1=M552NW0N
+OS:NT00NNS%O2=M552NW0NNT00NNS%O3=M552NW0NNT00%O4=M552NW0NNT00NNS%O5=M552NW0
+OS:NNT00NNS%O6=M552NNT00NNS)WIN(W1=FAF0%W2=FAF0%W3=FAF0%W4=FAF0%W5=FAF0%W6=
+OS:FAF0)ECN(R=Y%DF=Y%T=80%W=FAF0%O=M552NW0NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%
+OS:A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=N%T=80%W=0%S=A%A=O%F=R%O=%RD=0
+OS:%Q=)T5(R=Y%DF=N%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=N%T=80%W=0%S
+OS:=A%A=O%F=R%O=%RD=0%Q=)T7(R=N)U1(R=Y%DF=N%T=80%IPL=B0%UN=0%RIPL=G%RID=G%R
+OS:IPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=S%T=80%CD=Z)
+
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=262 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OSs: Windows, Windows XP; CPE: cpe:/o:microsoft:windows, cpe:/o:microsoft:windows_xp
+
+Host script results:
+|_smb2-security-mode: Couldn't establish a SMBv2 connection.
+| nbstat: NetBIOS name: LEGACY, NetBIOS user: <unknown>, NetBIOS MAC: 00:50:56:95:ff:e6 (VMware)
+| Names:
+|   LEGACY<00>           Flags: <unique><active>
+|   LEGACY<20>           Flags: <unique><active>
+|   HTB<00>              Flags: <group><active>
+|   HTB<1e>              Flags: <group><active>
+|   HTB<1d>              Flags: <unique><active>
+|   \x01\x02__MSBROWSE__\x02<01>  Flags: <group><active>
+| Statistics:
+|   00:50:56:95:ff:e6:00:00:00:00:00:00:00:00:00:00:00
+|   00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00
+|_  00:00:00:00:00:00:00:00:00:00:00:00:00:00
+| p2p-conficker: 
+|   Checking for Conficker.C or higher...
+|   Check 1 (port 40600/tcp): CLEAN (Couldn't connect)
+|   Check 2 (port 59526/tcp): CLEAN (Couldn't connect)
+|   Check 3 (port 50902/udp): CLEAN (Failed to receive data)
+|   Check 4 (port 13804/udp): CLEAN (Failed to receive data)
+|_  0/4 checks are positive: Host is CLEAN or ports are blocked
+| smb-os-discovery: 
+|   OS: Windows XP (Windows 2000 LAN Manager)
+|   OS CPE: cpe:/o:microsoft:windows_xp::-
+|   Computer name: legacy
+|   NetBIOS computer name: LEGACY\x00
+|   Workgroup: HTB\x00
+|_  System time: 2025-06-05T12:17:31+03:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+|_smb2-time: Protocol negotiation failed (SMB2)
+|_clock-skew: mean: 5d00h27m00s, deviation: 2h07m16s, median: 4d22h57m00s
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT       ADDRESS
+1   369.54 ms 10.10.14.1
+2   369.61 ms 10.10.10.4
+
+Read data files from: /usr/share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat May 31 03:20:41 2025 -- 1 IP address (1 host up) scanned in 1575.14 seconds

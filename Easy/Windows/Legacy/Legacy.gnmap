@@ -1,0 +1,5 @@
+# Nmap 7.95 scan initiated Sat May 31 02:54:26 2025 as: /usr/lib/nmap/nmap --privileged -sT -T4 -vv -A -p- -Pn -oA Legacy 10.10.10.4
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.10.10.4 ()	Status: Up
+Host: 10.10.10.4 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds//Windows XP microsoft-ds/	Seq Index: 262	IP ID Seq: Incremental
+# Nmap done at Sat May 31 03:20:41 2025 -- 1 IP address (1 host up) scanned in 1575.14 seconds
