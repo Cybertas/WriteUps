@@ -30,8 +30,7 @@ Practing for CPTS + OSCP
 - Legacy  - retired (1/10)
 - Netmon  - retired (1/10)
 - Remote 
-- Secnotes
-- Broker
+- Broker  - retired (***WIP***)
 - Soccer
 - Sau
 - Dog
@@ -53,7 +52,7 @@ Practing for CPTS + OSCP
 <details>
 <summary>Medium labs (Click to expand)</summary>
 - Chatterbox
-
+- Secnotes
 
 </details>
 
