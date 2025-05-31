@@ -27,7 +27,7 @@ Practing for CPTS + OSCP
 - Buff    - retired (3/10) 
 - Devel   - retired (2/10)
 - Jerry   - retired (0/10)
-- Legacy  - retired **WIP**
+- Legacy  - retired (0/10)
 - Netmon
 - Remote 
 - Secnotes
