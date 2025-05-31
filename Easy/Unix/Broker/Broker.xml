@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.95 scan initiated Sat May 31 10:55:59 2025 as: /usr/lib/nmap/nmap -&#45;privileged -sT -T4 -vv -A -p- -Pn -oA Broker 10.10.11.243 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -&#45;privileged -sT -T4 -vv -A -p- -Pn -oA Broker 10.10.11.243" start="1748703359" startstr="Sat May 31 10:55:59 2025" version="7.95" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1748703359"/>
+<taskend task="NSE" time="1748703359"/>
+<taskbegin task="NSE" time="1748703359"/>
+<taskend task="NSE" time="1748703359"/>
+<taskbegin task="NSE" time="1748703359"/>
+<taskend task="NSE" time="1748703359"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1748703359"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1748703359"/>
+<taskbegin task="Connect Scan" time="1748703359"/>
+<taskprogress task="Connect Scan" time="1748703390" percent="2.28" remaining="1329" etc="1748704718"/>
+<taskprogress task="Connect Scan" time="1748703420" percent="3.83" remaining="1531" etc="1748704951"/>
+<taskprogress task="Connect Scan" time="1748703450" percent="7.89" remaining="1063" etc="1748704513"/>
+<taskprogress task="Connect Scan" time="1748703522" percent="12.68" remaining="1123" etc="1748704645"/>
+<taskprogress task="Connect Scan" time="1748703552" percent="13.96" remaining="1190" etc="1748704741"/>
+<taskprogress task="Connect Scan" time="1748703657" percent="21.02" remaining="1120" etc="1748704777"/>
+<taskprogress task="Connect Scan" time="1748703687" percent="24.73" remaining="999" etc="1748704685"/>
+<taskprogress task="Connect Scan" time="1748703756" percent="29.90" remaining="931" etc="1748704687"/>
+<taskprogress task="Connect Scan" time="1748703798" percent="33.78" remaining="861" etc="1748704659"/>
+<taskprogress task="Connect Scan" time="1748703837" percent="37.69" remaining="791" etc="1748704627"/>
+<taskprogress task="Connect Scan" time="1748703969" percent="45.66" remaining="726" etc="1748704695"/>
+<taskprogress task="Connect Scan" time="1748704029" percent="50.44" remaining="659" etc="1748704687"/>
+<taskprogress task="Connect Scan" time="1748704074" percent="55.01" remaining="585" etc="1748704659"/>
+<taskprogress task="Connect Scan" time="1748704113" percent="59.22" remaining="520" etc="1748704632"/>
+<taskprogress task="Connect Scan" time="1748704155" percent="63.65" remaining="455" etc="1748704610"/>
+<taskprogress task="Connect Scan" time="1748704206" percent="68.34" remaining="393" etc="1748704598"/>
+<taskprogress task="Connect Scan" time="1748704245" percent="72.90" remaining="330" etc="1748704574"/>
+<taskprogress task="Connect Scan" time="1748704293" percent="77.90" remaining="266" etc="1748704558"/>
+<taskprogress task="Connect Scan" time="1748704344" percent="82.81" remaining="205" etc="1748704548"/>
+<taskprogress task="Connect Scan" time="1748704410" percent="87.93" remaining="145" etc="1748704554"/>
+<taskprogress task="Connect Scan" time="1748704467" percent="93.04" remaining="83" etc="1748704550"/>
+<taskend task="Connect Scan" time="1748704587" extrainfo="65535 total ports"/>
+<taskbegin task="Service scan" time="1748704587"/>
+<taskend task="Service scan" time="1748704630" extrainfo="9 services on 1 host"/>
+<taskbegin task="Traceroute" time="1748704632"/>
+<taskend task="Traceroute" time="1748704633"/>
+<taskbegin task="Parallel DNS resolution of 2 hosts." time="1748704633"/>
+<taskend task="Parallel DNS resolution of 2 hosts." time="1748704633"/>
+<taskbegin task="NSE" time="1748704633"/>
+<taskend task="NSE" time="1748704642"/>
+<taskbegin task="NSE" time="1748704642"/>
+<taskend task="NSE" time="1748704643"/>
+<taskbegin task="NSE" time="1748704643"/>
+<taskend task="NSE" time="1748704643"/>
+<host starttime="1748703359" endtime="1748704643"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="10.10.11.243" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65483">
+<extrareasons reason="conn-refused" count="65483" proto="tcp" ports="1-21,23-79,81-145,147-1882,1884-1963,1965-2099,2101-3177,3179-5494,5496-5671,5673-7262,7264-7427,7429-7762,7764-8160,8162-11068,11070-11283,11285-13254,13256-17438,17440-19713,19715-20110,20112-22619,22621-23209,23211-24080,24082-24500,24502-28554,28556-30076,30078-34564,34566-35952,35954-36396,36398-38275,38277-38427,38429-42036,42038-42465,42467-42534,42536-43570,43572-43955,43957-48510,48512-49520,49522-49693,49696-49989,49991-50995,50997-55100,55102-55452,55454-55723,55725-57179,57181-61612,61615,61617-63387,63389-64127,64129-64302,64304-65099,65101-65535"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="8.9p1 Ubuntu 3ubuntu0.4" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:8.9p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  256 3e:ea:45:4b:c5:d1:6d:6f:e2:d4:d1:3b:0a:3d:a9:4f (ECDSA)&#xa;ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJ+m7rYl1vRtnm789pH3IRhxI4CNCANVj+N5kovboNzcw9vHsBwvPX3KYA3cxGbKiA0VqbKRpOHnpsMuHEXEVJc=&#xa;  256 64:cc:75:de:4a:e6:a5:b4:73:eb:3f:1b:cf:b4:e3:94 (ED25519)&#xa;ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOtuEdoYxTohG80Bo6YCqSzUY9+qbnAFnhsk4yAZNqhM"><table>
+<elem key="fingerprint">3eea454bc5d16d6fe2d4d13b0a3da94f</elem>
+<elem key="bits">256</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJ+m7rYl1vRtnm789pH3IRhxI4CNCANVj+N5kovboNzcw9vHsBwvPX3KYA3cxGbKiA0VqbKRpOHnpsMuHEXEVJc=</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+</table>
+<table>
+<elem key="fingerprint">64cc75de4ae6a5b473eb3f1bcfb4e394</elem>
+<elem key="bits">256</elem>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAIOtuEdoYxTohG80Bo6YCqSzUY9+qbnAFnhsk4yAZNqhM</elem>
+<elem key="type">ssh-ed25519</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="nginx" version="1.18.0" extrainfo="Ubuntu" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx:1.18.0</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="http-title" output="Error 401 Unauthorized"><elem key="title">Error 401 Unauthorized</elem>
+</script><script id="http-auth" output="&#xa;HTTP/1.1 401 Unauthorized&#xd;&#xa;  basic realm=ActiveMQRealm&#xa;"><table>
+<elem key="scheme">basic</elem>
+<table key="params">
+<elem key="realm">ActiveMQRealm</elem>
+</table>
+</table>
+</script><script id="http-server-header" output="nginx/1.18.0 (Ubuntu)"><elem>nginx/1.18.0 (Ubuntu)</elem>
+</script></port>
+<port protocol="tcp" portid="146"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="iso-tp0" method="table" conf="3"/></port>
+<port protocol="tcp" portid="1883"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="mqtt" method="probed" conf="10"/><script id="mqtt-subscribe" output="Failed to receive control packet from server."><elem key="ERROR">Failed to receive control packet from server.</elem>
+</script></port>
+<port protocol="tcp" portid="1964"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="solid-e-engine" method="table" conf="3"/></port>
+<port protocol="tcp" portid="2100"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="amiganetfs" method="table" conf="3"/></port>
+<port protocol="tcp" portid="3178"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="radclientport" method="table" conf="3"/></port>
+<port protocol="tcp" portid="5495"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="5672"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="amqp" servicefp="SF-Port5672-TCP:V=7.95%I=7%D=5/31%Time=683B1D58%P=x86_64-pc-linux-gnu%r(GetRequest,89,&quot;AMQP\x03\x01\0\0AMQP\0\x01\0\0\0\0\0\x19\x02\0\0\0\0S\x10\xc0\x0c\x04\xa1\0@p\0\x02\0\0`\x7f\xff\0\0\0`\x02\0\0\0\0S\x18\xc0S\x01\0S\x1d\xc0M\x02\xa3\x11amqp:decode-error\xa17Connection\x20from\x20client\x20using\x20unsupported\x20AMQP\x20attempted&quot;)%r(HTTPOptions,89,&quot;AMQP\x03\x01\0\0AMQP\0\x01\0\0\0\0\0\x19\x02\0\0\0\0S\x10\xc0\x0c\x04\xa1\0@p\0\x02\0\0`\x7f\xff\0\0\0`\x02\0\0\0\0S\x18\xc0S\x01\0S\x1d\xc0M\x02\xa3\x11amqp:decode-error\xa17Connection\x20from\x20client\x20using\x20unsupported\x20AMQP\x20attempted&quot;)%r(RTSPRequest,89,&quot;AMQP\x03\x01\0\0AMQP\0\x01\0\0\0\0\0\x19\x02\0\0\0\0S\x10\xc0\x0c\x04\xa1\0@p\0\x02\0\0`\x7f\xff\0\0\0`\x02\0\0\0\0S\x18\xc0S\x01\0S\x1d\xc0M\x02\xa3\x11amqp:decode-error\xa17Connection\x20from\x20client\x20using\x20unsupported\x20AMQP\x20attempted&quot;)%r(RPCCheck,89,&quot;AMQP\x03\x01\0\0AMQP\0\x01\0\0\0\0\0\x19\x02\0\0\0\0S\x10\xc0\x0c\x04\xa1\0@p\0\x02\0\0`\x7f\xff\0\0\0`\x02\0\0\0\0S\x18\xc0S\x01\0S\x1d\xc0M\x02\xa3\x11amqp:decode-error\xa17Connection\x20from\x20client\x20using\x20unsupported\x20AMQP\x20attempted&quot;)%r(DNSVersionBindReqTCP,89,&quot;AMQP\x03\x01\0\0AMQP\0\x01\0\0\0\0\0\x19\x02\0\0\0\0S\x10\xc0\x0c\x04\xa1\0@p\0\x02\0\0`\x7f\xff\0\0\0`\x02\0\0\0\0S\x18\xc0S\x01\0S\x1d\xc0M\x02\xa3\x11amqp:decode-error\xa17Connection\x20from\x20client\x20using\x20unsupported\x20AMQP\x20attempted&quot;)%r(DNSStatusRequestTCP,89,&quot;AMQP\x03\x01\0\0AMQP\0\x01\0\0\0\0\0\x19\x02\0\0\0\0S\x10\xc0\x0c\x04\xa1\0@p\0\x02\0\0`\x7f\xff\0\0\0`\x02\0\0\0\0S\x18\xc0S\x01\0S\x1d\xc0M\x02\xa3\x11amqp:decode-error\xa17Connection\x20from\x20client\x20using\x20unsupported\x20AMQP\x20attempted&quot;)%r(SSLSessionReq,89,&quot;AMQP\x03\x01\0\0AMQP\0\x01\0\0\0\0\0\x19\x02\0\0\0\0S\x10\xc0\x0c\x04\xa1\0@p\0\x02\0\0`\x7f\xff\0\0\0`\x02\0\0\0\0S\x18\xc0S\x01\0S\x1d\xc0M\x02\xa3\x11amqp:decode-error\xa17Connection\x20from\x20client\x20using\x20unsupported\x20AMQP\x20attempted&quot;)%r(TerminalServerCookie,89,&quot;AMQP\x03\x01\0\0AMQP\0\x01\0\0\0\0\0\x19\x02\0\0\0\0S\x10\xc0\x0c\x04\xa1\0@p\0\x02\0\0`\x7f\xff\0\0\0`\x02\0\0\0\0S\x18\xc0S\x01\0S\x1d\xc0M\x02\xa3\x11amqp:decode-error\xa17Connection\x20from\x20client\x20using\x20unsupported\x20AMQP\x20attempted&quot;);" method="table" conf="3"/><script id="fingerprint-strings" output="&#xa;  DNSStatusRequestTCP, DNSVersionBindReqTCP, GetRequest, HTTPOptions, RPCCheck, RTSPRequest, SSLSessionReq, TerminalServerCookie: &#xa;    AMQP&#xa;    AMQP&#xa;    amqp:decode-error&#xa;    7Connection from client using unsupported AMQP attempted"><elem key="DNSStatusRequestTCP, DNSVersionBindReqTCP, GetRequest, HTTPOptions, RPCCheck, RTSPRequest, SSLSessionReq, TerminalServerCookie">&#xa;    AMQP&#xa;    AMQP&#xa;    amqp:decode-error&#xa;    7Connection from client using unsupported AMQP attempted</elem>
+</script><script id="amqp-info" output="ERROR: AQMP:handshake expected header (1) frame, but was 65"/></port>
+<port protocol="tcp" portid="7263"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="7428"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ovladmgr" method="table" conf="3"/></port>
+<port protocol="tcp" portid="7763"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="8161"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Jetty" version="9.4.39.v20210325" method="probed" conf="10"><cpe>cpe:/a:mortbay:jetty:9.4.39.v20210325</cpe></service><script id="http-server-header" output="Jetty(9.4.39.v20210325)"><elem>Jetty(9.4.39.v20210325)</elem>
+</script><script id="http-auth" output="&#xa;HTTP/1.1 401 Unauthorized&#xd;&#xa;  basic realm=ActiveMQRealm&#xa;"><table>
+<elem key="scheme">basic</elem>
+<table key="params">
+<elem key="realm">ActiveMQRealm</elem>
+</table>
+</table>
+</script><script id="http-title" output="Error 401 Unauthorized"><elem key="title">Error 401 Unauthorized</elem>
+</script></port>
+<port protocol="tcp" portid="11069"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="11284"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="13255"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="17439"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="19714"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="20111"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="22620"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="23210"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="24081"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="24501"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="28555"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="30077"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="34565"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="35953"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="36397"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="38276"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="38428"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="42037"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="42466"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="42535"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="43571"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="43956"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="48511"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="49521"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="49694"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="49695"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="49990"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="50996"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="55101"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="55453"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="55724"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="57180"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="61613"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="stomp" product="Apache ActiveMQ" servicefp="SF-Port61613-TCP:V=7.95%I=7%D=5/31%Time=683B1D52%P=x86_64-pc-linux-gnu%r(HELP4STOMP,27F,&quot;ERROR\ncontent-type:text/plain\nmessage:Unknown\x20STOMP\x20action:\x20HELP\n\norg\.apache\.activemq\.transport\.stomp\.ProtocolException:\x20Unknown\x20STOMP\x20action:\x20HELP\n\tat\x20org\.apache\.activemq\.transport\.stomp\.ProtocolConverter\.onStompCommand\(ProtocolConverter\.java:258\)\n\tat\x20org\.apache\.activemq\.transport\.stomp\.StompTransportFilter\.onCommand\(StompTransportFilter\.java:85\)\n\tat\x20org\.apache\.activemq\.transport\.TransportSupport\.doConsume\(TransportSupport\.java:83\)\n\tat\x20org\.apache\.activemq\.transport\.tcp\.TcpTransport\.doRun\(TcpTransport\.java:233\)\n\tat\x20org\.apache\.activemq\.transport\.tcp\.TcpTransport\.run\(TcpTransport\.java:215\)\n\tat\x20java\.lang\.Thread\.run\(Thread\.java:750\)\n\0\n&quot;);" method="probed" conf="10"><cpe>cpe:/a:apache:activemq</cpe></service><script id="fingerprint-strings" output="&#xa;  HELP4STOMP: &#xa;    ERROR&#xa;    content-type:text/plain&#xa;    message:Unknown STOMP action: HELP&#xa;    org.apache.activemq.transport.stomp.ProtocolException: Unknown STOMP action: HELP&#xa;    org.apache.activemq.transport.stomp.ProtocolConverter.onStompCommand(ProtocolConverter.java:258)&#xa;    org.apache.activemq.transport.stomp.StompTransportFilter.onCommand(StompTransportFilter.java:85)&#xa;    org.apache.activemq.transport.TransportSupport.doConsume(TransportSupport.java:83)&#xa;    org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:233)&#xa;    org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215)&#xa;    java.lang.Thread.run(Thread.java:750)"><elem key="HELP4STOMP">&#xa;    ERROR&#xa;    content-type:text/plain&#xa;    message:Unknown STOMP action: HELP&#xa;    org.apache.activemq.transport.stomp.ProtocolException: Unknown STOMP action: HELP&#xa;    org.apache.activemq.transport.stomp.ProtocolConverter.onStompCommand(ProtocolConverter.java:258)&#xa;    org.apache.activemq.transport.stomp.StompTransportFilter.onCommand(StompTransportFilter.java:85)&#xa;    org.apache.activemq.transport.TransportSupport.doConsume(TransportSupport.java:83)&#xa;    org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:233)&#xa;    org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215)&#xa;    java.lang.Thread.run(Thread.java:750)</elem>
+</script></port>
+<port protocol="tcp" portid="61614"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Jetty" version="9.4.39.v20210325" method="probed" conf="10"><cpe>cpe:/a:mortbay:jetty:9.4.39.v20210325</cpe></service><script id="http-server-header" output="Jetty(9.4.39.v20210325)"><elem>Jetty(9.4.39.v20210325)</elem>
+</script><script id="http-methods" output="&#xa;  Supported Methods: GET HEAD TRACE OPTIONS&#xa;  Potentially risky methods: TRACE"><table key="Supported Methods">
+<elem>GET</elem>
+<elem>HEAD</elem>
+<elem>TRACE</elem>
+<elem>OPTIONS</elem>
+</table>
+<table key="Potentially risky methods">
+<elem>TRACE</elem>
+</table>
+</script><script id="http-title" output="Site doesn&apos;t have a title."></script><script id="http-favicon" output="Unknown favicon MD5: D41D8CD98F00B204E9800998ECF8427E"/></port>
+<port protocol="tcp" portid="61616"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="apachemq" product="ActiveMQ OpenWire transport" version="5.15.15" method="probed" conf="10"><cpe>cpe:/a:apache:activemq:5.15.15</cpe></service></port>
+<port protocol="tcp" portid="63388"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="64128"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="64303"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="65100"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="22"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="41284"/>
+<osmatch name="Linux 5.0 - 5.14" accuracy="100" line="71713">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="5.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:5</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="OS:SCAN(V=7.95%E=4%D=5/31%OT=22%CT=1%CU=41284%PV=Y%DS=2%DC=T%G=Y%TM=683B1D8&#xa;OS:3%P=x86_64-pc-linux-gnu)SEQ(SP=102%GCD=1%ISR=105%TI=Z%CI=Z%II=I%TS=A)OPS&#xa;OS:(O1=M552ST11NW7%O2=M552ST11NW7%O3=M552NNT11NW7%O4=M552ST11NW7%O5=M552ST1&#xa;OS:1NW7%O6=M552ST11)WIN(W1=FE88%W2=FE88%W3=FE88%W4=FE88%W5=FE88%W6=FE88)ECN&#xa;OS:(R=Y%DF=Y%T=40%W=FAF0%O=M552NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=A&#xa;OS:S%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R&#xa;OS:=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F&#xa;OS:=R%O=%RD=0%Q=)T7(R=N)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%&#xa;OS:RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)&#xa;"/>
+</os>
+<uptime seconds="887745" lastboot="Wed May 21 04:41:38 2025"/>
+<distance value="2"/>
+<tcpsequence index="258" difficulty="Good luck!" values="233C61D8,E72E633F,FE928EFB,E93E547F,F8CB1EA3,A57F00F8"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="34E9BA0C,34E9BA71,34E9BAD5,34E9BB39,34E9BB9D,34E9BC01"/>
+<trace proto="icmp">
+<hop ttl="1" ipaddr="10.10.14.1" rtt="315.53"/>
+<hop ttl="2" ipaddr="10.10.11.243" rtt="315.61"/>
+</trace>
+<times srtt="313556" rttvar="989" to="317512"/>
+</host>
+<taskbegin task="NSE" time="1748704643"/>
+<taskend task="NSE" time="1748704643"/>
+<taskbegin task="NSE" time="1748704643"/>
+<taskend task="NSE" time="1748704643"/>
+<taskbegin task="NSE" time="1748704643"/>
+<taskend task="NSE" time="1748704643"/>
+<runstats><finished time="1748704643" timestr="Sat May 31 11:17:23 2025" summary="Nmap done at Sat May 31 11:17:23 2025; 1 IP address (1 host up) scanned in 1284.26 seconds" elapsed="1284.26" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

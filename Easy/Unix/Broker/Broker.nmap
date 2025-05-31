@@ -1,0 +1,176 @@
+# Nmap 7.95 scan initiated Sat May 31 10:55:59 2025 as: /usr/lib/nmap/nmap --privileged -sT -T4 -vv -A -p- -Pn -oA Broker 10.10.11.243
+Warning: 10.10.11.243 giving up on port because retransmission cap hit (6).
+Nmap scan report for 10.10.11.243
+Host is up, received user-set (0.31s latency).
+Scanned at 2025-05-31 10:55:59 EDT for 1284s
+Not shown: 65483 closed tcp ports (conn-refused)
+PORT      STATE    SERVICE        REASON      VERSION
+22/tcp    open     ssh            syn-ack     OpenSSH 8.9p1 Ubuntu 3ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 3e:ea:45:4b:c5:d1:6d:6f:e2:d4:d1:3b:0a:3d:a9:4f (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJ+m7rYl1vRtnm789pH3IRhxI4CNCANVj+N5kovboNzcw9vHsBwvPX3KYA3cxGbKiA0VqbKRpOHnpsMuHEXEVJc=
+|   256 64:cc:75:de:4a:e6:a5:b4:73:eb:3f:1b:cf:b4:e3:94 (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOtuEdoYxTohG80Bo6YCqSzUY9+qbnAFnhsk4yAZNqhM
+80/tcp    open     http           syn-ack     nginx 1.18.0 (Ubuntu)
+|_http-title: Error 401 Unauthorized
+| http-auth: 
+| HTTP/1.1 401 Unauthorized\x0D
+|_  basic realm=ActiveMQRealm
+|_http-server-header: nginx/1.18.0 (Ubuntu)
+146/tcp   filtered iso-tp0        no-response
+1883/tcp  open     mqtt           syn-ack
+|_mqtt-subscribe: Failed to receive control packet from server.
+1964/tcp  filtered solid-e-engine no-response
+2100/tcp  filtered amiganetfs     no-response
+3178/tcp  filtered radclientport  no-response
+5495/tcp  filtered unknown        no-response
+5672/tcp  open     amqp?          syn-ack
+| fingerprint-strings: 
+|   DNSStatusRequestTCP, DNSVersionBindReqTCP, GetRequest, HTTPOptions, RPCCheck, RTSPRequest, SSLSessionReq, TerminalServerCookie: 
+|     AMQP
+|     AMQP
+|     amqp:decode-error
+|_    7Connection from client using unsupported AMQP attempted
+|_amqp-info: ERROR: AQMP:handshake expected header (1) frame, but was 65
+7263/tcp  filtered unknown        no-response
+7428/tcp  filtered ovladmgr       no-response
+7763/tcp  filtered unknown        no-response
+8161/tcp  open     http           syn-ack     Jetty 9.4.39.v20210325
+|_http-server-header: Jetty(9.4.39.v20210325)
+| http-auth: 
+| HTTP/1.1 401 Unauthorized\x0D
+|_  basic realm=ActiveMQRealm
+|_http-title: Error 401 Unauthorized
+11069/tcp filtered unknown        no-response
+11284/tcp filtered unknown        no-response
+13255/tcp filtered unknown        no-response
+17439/tcp filtered unknown        no-response
+19714/tcp filtered unknown        no-response
+20111/tcp filtered unknown        no-response
+22620/tcp filtered unknown        no-response
+23210/tcp filtered unknown        no-response
+24081/tcp filtered unknown        no-response
+24501/tcp filtered unknown        no-response
+28555/tcp filtered unknown        no-response
+30077/tcp filtered unknown        no-response
+34565/tcp filtered unknown        no-response
+35953/tcp filtered unknown        no-response
+36397/tcp filtered unknown        no-response
+38276/tcp filtered unknown        no-response
+38428/tcp filtered unknown        no-response
+42037/tcp filtered unknown        no-response
+42466/tcp filtered unknown        no-response
+42535/tcp open     tcpwrapped     syn-ack
+43571/tcp filtered unknown        no-response
+43956/tcp filtered unknown        no-response
+48511/tcp filtered unknown        no-response
+49521/tcp filtered unknown        no-response
+49694/tcp filtered unknown        no-response
+49695/tcp filtered unknown        no-response
+49990/tcp filtered unknown        no-response
+50996/tcp filtered unknown        no-response
+55101/tcp filtered unknown        no-response
+55453/tcp filtered unknown        no-response
+55724/tcp filtered unknown        no-response
+57180/tcp filtered unknown        no-response
+61613/tcp open     stomp          syn-ack     Apache ActiveMQ
+| fingerprint-strings: 
+|   HELP4STOMP: 
+|     ERROR
+|     content-type:text/plain
+|     message:Unknown STOMP action: HELP
+|     org.apache.activemq.transport.stomp.ProtocolException: Unknown STOMP action: HELP
+|     org.apache.activemq.transport.stomp.ProtocolConverter.onStompCommand(ProtocolConverter.java:258)
+|     org.apache.activemq.transport.stomp.StompTransportFilter.onCommand(StompTransportFilter.java:85)
+|     org.apache.activemq.transport.TransportSupport.doConsume(TransportSupport.java:83)
+|     org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:233)
+|     org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215)
+|_    java.lang.Thread.run(Thread.java:750)
+61614/tcp open     http           syn-ack     Jetty 9.4.39.v20210325
+|_http-server-header: Jetty(9.4.39.v20210325)
+| http-methods: 
+|   Supported Methods: GET HEAD TRACE OPTIONS
+|_  Potentially risky methods: TRACE
+|_http-title: Site doesn't have a title.
+|_http-favicon: Unknown favicon MD5: D41D8CD98F00B204E9800998ECF8427E
+61616/tcp open     apachemq       syn-ack     ActiveMQ OpenWire transport 5.15.15
+63388/tcp filtered unknown        no-response
+64128/tcp filtered unknown        no-response
+64303/tcp filtered unknown        no-response
+65100/tcp filtered unknown        no-response
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port5672-TCP:V=7.95%I=7%D=5/31%Time=683B1D58%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,89,"AMQP\x03\x01\0\0AMQP\0\x01\0\0\0\0\0\x19\x02\0\0\0\0S\x10\
+SF:xc0\x0c\x04\xa1\0@p\0\x02\0\0`\x7f\xff\0\0\0`\x02\0\0\0\0S\x18\xc0S\x01
+SF:\0S\x1d\xc0M\x02\xa3\x11amqp:decode-error\xa17Connection\x20from\x20cli
+SF:ent\x20using\x20unsupported\x20AMQP\x20attempted")%r(HTTPOptions,89,"AM
+SF:QP\x03\x01\0\0AMQP\0\x01\0\0\0\0\0\x19\x02\0\0\0\0S\x10\xc0\x0c\x04\xa1
+SF:\0@p\0\x02\0\0`\x7f\xff\0\0\0`\x02\0\0\0\0S\x18\xc0S\x01\0S\x1d\xc0M\x0
+SF:2\xa3\x11amqp:decode-error\xa17Connection\x20from\x20client\x20using\x2
+SF:0unsupported\x20AMQP\x20attempted")%r(RTSPRequest,89,"AMQP\x03\x01\0\0A
+SF:MQP\0\x01\0\0\0\0\0\x19\x02\0\0\0\0S\x10\xc0\x0c\x04\xa1\0@p\0\x02\0\0`
+SF:\x7f\xff\0\0\0`\x02\0\0\0\0S\x18\xc0S\x01\0S\x1d\xc0M\x02\xa3\x11amqp:d
+SF:ecode-error\xa17Connection\x20from\x20client\x20using\x20unsupported\x2
+SF:0AMQP\x20attempted")%r(RPCCheck,89,"AMQP\x03\x01\0\0AMQP\0\x01\0\0\0\0\
+SF:0\x19\x02\0\0\0\0S\x10\xc0\x0c\x04\xa1\0@p\0\x02\0\0`\x7f\xff\0\0\0`\x0
+SF:2\0\0\0\0S\x18\xc0S\x01\0S\x1d\xc0M\x02\xa3\x11amqp:decode-error\xa17Co
+SF:nnection\x20from\x20client\x20using\x20unsupported\x20AMQP\x20attempted
+SF:")%r(DNSVersionBindReqTCP,89,"AMQP\x03\x01\0\0AMQP\0\x01\0\0\0\0\0\x19\
+SF:x02\0\0\0\0S\x10\xc0\x0c\x04\xa1\0@p\0\x02\0\0`\x7f\xff\0\0\0`\x02\0\0\
+SF:0\0S\x18\xc0S\x01\0S\x1d\xc0M\x02\xa3\x11amqp:decode-error\xa17Connecti
+SF:on\x20from\x20client\x20using\x20unsupported\x20AMQP\x20attempted")%r(D
+SF:NSStatusRequestTCP,89,"AMQP\x03\x01\0\0AMQP\0\x01\0\0\0\0\0\x19\x02\0\0
+SF:\0\0S\x10\xc0\x0c\x04\xa1\0@p\0\x02\0\0`\x7f\xff\0\0\0`\x02\0\0\0\0S\x1
+SF:8\xc0S\x01\0S\x1d\xc0M\x02\xa3\x11amqp:decode-error\xa17Connection\x20f
+SF:rom\x20client\x20using\x20unsupported\x20AMQP\x20attempted")%r(SSLSessi
+SF:onReq,89,"AMQP\x03\x01\0\0AMQP\0\x01\0\0\0\0\0\x19\x02\0\0\0\0S\x10\xc0
+SF:\x0c\x04\xa1\0@p\0\x02\0\0`\x7f\xff\0\0\0`\x02\0\0\0\0S\x18\xc0S\x01\0S
+SF:\x1d\xc0M\x02\xa3\x11amqp:decode-error\xa17Connection\x20from\x20client
+SF:\x20using\x20unsupported\x20AMQP\x20attempted")%r(TerminalServerCookie,
+SF:89,"AMQP\x03\x01\0\0AMQP\0\x01\0\0\0\0\0\x19\x02\0\0\0\0S\x10\xc0\x0c\x
+SF:04\xa1\0@p\0\x02\0\0`\x7f\xff\0\0\0`\x02\0\0\0\0S\x18\xc0S\x01\0S\x1d\x
+SF:c0M\x02\xa3\x11amqp:decode-error\xa17Connection\x20from\x20client\x20us
+SF:ing\x20unsupported\x20AMQP\x20attempted");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port61613-TCP:V=7.95%I=7%D=5/31%Time=683B1D52%P=x86_64-pc-linux-gnu%r(H
+SF:ELP4STOMP,27F,"ERROR\ncontent-type:text/plain\nmessage:Unknown\x20STOMP
+SF:\x20action:\x20HELP\n\norg\.apache\.activemq\.transport\.stomp\.Protoco
+SF:lException:\x20Unknown\x20STOMP\x20action:\x20HELP\n\tat\x20org\.apache
+SF:\.activemq\.transport\.stomp\.ProtocolConverter\.onStompCommand\(Protoc
+SF:olConverter\.java:258\)\n\tat\x20org\.apache\.activemq\.transport\.stom
+SF:p\.StompTransportFilter\.onCommand\(StompTransportFilter\.java:85\)\n\t
+SF:at\x20org\.apache\.activemq\.transport\.TransportSupport\.doConsume\(Tr
+SF:ansportSupport\.java:83\)\n\tat\x20org\.apache\.activemq\.transport\.tc
+SF:p\.TcpTransport\.doRun\(TcpTransport\.java:233\)\n\tat\x20org\.apache\.
+SF:activemq\.transport\.tcp\.TcpTransport\.run\(TcpTransport\.java:215\)\n
+SF:\tat\x20java\.lang\.Thread\.run\(Thread\.java:750\)\n\0\n");
+Device type: general purpose
+Running: Linux 5.X
+OS CPE: cpe:/o:linux:linux_kernel:5
+OS details: Linux 5.0 - 5.14
+TCP/IP fingerprint:
+OS:SCAN(V=7.95%E=4%D=5/31%OT=22%CT=1%CU=41284%PV=Y%DS=2%DC=T%G=Y%TM=683B1D8
+OS:3%P=x86_64-pc-linux-gnu)SEQ(SP=102%GCD=1%ISR=105%TI=Z%CI=Z%II=I%TS=A)OPS
+OS:(O1=M552ST11NW7%O2=M552ST11NW7%O3=M552NNT11NW7%O4=M552ST11NW7%O5=M552ST1
+OS:1NW7%O6=M552ST11)WIN(W1=FE88%W2=FE88%W3=FE88%W4=FE88%W5=FE88%W6=FE88)ECN
+OS:(R=Y%DF=Y%T=40%W=FAF0%O=M552NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=A
+OS:S%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R
+OS:=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F
+OS:=R%O=%RD=0%Q=)T7(R=N)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%
+OS:RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Uptime guess: 10.275 days (since Wed May 21 04:41:38 2025)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=258 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT       ADDRESS
+1   315.53 ms 10.10.14.1
+2   315.61 ms 10.10.11.243
+
+Read data files from: /usr/share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat May 31 11:17:23 2025 -- 1 IP address (1 host up) scanned in 1284.26 seconds
