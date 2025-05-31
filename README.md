@@ -6,7 +6,7 @@ Practing for CPTS + OSCP
 
 ---
 
-### 🟢 Easy (Pwned 17)  
+### 🟢 Easy (Pwned 18)  
 <details>
 <summary>Easy labs (Click to expand)</summary>
 
@@ -28,7 +28,7 @@ Practing for CPTS + OSCP
 - Devel   - retired (2/10)
 - Jerry   - retired (0/10)
 - Legacy  - retired (0/10)
-- Netmon
+- Netmon  - retired (***WIP***)
 - Remote 
 - Secnotes
 - Broker
