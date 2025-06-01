@@ -29,7 +29,7 @@ Practing for CPTS + OSCP
 - Jerry   - retired (1/10)
 - Legacy  - retired (1/10)
 - Netmon  - retired (1/10)
-- Remote 
+- Remote  - retired (***WIP***)
 - Broker  - retired (1.5/10)
 - Soccer
 - Sau
