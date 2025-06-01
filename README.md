@@ -51,8 +51,8 @@ Practing for CPTS + OSCP
 
 <details>
 <summary>Medium labs (Click to expand)</summary>
-- Chatterbox
-- Secnotes
+- Chatterbox<br>
+- Secnotes 
 
 </details>
 
