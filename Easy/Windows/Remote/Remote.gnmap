@@ -1,0 +1,5 @@
+# Nmap 7.95 scan initiated Sun Jun  1 06:26:38 2025 as: /usr/lib/nmap/nmap --privileged -sT -T4 -vv -A -p- -Pn -oA Remote 10.10.10.180
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.10.10.180 ()	Status: Up
+Host: 10.10.10.180 ()	Ports: 21/open/tcp//ftp//Microsoft ftpd/, 80/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/, 111/open/tcp//rpcbind//2-4 (RPC #100000)/, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds?///, 2049/open/tcp//mountd//1-3 (RPC #100005)/, 5985/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/, 47001/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/, 49664/open/tcp//msrpc//Microsoft Windows RPC/, 49665/open/tcp//msrpc//Microsoft Windows RPC/, 49666/open/tcp//msrpc//Microsoft Windows RPC/, 49667/open/tcp//msrpc//Microsoft Windows RPC/, 49678/open/tcp//msrpc//Microsoft Windows RPC/, 49679/open/tcp//msrpc//Microsoft Windows RPC/, 49680/open/tcp//msrpc//Microsoft Windows RPC/	Seq Index: 263	IP ID Seq: Incremental
+# Nmap done at Sun Jun  1 07:06:36 2025 -- 1 IP address (1 host up) scanned in 2398.47 seconds
