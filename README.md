@@ -6,7 +6,7 @@ Practing for CPTS + OSCP
 
 ---
 
-### 🟢 Easy (Pwned 21)  
+### 🟢 Easy (Pwned 22)  
 <details>
 <summary>Easy labs (Click to expand)</summary>
 
@@ -31,8 +31,8 @@ Practing for CPTS + OSCP
 - Netmon  - retired (1/10)
 - Remote  - retired (2/10)
 - Broker  - retired (1.5/10)
-- Soccer  - retired (***WIP***)
-- Sau
+- Soccer  - retired (3.5/10)
+- Saui    - retired (**WIP**)
 - Dog
 - Help
 - Usage
