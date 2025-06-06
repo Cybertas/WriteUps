@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.95 scan initiated Tue Jun  3 14:21:38 2025 as: /usr/lib/nmap/nmap -&#45;privileged -sT -T4 -vv -A -p- -Pn -oA Sau 10.10.11.224 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -&#45;privileged -sT -T4 -vv -A -p- -Pn -oA Sau 10.10.11.224" start="1748974898" startstr="Tue Jun  3 14:21:38 2025" version="7.95" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1748974898"/>
+<taskend task="NSE" time="1748974898"/>
+<taskbegin task="NSE" time="1748974898"/>
+<taskend task="NSE" time="1748974898"/>
+<taskbegin task="NSE" time="1748974898"/>
+<taskend task="NSE" time="1748974898"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1748974898"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1748974898"/>
+<taskbegin task="Connect Scan" time="1748974898"/>
+<taskprogress task="Connect Scan" time="1748974929" percent="2.79" remaining="1080" etc="1748976008"/>
+<taskprogress task="Connect Scan" time="1748974959" percent="5.06" remaining="1146" etc="1748976104"/>
+<taskprogress task="Connect Scan" time="1748975022" percent="10.42" remaining="1067" etc="1748976088"/>
+<taskprogress task="Connect Scan" time="1748975052" percent="14.34" remaining="920" etc="1748975972"/>
+<taskprogress task="Connect Scan" time="1748975085" percent="15.91" remaining="989" etc="1748976073"/>
+<taskprogress task="Connect Scan" time="1748975136" percent="20.42" remaining="928" etc="1748976063"/>
+<taskprogress task="Connect Scan" time="1748975166" percent="23.62" remaining="867" etc="1748976033"/>
+<taskprogress task="Connect Scan" time="1748975253" percent="30.49" remaining="810" etc="1748976062"/>
+<taskprogress task="Connect Scan" time="1748975388" percent="39.75" remaining="743" etc="1748976131"/>
+<taskprogress task="Connect Scan" time="1748975466" percent="45.57" remaining="679" etc="1748976144"/>
+<taskprogress task="Connect Scan" time="1748975512" percent="49.76" remaining="620" etc="1748976132"/>
+<taskprogress task="Connect Scan" time="1748975578" percent="55.01" remaining="557" etc="1748976134"/>
+<taskprogress task="Connect Scan" time="1748975629" percent="59.69" remaining="494" etc="1748976123"/>
+<taskprogress task="Connect Scan" time="1748975722" percent="65.66" remaining="431" etc="1748976153"/>
+<taskprogress task="Connect Scan" time="1748975806" percent="71.20" remaining="368" etc="1748976173"/>
+<taskprogress task="Connect Scan" time="1748975857" percent="76.16" remaining="301" etc="1748976157"/>
+<taskprogress task="Connect Scan" time="1748975947" percent="81.74" remaining="235" etc="1748976181"/>
+<taskprogress task="Connect Scan" time="1748976073" percent="87.62" remaining="166" etc="1748976239"/>
+<taskprogress task="Connect Scan" time="1748976157" percent="92.88" remaining="97" etc="1748976254"/>
+<taskend task="Connect Scan" time="1748976264" extrainfo="65535 total ports"/>
+<taskbegin task="Service scan" time="1748976264"/>
+<taskend task="Service scan" time="1748976299" extrainfo="2 services on 1 host"/>
+<taskbegin task="Traceroute" time="1748976301"/>
+<taskend task="Traceroute" time="1748976302"/>
+<taskbegin task="Parallel DNS resolution of 2 hosts." time="1748976302"/>
+<taskend task="Parallel DNS resolution of 2 hosts." time="1748976302"/>
+<taskbegin task="NSE" time="1748976302"/>
+<taskend task="NSE" time="1748976312"/>
+<taskbegin task="NSE" time="1748976312"/>
+<taskend task="NSE" time="1748976313"/>
+<taskbegin task="NSE" time="1748976313"/>
+<taskend task="NSE" time="1748976313"/>
+<host starttime="1748974898" endtime="1748976313"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="10.10.11.224" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65354">
+<extrareasons reason="conn-refused" count="65354" proto="tcp" ports="1-21,23-30,32-79,81-289,291-369,371-792,794-1088,1090-1499,1501-1542,1544-1566,1568-2031,2033-2099,2101-2676,2678-2710,2712-2929,2931-3079,3081-3241,3243-3409,3411-3904,3906-3993,3995-4027,4029-4315,4317-4947,4949-5877,5879-5988,5990-6023,6025-6287,6289-6302,6304-6357,6359-6403,6405-6605,6607-7048,7050-7393,7395-7926,7928-8337,8339-8450,8452-8807,8809-9234,9236-9241,9243-9358,9360-9651,9653-10074,10076-10999,11001-11079,11081-11272,11274-11685,11687-11737,11739-13004,13006-13172,13174-13997,13999-14043,14045-14148,14150-14184,14186-14751,14753-15148,15150-15434,15436-15457,15459-15939,15941-16579,16581-16931,16933-17055,17057-17669,17671-17795,17797-17808,17810-17980,17982-18132,18134-18519,18521-19207,19209-19231,19233-19239,19241-19509,19511-19633,19635-19927,19929-20090,20092-20148,20150-20314,20316-20553,20555-20999,21001-21018,21020-21185,21187-21279,21281-21429,21431-21542,21544-22224,22226-22456,22458,22460-23617,23619-23952,23954-24052,24054-24143,24145-24402,24404-24418,24420-24693,24695-24929,24931-25181,25183-26063,26065-26208,26210-27420,27422-27660,27662-27888,27890-27909,27911-28072,28074-28315,28317-28417,28419-28682,28684-28794,28796-29056,29058-29379,29381-29637,29639-30736,30738-31167,31169-32707,32709-32865,32867-33002,33004-33466,33468-33971,33973-34717,34719-34854,34856-35509,35511-37101,37103-37155,37157-37164,37166-38368,38370-39441,39443-39719,39721-39851,39853-40268,40270-40407,40409-42830,42832-43444,43446-43542,43544-43640,43642-43827,43829-43890,43892-44006,44008-44413,44415-45011,45013-46281,46283-46703,46705-47348,47350-47402,47404-47623,47625-47892,47894-48167,48169-48432,48434-48677,48679-48693,48695-48853,48855-49286,49288-50081,50083-50135,50137-50170,50172-51642,51644-51999,52001-52267,52269-52440,52442-52801,52803-53044,53046-53321,53323-53334,53336-53593,53595-53759,53761-54286,54288-54684,54686-55554,55556-55963,55965-59162,59164-60335,60337-60371,60373-60562,60564-60694,60696-61425,61427-61785,61787-62072,62074-62445,62447-63510,63512-63895,63897-64543,64545-64901,64903-65039,65041-65470,65472-65535"/>
+</extraports>
+<extraports state="filtered" count="179">
+<extrareasons reason="no-response" count="179" proto="tcp" ports="31,80,290,370,793,1089,1500,1543,1567,2032,2100,2677,2711,2930,3080,3242,3410,3905,3994,4028,4316,4948,5878,5989,6024,6288,6303,6358,6404,6606,7049,7394,7927,8338,8451,8808,9235,9242,9359,9652,10075,11000,11080,11273,11686,11738,13005,13173,13998,14044,14149,14185,14752,15149,15435,15458,15940,16580,16932,17056,17670,17796,17809,17981,18133,18520,19208,19232,19240,19510,19634,19928,20091,20149,20315,20554,21000,21019,21186,21280,21430,21543,22225,22457,22459,23618,23953,24053,24144,24403,24419,24694,24930,25182,26064,26209,27421,27661,27889,27910,28073,28316,28418,28683,28795,29057,29380,29638,30737,31168,32708,32866,33003,33467,33972,34718,34855,35510,37102,37156,37165,38369,39442,39720,39852,40269,40408,42831,43445,43543,43641,43828,43891,44007,44414,45012,46282,46704,47349,47403,47624,47893,48168,48433,48678,48694,48854,49287,50082,50136,50171,51643,52000,52268,52441,52802,53045,53322,53335,53594,53760,54287,54685,55964,59163,60336,60372,60563,60695,61426,61786,62073,62446,63511,63896,64544,64902,65040,65471"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="8.2p1 Ubuntu 4ubuntu0.7" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:8.2p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  3072 aa:88:67:d7:13:3d:08:3a:8a:ce:9d:c4:dd:f3:e1:ed (RSA)&#xa;ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDdY38bkvujLwIK0QnFT+VOKT9zjKiPbyHpE+cVhus9r/6I/uqPzLylknIEjMYOVbFbVd8rTGzbmXKJBdRK61WioiPlKjbqvhO/YTnlkIRXm4jxQgs+xB0l9WkQ0CdHoo/Xe3v7TBije+lqjQ2tvhUY1LH8qBmPIywCbUvyvAGvK92wQpk6CIuHnz6IIIvuZdSklB02JzQGlJgeV54kWySeUKa9RoyapbIqruBqB13esE2/5VWyav0Oq5POjQWOWeiXA6yhIlJjl7NzTp/SFNGHVhkUMSVdA7rQJf10XCafS84IMv55DPSZxwVzt8TLsh2ULTpX8FELRVESVBMxV5rMWLplIA5ScIEnEMUR9HImFVH1dzK+E8W20zZp+toLBO1Nz4/Q/9yLhJ4Et+jcjTdI1LMVeo3VZw3Tp7KHTPsIRnr8ml+3O86e0PK+qsFASDNgb3yU61FEDfA0GwPDa5QxLdknId0bsJeHdbmVUW3zax8EvR+pIraJfuibIEQxZyM=&#xa;  256 ec:2e:b1:05:87:2a:0c:7d:b1:49:87:64:95:dc:8a:21 (ECDSA)&#xa;ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBEFMztyG0X2EUodqQ3reKn1PJNniZ4nfvqlM7XLxvF1OIzOphb7VEz4SCG6nXXNACQafGd6dIM/1Z8tp662Stbk=&#xa;  256 b3:0c:47:fb:a2:f2:12:cc:ce:0b:58:82:0e:50:43:36 (ED25519)&#xa;ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICYYQRfQHc6ZlP/emxzvwNILdPPElXTjMCOGH6iejfmi"><table>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABgQDdY38bkvujLwIK0QnFT+VOKT9zjKiPbyHpE+cVhus9r/6I/uqPzLylknIEjMYOVbFbVd8rTGzbmXKJBdRK61WioiPlKjbqvhO/YTnlkIRXm4jxQgs+xB0l9WkQ0CdHoo/Xe3v7TBije+lqjQ2tvhUY1LH8qBmPIywCbUvyvAGvK92wQpk6CIuHnz6IIIvuZdSklB02JzQGlJgeV54kWySeUKa9RoyapbIqruBqB13esE2/5VWyav0Oq5POjQWOWeiXA6yhIlJjl7NzTp/SFNGHVhkUMSVdA7rQJf10XCafS84IMv55DPSZxwVzt8TLsh2ULTpX8FELRVESVBMxV5rMWLplIA5ScIEnEMUR9HImFVH1dzK+E8W20zZp+toLBO1Nz4/Q/9yLhJ4Et+jcjTdI1LMVeo3VZw3Tp7KHTPsIRnr8ml+3O86e0PK+qsFASDNgb3yU61FEDfA0GwPDa5QxLdknId0bsJeHdbmVUW3zax8EvR+pIraJfuibIEQxZyM=</elem>
+<elem key="bits">3072</elem>
+<elem key="fingerprint">aa8867d7133d083a8ace9dc4ddf3e1ed</elem>
+<elem key="type">ssh-rsa</elem>
+</table>
+<table>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBEFMztyG0X2EUodqQ3reKn1PJNniZ4nfvqlM7XLxvF1OIzOphb7VEz4SCG6nXXNACQafGd6dIM/1Z8tp662Stbk=</elem>
+<elem key="bits">256</elem>
+<elem key="fingerprint">ec2eb105872a0c7db149876495dc8a21</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+</table>
+<table>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAICYYQRfQHc6ZlP/emxzvwNILdPPElXTjMCOGH6iejfmi</elem>
+<elem key="bits">256</elem>
+<elem key="fingerprint">b30c47fba2f212ccce0b58820e504336</elem>
+<elem key="type">ssh-ed25519</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="55555"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Golang net/http server" servicefp="SF-Port55555-TCP:V=7.95%I=7%D=6/3%Time=683F428F%P=x86_64-pc-linux-gnu%r(GetRequest,A2,&quot;HTTP/1\.0\x20302\x20Found\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nLocation:\x20/web\r\nDate:\x20Tue,\x2003\x20Jun\x202025\x2018:44:36\x20GMT\r\nContent-Length:\x2027\r\n\r\n&lt;a\x20href=\&quot;/web\&quot;&gt;Found&lt;/a&gt;\.\n\n&quot;)%r(GenericLines,67,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request&quot;)%r(HTTPOptions,60,&quot;HTTP/1\.0\x20200\x20OK\r\nAllow:\x20GET,\x20OPTIONS\r\nDate:\x20Tue,\x2003\x20Jun\x202025\x2018:44:37\x20GMT\r\nContent-Length:\x200\r\n\r\n&quot;)%r(RTSPRequest,67,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request&quot;)%r(Help,67,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request&quot;)%r(SSLSessionReq,67,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request&quot;)%r(FourOhFourRequest,EA,&quot;HTTP/1\.0\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nX-Content-Type-Options:\x20nosniff\r\nDate:\x20Tue,\x2003\x20Jun\x202025\x2018:44:56\x20GMT\r\nContent-Length:\x2075\r\n\r\ninvalid\x20basket\x20name;\x20the\x20name\x20does\x20not\x20match\x20pattern:\x20\^\[\\w\\d\\-_\\\.\]{1,250}\$\n&quot;)%r(LPDString,67,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request&quot;)%r(SIPOptions,67,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request&quot;)%r(Socks5,67,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request&quot;)%r(OfficeScan,A3,&quot;HTTP/1\.1\x20400\x20Bad\x20Request:\x20missing\x20required\x20Host\x20header\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request:\x20missing\x20required\x20Host\x20header&quot;);" method="probed" conf="10"><cpe>cpe:/a:golang:go</cpe></service><script id="http-title" output="Request Baskets&#xa;Requested resource was /web"><elem key="title">Request Baskets</elem>
+<elem key="redirect_url">/web</elem>
+</script><script id="http-methods" output="&#xa;  Supported Methods: GET OPTIONS"><table key="Supported Methods">
+<elem>GET</elem>
+<elem>OPTIONS</elem>
+</table>
+</script><script id="fingerprint-strings" output="&#xa;  FourOhFourRequest: &#xa;    HTTP/1.0 400 Bad Request&#xa;    Content-Type: text/plain; charset=utf-8&#xa;    X-Content-Type-Options: nosniff&#xa;    Date: Tue, 03 Jun 2025 18:44:56 GMT&#xa;    Content-Length: 75&#xa;    invalid basket name; the name does not match pattern: ^[wd-_\.]{1,250}$&#xa;  GenericLines, Help, LPDString, RTSPRequest, SIPOptions, SSLSessionReq, Socks5: &#xa;    HTTP/1.1 400 Bad Request&#xa;    Content-Type: text/plain; charset=utf-8&#xa;    Connection: close&#xa;    Request&#xa;  GetRequest: &#xa;    HTTP/1.0 302 Found&#xa;    Content-Type: text/html; charset=utf-8&#xa;    Location: /web&#xa;    Date: Tue, 03 Jun 2025 18:44:36 GMT&#xa;    Content-Length: 27&#xa;    href=&quot;/web&quot;&gt;Found&lt;/a&gt;.&#xa;  HTTPOptions: &#xa;    HTTP/1.0 200 OK&#xa;    Allow: GET, OPTIONS&#xa;    Date: Tue, 03 Jun 2025 18:44:37 GMT&#xa;    Content-Length: 0&#xa;  OfficeScan: &#xa;    HTTP/1.1 400 Bad Request: missing required Host header&#xa;    Content-Type: text/plain; charset=utf-8&#xa;    Connection: close&#xa;    Request: missing required Host header"><elem key="FourOhFourRequest">&#xa;    HTTP/1.0 400 Bad Request&#xa;    Content-Type: text/plain; charset=utf-8&#xa;    X-Content-Type-Options: nosniff&#xa;    Date: Tue, 03 Jun 2025 18:44:56 GMT&#xa;    Content-Length: 75&#xa;    invalid basket name; the name does not match pattern: ^[wd-_\.]{1,250}$</elem>
+<elem key="GenericLines, Help, LPDString, RTSPRequest, SIPOptions, SSLSessionReq, Socks5">&#xa;    HTTP/1.1 400 Bad Request&#xa;    Content-Type: text/plain; charset=utf-8&#xa;    Connection: close&#xa;    Request</elem>
+<elem key="GetRequest">&#xa;    HTTP/1.0 302 Found&#xa;    Content-Type: text/html; charset=utf-8&#xa;    Location: /web&#xa;    Date: Tue, 03 Jun 2025 18:44:36 GMT&#xa;    Content-Length: 27&#xa;    href=&quot;/web&quot;&gt;Found&lt;/a&gt;.</elem>
+<elem key="HTTPOptions">&#xa;    HTTP/1.0 200 OK&#xa;    Allow: GET, OPTIONS&#xa;    Date: Tue, 03 Jun 2025 18:44:37 GMT&#xa;    Content-Length: 0</elem>
+<elem key="OfficeScan">&#xa;    HTTP/1.1 400 Bad Request: missing required Host header&#xa;    Content-Type: text/plain; charset=utf-8&#xa;    Connection: close&#xa;    Request: missing required Host header</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="22"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="42171"/>
+<osmatch name="Linux 5.0 - 5.14" accuracy="100" line="71713">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="5.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:5</cpe></osclass>
+</osmatch>
+<osmatch name="MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3)" accuracy="100" line="91792">
+<osclass type="router" vendor="MikroTik" osfamily="RouterOS" osgen="7.X" accuracy="100"><cpe>cpe:/o:mikrotik:routeros:7</cpe></osclass>
+<osclass type="router" vendor="Linux" osfamily="Linux" osgen="5.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:5.6.3</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="OS:SCAN(V=7.95%E=4%D=6/3%OT=22%CT=1%CU=42171%PV=Y%DS=2%DC=T%G=Y%TM=683F42B9&#xa;OS:%P=x86_64-pc-linux-gnu)SEQ(SP=106%GCD=1%ISR=10A%TI=Z%CI=Z%II=I%TS=A)OPS(&#xa;OS:O1=M552ST11NW7%O2=M552ST11NW7%O3=M552NNT11NW7%O4=M552ST11NW7%O5=M552ST11&#xa;OS:NW7%O6=M552ST11)WIN(W1=FE88%W2=FE88%W3=FE88%W4=FE88%W5=FE88%W6=FE88)ECN(&#xa;OS:R=Y%DF=Y%T=40%W=FAF0%O=M552NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS&#xa;OS:%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=&#xa;OS:Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=&#xa;OS:R%O=%RD=0%Q=)T7(R=N)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%R&#xa;OS:UCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)&#xa;"/>
+</os>
+<uptime seconds="2034398" lastboot="Sun May 11 01:38:35 2025"/>
+<distance value="2"/>
+<tcpsequence index="262" difficulty="Good luck!" values="FA48C04C,10E8EF79,F11704CD,C966DE66,4A7C157E,F526B24E"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="79423F9C,79424001,79424065,794240CA,7942412E,79424194"/>
+<trace proto="icmp">
+<hop ttl="1" ipaddr="10.10.14.1" rtt="322.61"/>
+<hop ttl="2" ipaddr="10.10.11.224" rtt="322.83"/>
+</trace>
+<times srtt="322140" rttvar="646" to="324724"/>
+</host>
+<taskbegin task="NSE" time="1748976313"/>
+<taskend task="NSE" time="1748976313"/>
+<taskbegin task="NSE" time="1748976313"/>
+<taskend task="NSE" time="1748976313"/>
+<taskbegin task="NSE" time="1748976313"/>
+<taskend task="NSE" time="1748976313"/>
+<runstats><finished time="1748976313" timestr="Tue Jun  3 14:45:13 2025" summary="Nmap done at Tue Jun  3 14:45:13 2025; 1 IP address (1 host up) scanned in 1415.03 seconds" elapsed="1415.03" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
