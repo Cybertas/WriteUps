@@ -6,7 +6,7 @@ Practing for CPTS + OSCP
 
 ---
 
-### 🟢 Easy (Pwned 22)  
+### 🟢 Easy (Pwned 23)  
 <details>
 <summary>Easy labs (Click to expand)</summary>
 
@@ -32,8 +32,8 @@ Practing for CPTS + OSCP
 - Remote  - retired (2/10)
 - Broker  - retired (1.5/10)
 - Soccer  - retired (3.5/10)
-- Saui    - retired (**WIP**)
-- Dog
+- Sau     - retired (1/10)
+- Dog     - retired (**WIP**)
 - Help
 - Usage
 - LinkVortex
