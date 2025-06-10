@@ -1,0 +1,11 @@
+GET /support/?v=view_tickets&action=ticket&param[]=4&param[]=attachment&param[]=1&param[]=6 HTTP/1.1
+Host: help.htb
+Accept-Language: en-US,en;q=0.9
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://help.htb/support/?v=view_tickets&action=ticket&param[]=4
+Accept-Encoding: gzip, deflate, br
+Cookie: lang=english; PHPSESSID=fkhs96cdd0n8gev24ss08niem6; usrhash=0Nwx5jIdx%2BP2QcbUIv9qck4Tk2feEu8Z0J7rPe0d70BtNMpqfrbvecJupGimitjg3JjP1UzkqYH6QdYSl1tVZNcjd4B7yFeh6KDrQQ%2FiYFsjV6wVnLIF%2FaNh6SC24eT5OqECJlQEv7G47Kd65yVLoZ06smnKha9AGF4yL2Ylo%2BEKUupJ2CtDCTygUY15zivhbWnJPgP2Xm82fvPtney9zg%3D%3D
+Connection: keep-alive
+
