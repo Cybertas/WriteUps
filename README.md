@@ -6,7 +6,7 @@ Practing for CPTS + OSCP
 
 ---
 
-### 🟢 Easy (Pwned 23)  
+### 🟢 Easy (Pwned 24)  
 <details>
 <summary>Easy labs (Click to expand)</summary>
 
