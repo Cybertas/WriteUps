@@ -33,9 +33,9 @@ Practing for CPTS + OSCP
 - Broker  - retired (1.5/10)
 - Soccer  - retired (3.5/10)
 - Sau     - retired (1/10)
-- Dog     - retired (**WIP**)
-- Help
-- Usage
+- Dog     
+- Help    - retired (4/10)
+- Usage   - retired (**WIP**)
 - LinkVortex
 - Pandora
 - Editorial
@@ -51,7 +51,8 @@ Practing for CPTS + OSCP
 
 <details>
 <summary>Medium labs (Click to expand)</summary>
-- Chatterbox<br>
+
+- Chatterbox <br>
 - Secnotes 
 
 </details>
