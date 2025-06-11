@@ -6,7 +6,7 @@ Practing for CPTS + OSCP
 
 ---
 
-### 🟢 Easy (Pwned 24)  
+### 🟢 Easy (Pwned 25)  
 <details>
 <summary>Easy labs (Click to expand)</summary>
 
@@ -35,8 +35,8 @@ Practing for CPTS + OSCP
 - Sau     - retired (1/10)
 - Dog     
 - Help    - retired (4/10)
-- Usage   - retired (**WIP**)
-- LinkVortex
+- Usage   - retired (3.5/10)
+- LinkVortex  - retired (**WIP**)
 - Pandora
 - Editorial
 - Networked
