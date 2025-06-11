@@ -250,10 +250,10 @@ Q9: What user is the webserver running as on Usage?
 - tried uploading web shell with png extension and worked
 - inspecting the upload shell in dev tool also shows the uploaded URL
 - Ive referenced this blog for the detail of the attack `https://flyd.uk/post/cve-2023-24249/`
-- ![[Pasted image 20250611010236.png]]
+- ![[webshell_upload.png]]
 - we can call a reverse shell from the webshell
 - generate the payload using https://www.revshells.com/
-- ![[Pasted image 20250611010407.png]]
+- ![[reverse_shell.png]]
 
 ```
 $ nc -lnvp 4444                                    
