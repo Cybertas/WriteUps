@@ -1,0 +1,111 @@
+# Nmap 7.95 scan initiated Wed Jun 11 02:06:03 2025 as: /usr/lib/nmap/nmap --privileged -sT -T4 -vv -A -p- -Pn -oA LinkVortex 10.10.11.47
+Warning: 10.10.11.47 giving up on port because retransmission cap hit (6).
+Nmap scan report for linkvortex.htb (10.10.11.47)
+Host is up, received user-set (0.31s latency).
+Scanned at 2025-06-11 02:06:04 EDT for 1344s
+Not shown: 65473 closed tcp ports (conn-refused)
+PORT      STATE    SERVICE        REASON      VERSION
+22/tcp    open     ssh            syn-ack     OpenSSH 8.9p1 Ubuntu 3ubuntu0.10 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 3e:f8:b9:68:c8:eb:57:0f:cb:0b:47:b9:86:50:83:eb (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMHm4UQPajtDjitK8Adg02NRYua67JghmS5m3E+yMq2gwZZJQ/3sIDezw2DVl9trh0gUedrzkqAAG1IMi17G/HA=
+|   256 a2:ea:6e:e1:b6:d7:e7:c5:86:69:ce:ba:05:9e:38:13 (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKKLjX3ghPjmmBL2iV1RCQV9QELEU+NF06nbXTqqj4dz
+80/tcp    open     http           syn-ack     Apache httpd
+|_http-generator: Ghost 5.58
+| http-robots.txt: 4 disallowed entries 
+|_/ghost/ /p/ /email/ /r/
+| http-methods: 
+|_  Supported Methods: POST GET HEAD OPTIONS
+|_http-favicon: Unknown favicon MD5: A9C6DBDCDC3AE568F4E0DAD92149A0E3
+|_http-server-header: Apache
+|_http-title: BitByBit Hardware
+948/tcp   filtered unknown        no-response
+2216/tcp  filtered vtu-comms      no-response
+3510/tcp  filtered xss-port       no-response
+4671/tcp  filtered acter          no-response
+4835/tcp  filtered unknown        no-response
+5517/tcp  filtered unknown        no-response
+7179/tcp  filtered unknown        no-response
+7195/tcp  filtered unknown        no-response
+7741/tcp  filtered scriptview     no-response
+7844/tcp  filtered unknown        no-response
+11162/tcp filtered suncacao-jmxmp no-response
+12569/tcp filtered unknown        no-response
+12646/tcp filtered unknown        no-response
+15546/tcp filtered unknown        no-response
+18671/tcp filtered unknown        no-response
+21516/tcp filtered unknown        no-response
+21560/tcp filtered unknown        no-response
+23515/tcp filtered unknown        no-response
+26067/tcp filtered unknown        no-response
+26343/tcp filtered unknown        no-response
+26806/tcp filtered unknown        no-response
+27216/tcp filtered unknown        no-response
+28369/tcp filtered unknown        no-response
+29591/tcp filtered unknown        no-response
+31854/tcp filtered unknown        no-response
+35765/tcp filtered unknown        no-response
+37354/tcp filtered unknown        no-response
+37915/tcp filtered unknown        no-response
+38170/tcp filtered unknown        no-response
+38287/tcp filtered unknown        no-response
+40244/tcp filtered unknown        no-response
+40302/tcp filtered unknown        no-response
+40308/tcp filtered unknown        no-response
+41621/tcp filtered unknown        no-response
+42237/tcp filtered unknown        no-response
+44324/tcp filtered unknown        no-response
+46397/tcp filtered unknown        no-response
+47694/tcp filtered unknown        no-response
+49295/tcp filtered unknown        no-response
+50154/tcp filtered unknown        no-response
+50520/tcp filtered unknown        no-response
+51535/tcp filtered unknown        no-response
+51544/tcp filtered unknown        no-response
+52779/tcp filtered unknown        no-response
+53763/tcp filtered unknown        no-response
+55496/tcp filtered unknown        no-response
+55573/tcp filtered unknown        no-response
+56649/tcp filtered unknown        no-response
+56906/tcp filtered unknown        no-response
+57057/tcp filtered unknown        no-response
+57197/tcp filtered unknown        no-response
+57828/tcp filtered unknown        no-response
+59275/tcp filtered unknown        no-response
+59330/tcp filtered unknown        no-response
+60761/tcp filtered unknown        no-response
+61728/tcp filtered unknown        no-response
+62281/tcp filtered unknown        no-response
+63311/tcp filtered unknown        no-response
+63639/tcp filtered unknown        no-response
+65171/tcp filtered unknown        no-response
+Device type: general purpose|router
+Running: Linux 5.X, MikroTik RouterOS 7.X
+OS CPE: cpe:/o:linux:linux_kernel:5 cpe:/o:mikrotik:routeros:7 cpe:/o:linux:linux_kernel:5.6.3
+OS details: Linux 5.0 - 5.14, MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3)
+TCP/IP fingerprint:
+OS:SCAN(V=7.95%E=4%D=6/11%OT=22%CT=1%CU=44429%PV=Y%DS=2%DC=T%G=Y%TM=6849220
+OS:C%P=x86_64-pc-linux-gnu)SEQ(SP=100%GCD=1%ISR=10C%TI=Z%CI=Z%II=I%TS=A)OPS
+OS:(O1=M552ST11NW7%O2=M552ST11NW7%O3=M552NNT11NW7%O4=M552ST11NW7%O5=M552ST1
+OS:1NW7%O6=M552ST11)WIN(W1=FE88%W2=FE88%W3=FE88%W4=FE88%W5=FE88%W6=FE88)ECN
+OS:(R=Y%DF=Y%T=40%W=FAF0%O=M552NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=A
+OS:S%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R
+OS:=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F
+OS:=R%O=%RD=0%Q=)T7(R=N)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%
+OS:RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Uptime guess: 5.858 days (since Thu Jun  5 05:53:09 2025)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=256 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT       ADDRESS
+1   312.60 ms 10.10.14.1
+2   314.28 ms linkvortex.htb (10.10.11.47)
+
+Read data files from: /usr/share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Jun 11 02:28:28 2025 -- 1 IP address (1 host up) scanned in 1344.20 seconds
