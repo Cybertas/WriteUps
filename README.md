@@ -2,7 +2,7 @@
 WriteUps for HTB Labs  
 Difficulty ratings are subjective (x/10)<br>
 Some writeups will contain POCs but highly recommend to get from source<br>
-On my path to take on OCSP again, got 0/100 for my first attempt and im extremely titled, CPTS will be my practice...
+On my path to take on OCSP again, got 0/100 for my first attempt and i am extremely titled by the thought of it, CPTS will be my practice... 
 
 ## Practing for CPTS + OSCP
 Resources for more labs <br>
