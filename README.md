@@ -41,7 +41,11 @@ Practing for CPTS + OSCP
 - Editorial
 - Networked
 - Cozyhosting
+- Busqueda
 - Broadlight
+- Servmon
+- Support 
+- Mailing
 
 </details>
 
@@ -52,8 +56,17 @@ Practing for CPTS + OSCP
 <details>
 <summary>Medium labs (Click to expand)</summary>
 
+- UpDown
+- Monitored
 - Chatterbox <br>
 - Secnotes 
+- StreamIO
+- Intelligence
+- Jeeves
+- Manager
+- Aero
+- Administrator
+- Certified
 
 </details>
 
@@ -64,7 +77,8 @@ Practing for CPTS + OSCP
 <details>
 <summary>Hard labs (Click to expand)</summary>
 
-[Place Holder]
+- Intentions
+- Blackfield
 
 </details>
 
@@ -76,7 +90,7 @@ Practing for CPTS + OSCP
 <summary>AD labs (Click to expand)</summary>
 
 - Active
-- Forest
+- Forest - Medium
 - Sauna
 - Monteverde
 - Timelapse
@@ -106,5 +120,5 @@ Practing for CPTS + OSCP
 ---
 
 Contact
-If you have any questions or want to learn together, feel free to [reach out on LinkedIn](https://www.linkedin.com/in/yourprofile).
+If you have any questions or want to learn together, feel free to [connect on LinkedIn](https://www.linkedin.com/in/yourprofile).
 
