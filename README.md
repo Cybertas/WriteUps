@@ -6,7 +6,7 @@ On my path to take on OCSP again, got 0/100 for my first attempt and im extremel
 
 ## Practing for CPTS + OSCP
 Resources for more labs 
-[OSCP like labs by NetSecFocus Trophy Room](https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/htmlview#)
+[OSCP like labs by NetSecFocus Trophy Room](https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/htmlview#)<br>
 [Unofficial CPTS Prep by IppSec](https://www.youtube.com/playlist?list=PLidcsTyj9JXItWpbRtTg6aDEj10_F17x5)
 
 ---
