@@ -2,7 +2,12 @@
 WriteUps for HTB Labs  
 Difficulty ratings are subjective (x/10)<br>
 Some writeups will contain POCs but highly recommend to get from source<br>
-Practing for CPTS + OSCP
+On my path to take on OCSP again, got 0/100 for my first attempt and im extremely titled, CPTS will be my practice...
+
+## Practing for CPTS + OSCP
+Resources for more labs 
+[OSCP like labs by NetSecFocus Trophy Room](https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/htmlview#)
+[Unofficial CPTS Prep by IppSec](https://www.youtube.com/playlist?list=PLidcsTyj9JXItWpbRtTg6aDEj10_F17x5)
 
 ---
 
@@ -46,6 +51,11 @@ Practing for CPTS + OSCP
 - Servmon
 - Support 
 - Mailing
+- Delivery 
+- MetaTwo
+- Driver
+- Trick
+- Shoppy
 
 </details>
 
@@ -67,6 +77,10 @@ Practing for CPTS + OSCP
 - Aero
 - Administrator
 - Certified
+- Manager
+- Outdated
+- Agile
+- Hospital
 
 </details>
 
@@ -79,6 +93,21 @@ Practing for CPTS + OSCP
 
 - Intentions
 - Blackfield
+- Vintage
+
+
+</details>
+
+---
+
+### Insane (Pwned 0)
+
+<details>
+<summary>Insane labs (Click to expand)</summary>
+ 
+- Sekhmet
+- Reddish
+
 
 </details>
 
