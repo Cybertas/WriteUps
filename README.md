@@ -11,7 +11,7 @@ Resources for more labs <br>
 
 ---
 
-### 🟢 Easy (Pwned 26)  
+### 🟢 Easy (Pwned 26/40)  
 <details>
 <summary>Easy labs (Click to expand)</summary>
 
@@ -61,7 +61,7 @@ Resources for more labs <br>
 
 ---
 
-### 🟡 Medium (Pwned 0)
+### 🟡 Medium (Pwned 0/15)
 
 <details>
 <summary>Medium labs (Click to expand)</summary>
@@ -86,7 +86,7 @@ Resources for more labs <br>
 
 ---
 
-### 🔴 Hard (Pwned 0)
+### 🔴 Hard (Pwned 0/6)
 
 <details>
 <summary>Hard labs (Click to expand)</summary>
@@ -94,26 +94,29 @@ Resources for more labs <br>
 - Intentions
 - Blackfield
 - Vintage
-
+- Caption
+- Falafel
+- Kotarak
 
 </details>
 
 ---
 
-### Insane (Pwned 0)
+### 🤯Insane (Pwned 0/4)
 
 <details>
 <summary>Insane labs (Click to expand)</summary>
  
 - Sekhmet
 - Reddish
-
+- APT
+- Bookwarm
 
 </details>
 
 ---
 
-### 🔵 AD (Pwned 0)
+### 🔵 AD (Pwned 0/13)
 
 <details>
 <summary>AD labs (Click to expand)</summary>
@@ -136,7 +139,7 @@ Resources for more labs <br>
 
 ---
 
-### 🔗 Pro Labs (Pwned 0)
+### 🔗 Pro Labs (Pwned 0/2)
 
 <details>
 <summary> Pro Labs (Click to expand)</summary>
