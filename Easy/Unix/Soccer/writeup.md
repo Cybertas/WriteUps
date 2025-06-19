@@ -3,7 +3,7 @@
 ### Lab Details 
 
 - Difficulty: Easy
-- Type: Linux
+- Type: Web App, Tiny File Manager, Port Fowarding, SQLMAP, Linux
 
 #### Tasks
 Q1: What version of nginx is running on Soccer?
