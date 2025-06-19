@@ -1,0 +1,5 @@
+# Nmap 7.95 scan initiated Tue Jun 17 02:02:34 2025 as: /usr/lib/nmap/nmap --privileged -sT -T4 -vv -A -p- -Pn -oA Pandora 10.10.11.136
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.10.11.136 ()	Status: Up
+Host: 10.10.11.136 ()	Ports: 22/open/tcp//ssh//OpenSSH 8.2p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.41 ((Ubuntu))/	OS: Linux 5.0 - 5.14|MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3)	Seq Index: 259	IP ID Seq: All zeros
+# Nmap done at Tue Jun 17 02:31:29 2025 -- 1 IP address (1 host up) scanned in 1735.56 seconds

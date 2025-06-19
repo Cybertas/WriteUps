@@ -1,0 +1,20 @@
+# Nmap 7.95 scan initiated Thu Jun 12 12:03:13 2025 as: /usr/lib/nmap/nmap --privileged -sU -T4 -vv --top-ports 100 -Pn -oA Pandora 10.10.11.136
+Warning: 10.10.11.136 giving up on port because retransmission cap hit (6).
+Increasing send delay for 10.10.11.136 from 100 to 200 due to 11 out of 12 dropped probes since last increase.
+Increasing send delay for 10.10.11.136 from 200 to 400 due to 11 out of 11 dropped probes since last increase.
+Increasing send delay for 10.10.11.136 from 400 to 800 due to 11 out of 11 dropped probes since last increase.
+Nmap scan report for 10.10.11.136
+Host is up, received user-set (0.31s latency).
+Scanned at 2025-06-12 12:03:13 EDT for 96s
+Not shown: 93 closed udp ports (port-unreach)
+PORT      STATE         SERVICE  REASON
+161/udp   open          snmp     udp-response ttl 63
+518/udp   open|filtered ntalk    no-response
+998/udp   open|filtered puparp   no-response
+1433/udp  open|filtered ms-sql-s no-response
+1812/udp  open|filtered radius   no-response
+1900/udp  open|filtered upnp     no-response
+49188/udp open|filtered unknown  no-response
+
+Read data files from: /usr/share/nmap
+# Nmap done at Thu Jun 12 12:04:49 2025 -- 1 IP address (1 host up) scanned in 96.16 seconds

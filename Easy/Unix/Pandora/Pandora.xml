@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.95 scan initiated Tue Jun 17 02:02:34 2025 as: /usr/lib/nmap/nmap -&#45;privileged -sT -T4 -vv -A -p- -Pn -oA Pandora 10.10.11.136 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -&#45;privileged -sT -T4 -vv -A -p- -Pn -oA Pandora 10.10.11.136" start="1750140154" startstr="Tue Jun 17 02:02:34 2025" version="7.95" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1750140154"/>
+<taskend task="NSE" time="1750140154"/>
+<taskbegin task="NSE" time="1750140154"/>
+<taskend task="NSE" time="1750140154"/>
+<taskbegin task="NSE" time="1750140154"/>
+<taskend task="NSE" time="1750140154"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1750140154"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1750140154"/>
+<taskbegin task="Connect Scan" time="1750140154"/>
+<taskprogress task="Connect Scan" time="1750140185" percent="2.33" remaining="1302" etc="1750141486"/>
+<taskprogress task="Connect Scan" time="1750140215" percent="4.24" remaining="1380" etc="1750141594"/>
+<taskprogress task="Connect Scan" time="1750140240" percent="5.80" remaining="1398" etc="1750141638"/>
+<taskprogress task="Connect Scan" time="1750140270" percent="6.92" remaining="1562" etc="1750141831"/>
+<taskprogress task="Connect Scan" time="1750140330" percent="10.69" remaining="1471" etc="1750141800"/>
+<taskprogress task="Connect Scan" time="1750140360" percent="13.22" remaining="1353" etc="1750141713"/>
+<taskprogress task="Connect Scan" time="1750140390" percent="13.95" remaining="1457" etc="1750141846"/>
+<taskprogress task="Connect Scan" time="1750140483" percent="19.38" remaining="1369" etc="1750141851"/>
+<taskprogress task="Connect Scan" time="1750140513" percent="21.99" remaining="1274" etc="1750141786"/>
+<taskprogress task="Connect Scan" time="1750140558" percent="25.34" remaining="1191" etc="1750141748"/>
+<taskprogress task="Connect Scan" time="1750140687" percent="29.53" remaining="1273" etc="1750141959"/>
+<taskprogress task="Connect Scan" time="1750140903" percent="38.85" remaining="1179" etc="1750142082"/>
+<taskprogress task="Connect Scan" time="1750140984" percent="43.44" remaining="1081" etc="1750142065"/>
+<taskprogress task="Connect Scan" time="1750141035" percent="47.29" remaining="983" etc="1750142017"/>
+<taskprogress task="Connect Scan" time="1750141137" percent="52.73" remaining="882" etc="1750142018"/>
+<taskprogress task="Connect Scan" time="1750141194" percent="57.03" remaining="784" etc="1750141978"/>
+<taskprogress task="Connect Scan" time="1750141257" percent="61.52" remaining="690" etc="1750141947"/>
+<taskprogress task="Connect Scan" time="1750141368" percent="67.06" remaining="597" etc="1750141964"/>
+<taskprogress task="Connect Scan" time="1750141467" percent="72.37" remaining="502" etc="1750141968"/>
+<taskprogress task="Connect Scan" time="1750141536" percent="77.25" remaining="408" etc="1750141943"/>
+<taskprogress task="Connect Scan" time="1750141602" percent="82.06" remaining="317" etc="1750141919"/>
+<taskprogress task="Connect Scan" time="1750141659" percent="86.86" remaining="228" etc="1750141887"/>
+<taskprogress task="Connect Scan" time="1750141728" percent="91.83" remaining="141" etc="1750141868"/>
+<taskprogress task="Connect Scan" time="1750141800" percent="97.00" remaining="51" etc="1750141851"/>
+<taskend task="Connect Scan" time="1750141869" extrainfo="65535 total ports"/>
+<taskbegin task="Service scan" time="1750141869"/>
+<taskend task="Service scan" time="1750141876" extrainfo="2 services on 1 host"/>
+<taskbegin task="Traceroute" time="1750141879"/>
+<taskend task="Traceroute" time="1750141879"/>
+<taskbegin task="Parallel DNS resolution of 2 hosts." time="1750141879"/>
+<taskend task="Parallel DNS resolution of 2 hosts." time="1750141879"/>
+<taskbegin task="NSE" time="1750141879"/>
+<taskend task="NSE" time="1750141888"/>
+<taskbegin task="NSE" time="1750141888"/>
+<taskend task="NSE" time="1750141889"/>
+<taskbegin task="NSE" time="1750141889"/>
+<taskend task="NSE" time="1750141889"/>
+<host starttime="1750140154" endtime="1750141889"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="10.10.11.136" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65343">
+<extrareasons reason="conn-refused" count="65343" proto="tcp" ports="1-21,23-79,81-1519,1521-1598,1600-1636,1638-2417,2419-2843,2845-3069,3071-3110,3112-3662,3664-4642,4644-4874,4876-5201,5203-6158,6160-6468,6470-6625,6627-6738,6740-7036,7038-7837,7839-7976,7978-8434,8436-8464,8466-8562,8564-8687,8689-9161,9163-9296,9298-9412,9414-9518,9520-9890,9892-10355,10357-10455,10457-10931,10933-11508,11510-12606,12608-13069,13071-13462,13464-13524,13526-13755,13757-14590,14592-15035,15037-15109,15111-15820,15822-16024,16026-16645,16647-17098,17100-17111,17113-17272,17274-17801,17803-17905,17907-18522,18524-18959,18961-19627,19629-19884,19886-19964,19966-20946,20948-21134,21136-21285,21287-21415,21417-21493,21495-22364,22366-22807,22809-22938,22940-23014,23016-23104,23106-23441,23443-23558,23560-23648,23650-23955,23957-24263,24265-24874,24876-25222,25224-25749,25751-26044,26046-26310,26312-26512,26514-26544,26546-26587,26589-26605,26607-27502,27504-28057,28059-28328,28330-28614,28616-29002,29004-29377,29379-29388,29390-29394,29396-29628,29630-29693,29695-29770,29772-29964,29966-29994,29996-30538,30540-30579,30581-30876,30878-31099,31101-31832,31834-32001,32003-33765,33767-33813,33815-34282,34284-34919,34921-35169,35171-35580,35582-35926,35928-36103,36105-36385,36387-36500,36502-36951,36953-37007,37009-37344,37346-38388,38390-38424,38426-39256,39258-39804,39806-40076,40078-40254,40256-40401,40403-40765,40767-43210,43212-43388,43390-43974,43976-44086,44088-44156,44158-44345,44347-44523,44525-45261,45263-45514,45516-45666,45668-45989,45991-46619,46621-46888,46890-48154,48156-48245,48247-48595,48597-48684,48686-48921,48923-48983,48985-49317,49319-49369,49371-49489,49491-49839,49841-49885,49887-49979,49981-50208,50210-50395,50397-50449,50451-50633,50635-50778,50780-51404,51406-52064,52066-52218,52220-52324,52326-52814,52816-53537,53539-53703,53705-54388,54390-54622,54624-54642,54644-54695,54697-55092,55094-55419,55421-55481,55483-55511,55513-55746,55748-57117,57119-57198,57200,57202-58020,58022-59376,59378-59751,59753-60287,60289-60734,60736-60978,60980-61002,61004-61336,61338-61392,61394-61442,61444-61824,61826-62342,62344-62358,62360-62915,62917-63237,63239-63435,63438-63603,63605-63659,63661-63684,63686-63873,63875-64304,64306-64789,64791-64820,64822-65331,65333-65535"/>
+</extraports>
+<extraports state="filtered" count="190">
+<extrareasons reason="no-response" count="190" proto="tcp" ports="1520,1599,1637,2418,2844,3070,3111,3663,4643,4875,5202,6159,6469,6626,6739,7037,7838,7977,8435,8465,8563,8688,9162,9297,9413,9519,9891,10356,10456,10932,11509,12607,13070,13463,13525,13756,14591,15036,15110,15821,16025,16646,17099,17112,17273,17802,17906,18523,18960,19628,19885,19965,20947,21135,21286,21416,21494,22365,22808,22939,23015,23105,23442,23559,23649,23956,24264,24875,25223,25750,26045,26311,26513,26545,26588,26606,27503,28058,28329,28615,29003,29378,29389,29395,29629,29694,29771,29965,29995,30539,30580,30877,31100,31833,32002,33766,33814,34283,34920,35170,35581,35927,36104,36386,36501,36952,37008,37345,38389,38425,39257,39805,40077,40255,40402,40766,43211,43389,43975,44087,44157,44346,44524,45262,45515,45667,45990,46620,46889,48155,48246,48596,48685,48922,48984,49318,49370,49490,49840,49886,49980,50209,50396,50450,50634,50779,51405,52065,52219,52325,52815,53538,53704,54389,54623,54643,54696,55093,55420,55482,55512,55747,57118,57199,57201,58021,59377,59752,60288,60735,60979,61003,61337,61393,61443,61825,62343,62359,62916,63238,63436-63437,63604,63660,63685,63874,64305,64790,64821,65332"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="8.2p1 Ubuntu 4ubuntu0.3" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:8.2p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  3072 24:c2:95:a5:c3:0b:3f:f3:17:3c:68:d7:af:2b:53:38 (RSA)&#xa;ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDPIYGoHvNFwTTboYexVGcZzbSLJQsxKopZqrHVTeF8oEIu0iqn7E5czwVkxRO/icqaDqM+AB3QQVcZSDaz//XoXsT/NzNIbb9SERrcK/n8n9or4IbXBEtXhRvltS8NABsOTuhiNo/2fdPYCVJ/HyF5YmbmtqUPols6F5y/MK2Yl3eLMOdQQeax4AWSKVAsR+issSZlN2rADIvpboV7YMoo3ktlHKz4hXlX6FWtfDN/ZyokDNNpgBbr7N8zJ87+QfmNuuGgmcZzxhnzJOzihBHIvdIM4oMm4IetfquYm1WKG3s5q70jMFrjp4wCyEVbxY+DcJ54xjqbaNHhVwiSWUZnAyWe4gQGziPdZH2ULY+n3iTze+8E4a6rxN3l38d1r4THoru88G56QESiy/jQ8m5+Ang77rSEaT3Fnr6rnAF5VG1+kiA36rMIwLabnxQbAWnApRX9CHBpMdBj7v8oLhCRn7ZEoPDcD1P2AASdaDJjRMuR52YPDlUSDd8TnI/DFFs=&#xa;  256 b1:41:77:99:46:9a:6c:5d:d2:98:2f:c0:32:9a:ce:03 (ECDSA)&#xa;ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBNNJGh4HcK3rlrsvCbu0kASt7NLMvAUwB51UnianAKyr9H0UBYZnOkVZhIjDea3F/CxfOQeqLpanqso/EqXcT9w=&#xa;  256 e7:36:43:3b:a9:47:8a:19:01:58:b2:bc:89:f6:51:08 (ED25519)&#xa;ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOCMYY9DMj/I+Rfosf+yMuevI7VFIeeQfZSxq67EGxsb"><table>
+<elem key="type">ssh-rsa</elem>
+<elem key="fingerprint">24c295a5c30b3ff3173c68d7af2b5338</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABgQDPIYGoHvNFwTTboYexVGcZzbSLJQsxKopZqrHVTeF8oEIu0iqn7E5czwVkxRO/icqaDqM+AB3QQVcZSDaz//XoXsT/NzNIbb9SERrcK/n8n9or4IbXBEtXhRvltS8NABsOTuhiNo/2fdPYCVJ/HyF5YmbmtqUPols6F5y/MK2Yl3eLMOdQQeax4AWSKVAsR+issSZlN2rADIvpboV7YMoo3ktlHKz4hXlX6FWtfDN/ZyokDNNpgBbr7N8zJ87+QfmNuuGgmcZzxhnzJOzihBHIvdIM4oMm4IetfquYm1WKG3s5q70jMFrjp4wCyEVbxY+DcJ54xjqbaNHhVwiSWUZnAyWe4gQGziPdZH2ULY+n3iTze+8E4a6rxN3l38d1r4THoru88G56QESiy/jQ8m5+Ang77rSEaT3Fnr6rnAF5VG1+kiA36rMIwLabnxQbAWnApRX9CHBpMdBj7v8oLhCRn7ZEoPDcD1P2AASdaDJjRMuR52YPDlUSDd8TnI/DFFs=</elem>
+<elem key="bits">3072</elem>
+</table>
+<table>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="fingerprint">b1417799469a6c5dd2982fc0329ace03</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBNNJGh4HcK3rlrsvCbu0kASt7NLMvAUwB51UnianAKyr9H0UBYZnOkVZhIjDea3F/CxfOQeqLpanqso/EqXcT9w=</elem>
+<elem key="bits">256</elem>
+</table>
+<table>
+<elem key="type">ssh-ed25519</elem>
+<elem key="fingerprint">e736433ba9478a190158b2bc89f65108</elem>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAIOCMYY9DMj/I+Rfosf+yMuevI7VFIeeQfZSxq67EGxsb</elem>
+<elem key="bits">256</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Apache httpd" version="2.4.41" extrainfo="(Ubuntu)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.41</cpe></service><script id="http-favicon" output="Unknown favicon MD5: 115E49F9A03BB97DEB840A3FE185434C"/><script id="http-methods" output="&#xa;  Supported Methods: HEAD GET POST OPTIONS"><table key="Supported Methods">
+<elem>HEAD</elem>
+<elem>GET</elem>
+<elem>POST</elem>
+<elem>OPTIONS</elem>
+</table>
+</script><script id="http-title" output="Play | Landing"><elem key="title">Play | Landing</elem>
+</script><script id="http-server-header" output="Apache/2.4.41 (Ubuntu)"><elem>Apache/2.4.41 (Ubuntu)</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="22"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="31349"/>
+<osmatch name="Linux 5.0 - 5.14" accuracy="100" line="71713">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="5.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:5</cpe></osclass>
+</osmatch>
+<osmatch name="MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3)" accuracy="100" line="91792">
+<osclass type="router" vendor="MikroTik" osfamily="RouterOS" osgen="7.X" accuracy="100"><cpe>cpe:/o:mikrotik:routeros:7</cpe></osclass>
+<osclass type="router" vendor="Linux" osfamily="Linux" osgen="5.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:5.6.3</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="OS:SCAN(V=7.95%E=4%D=6/17%OT=22%CT=1%CU=31349%PV=Y%DS=2%DC=T%G=Y%TM=68510BC&#xa;OS:1%P=x86_64-pc-linux-gnu)SEQ(SP=103%GCD=1%ISR=10F%TI=Z%CI=Z%TS=A)OPS(O1=M&#xa;OS:552ST11NW7%O2=M552ST11NW7%O3=M552NNT11NW7%O4=M552ST11NW7%O5=M552ST11NW7%&#xa;OS:O6=M552ST11)WIN(W1=FE88%W2=FE88%W3=FE88%W4=FE88%W5=FE88%W6=FE88)ECN(R=Y%&#xa;OS:DF=Y%T=40%W=FAF0%O=M552NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=&#xa;OS:0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF&#xa;OS:=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=&#xa;OS:%RD=0%Q=)T7(R=N)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=&#xa;OS:G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)&#xa;"/>
+</os>
+<uptime seconds="694113" lastboot="Mon Jun  9 01:42:56 2025"/>
+<distance value="2"/>
+<tcpsequence index="259" difficulty="Good luck!" values="A96DFFC1,81C67E1F,DAF98D45,7756E044,FC63F013,85AF48C2"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="295F23D0,295F2434,295F24A1,295F24FD,295F2562,295F25C6"/>
+<trace proto="icmp">
+<hop ttl="1" ipaddr="10.10.14.1" rtt="310.80"/>
+<hop ttl="2" ipaddr="10.10.11.136" rtt="310.88"/>
+</trace>
+<times srtt="306964" rttvar="1412" to="312612"/>
+</host>
+<taskbegin task="NSE" time="1750141889"/>
+<taskend task="NSE" time="1750141889"/>
+<taskbegin task="NSE" time="1750141889"/>
+<taskend task="NSE" time="1750141889"/>
+<taskbegin task="NSE" time="1750141889"/>
+<taskend task="NSE" time="1750141889"/>
+<runstats><finished time="1750141889" timestr="Tue Jun 17 02:31:29 2025" summary="Nmap done at Tue Jun 17 02:31:29 2025; 1 IP address (1 host up) scanned in 1735.56 seconds" elapsed="1735.56" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
