@@ -43,7 +43,7 @@ Resources for more labs <br>
 - Usage   - retired (3.5/10)
 - LinkVortex  - retired (3/10)
 - Pandora - retired (4/10)
-- Editorial
+- Editorial - retired (**WIP**)
 - Networked
 - Cozyhosting
 - Busqueda
