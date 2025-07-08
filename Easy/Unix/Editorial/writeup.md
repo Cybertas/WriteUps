@@ -3,7 +3,7 @@
 ### Lab Details 
 
 - Difficulty: Easy
-- Type: SSRF, Linux
+- Type: Web App, SSRF, Git, Priv Esc, Linux
 
 #### Tasks
 Q1: How many TCP ports are listening on Editorial?

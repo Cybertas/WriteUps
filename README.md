@@ -11,7 +11,7 @@ Resources for more labs <br>
 
 ---
 
-### 🟢 Easy (Pwned 27/40)  
+### 🟢 Easy (Pwned 28/40)  
 <details>
 <summary>Easy labs (Click to expand)</summary>
 
@@ -43,8 +43,8 @@ Resources for more labs <br>
 - Usage   - retired (3.5/10)
 - LinkVortex  - retired (3/10)
 - Pandora - retired (4/10)
-- Editorial - retired (**WIP**)
-- Networked
+- Editorial - retired (3.5/10)
+- Networked - retired (**WIP**)
 - Cozyhosting
 - Busqueda
 - Broadlight
