@@ -11,7 +11,7 @@ Resources for more labs <br>
 
 ---
 
-### 🟢 Easy (Pwned 28/40)  
+### 🟢 Easy (Pwned 29/40)  
 <details>
 <summary>Easy labs (Click to expand)</summary>
 
@@ -38,18 +38,18 @@ Resources for more labs <br>
 - Broker  - retired (1.5/10)
 - Soccer  - retired (3.5/10)
 - Sau     - retired (1/10)
-- Dog     - do it before Broadlight 
+- Dog     - retire (**WIP**)
 - Help    - retired (4/10)
 - Usage   - retired (3.5/10)
 - LinkVortex  - retired (3/10)
 - Pandora - retired (4/10)
 - Editorial - retired (3.5/10)
-- Networked - retired (**WIP**)
+- Networked - retired (3/10)
 - Cozyhosting
 - Busqueda
 - Broadlight
+- Support
 - Servmon
-- Support 
 - Mailing
 - Delivery 
 - MetaTwo
