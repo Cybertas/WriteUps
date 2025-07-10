@@ -4,7 +4,7 @@ Difficulty ratings are subjective (x/10)<br>
 Some writeups will contain POCs but highly recommend to get from source<br>
 On my path to take on OSCP again, got 0/100 for my first attempt and i am extremely titled by the thought of it, CPTS will be my practice... 
 
-## Practing for CPTS + OSCP
+## Practicing for CPTS + OSCP
 Resources for more labs <br>
 [OSCP like labs by NetSecFocus Trophy Room](https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/htmlview#)<br>
 [Unofficial CPTS Prep by IppSec](https://www.youtube.com/playlist?list=PLidcsTyj9JXItWpbRtTg6aDEj10_F17x5)
