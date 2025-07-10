@@ -38,7 +38,7 @@ Resources for more labs <br>
 - Broker  - retired (1.5/10)
 - Soccer  - retired (3.5/10)
 - Sau     - retired (1/10)
-- Dog     - retire (**WIP**)
+- Dog     - active (**WIP**)
 - Help    - retired (4/10)
 - Usage   - retired (3.5/10)
 - LinkVortex  - retired (3/10)
