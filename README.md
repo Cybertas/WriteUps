@@ -11,12 +11,12 @@ Resources for more labs <br>
 
 ---
 
-### 🟢 Easy (Pwned 29/40)  
+### 🟢 Easy (Pwned 30/40)  
 <details>
 <summary>Easy labs (Click to expand)</summary>
 
-- Knife   – retired (2/10)  
-- Sunday  – retired (3/10)  
+- Knife   – retired (2/10)
+- Sunday  – retired (3/10)
 - Keeper  – retired (1/10)  
 - Bashed  – retired (1/10)  
 - Beep    – retired (1/10)  
@@ -38,19 +38,21 @@ Resources for more labs <br>
 - Broker  - retired (1.5/10)
 - Soccer  - retired (3.5/10)
 - Sau     - retired (1/10)
-- Dog     - active (**WIP**)
+- Dog     - retired (2.5/10)
 - Help    - retired (4/10)
 - Usage   - retired (3.5/10)
 - LinkVortex  - retired (3/10)
 - Pandora - retired (4/10)
 - Editorial - retired (3.5/10)
 - Networked - retired (3/10)
-- Cozyhosting
-- Busqueda
-- Broadlight
-- Support
-- Servmon
-- Mailing
+--- Adventure Mode practice for Exam Setting ---
+- Cozyhosting - retired (**WIP**) - Adventure Mode
+- Busqueda - retired - Adventure Mode
+- Broadlight - retired - Adventure Mode
+- Support - retired - Adventure Mode
+- Servmon - retired - Adventure Mode
+--- If more pratice is needed ---
+- Mailing 
 - Delivery 
 - MetaTwo
 - Driver
