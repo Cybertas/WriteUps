@@ -44,14 +44,14 @@ Resources for more labs <br>
 - LinkVortex  - retired (3/10)
 - Pandora - retired (4/10)
 - Editorial - retired (3.5/10)
-- Networked - retired (3/10)
---- Adventure Mode practice for Exam Setting ---
+- Networked - retired (3/10) <br>
+--- Adventure Mode practice for Exam Setting --- <br>
 - Cozyhosting - retired (**WIP**) - Adventure Mode
 - Busqueda - retired - Adventure Mode
 - Broadlight - retired - Adventure Mode
 - Support - retired - Adventure Mode
-- Servmon - retired - Adventure Mode
---- If more pratice is needed ---
+- Servmon - retired - Adventure Mode <br>
+--- If more pratice is needed ---<br>
 - Mailing 
 - Delivery 
 - MetaTwo
