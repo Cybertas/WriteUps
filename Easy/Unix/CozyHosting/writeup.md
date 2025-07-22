@@ -3,7 +3,7 @@
 ### Lab Details 
 
 - Difficulty: Easy
-- Type:Web App, Cookie Hijack, Linux
+- Type:Web App, Cookie Hijack, SSRF, Postgre, Linux
 
 #### Initial Foothold 
 1. Scan the target
