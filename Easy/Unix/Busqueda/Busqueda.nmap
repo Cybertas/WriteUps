@@ -1,0 +1,50 @@
+# Nmap 7.95 scan initiated Tue Jul 22 06:43:41 2025 as: /usr/lib/nmap/nmap --privileged -sT -T4 -vv -A -p- -Pn -oA Busqueda 10.10.11.208
+Increasing send delay for 10.10.11.208 from 0 to 5 due to 73 out of 181 dropped probes since last increase.
+Warning: 10.10.11.208 giving up on port because retransmission cap hit (6).
+Nmap scan report for searcher.htb (10.10.11.208)
+Host is up, received user-set (0.17s latency).
+Scanned at 2025-07-22 06:43:41 EDT for 3708s
+Not shown: 63558 closed tcp ports (conn-refused), 1974 filtered tcp ports (no-response)
+PORT     STATE SERVICE    REASON  VERSION
+22/tcp   open  ssh        syn-ack OpenSSH 8.9p1 Ubuntu 3ubuntu0.1 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 4f:e3:a6:67:a2:27:f9:11:8d:c3:0e:d7:73:a0:2c:28 (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBIzAFurw3qLK4OEzrjFarOhWslRrQ3K/MDVL2opfXQLI+zYXSwqofxsf8v2MEZuIGj6540YrzldnPf8CTFSW2rk=
+|   256 81:6e:78:76:6b:8a:ea:7d:1b:ab:d4:36:b7:f8:ec:c4 (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPTtbUicaITwpKjAQWp8Dkq1glFodwroxhLwJo6hRBUK
+80/tcp   open  http       syn-ack Apache httpd 2.4.52
+| http-methods: 
+|_  Supported Methods: GET HEAD OPTIONS
+|_http-title: Searcher
+|_http-server-header: Apache/2.4.52 (Ubuntu)
+9002/tcp open  tcpwrapped syn-ack
+Device type: general purpose
+Running: Linux 4.X|5.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5
+OS details: Linux 4.15 - 5.19
+TCP/IP fingerprint:
+OS:SCAN(V=7.95%E=4%D=7/22%OT=22%CT=1%CU=35268%PV=Y%DS=2%DC=T%G=Y%TM=687F79D
+OS:9%P=x86_64-pc-linux-gnu)SEQ(SP=FC%GCD=1%ISR=10A%TI=Z%CI=Z%II=I%TS=A)OPS(
+OS:O1=M542ST11NW7%O2=M542ST11NW7%O3=M542NNT11NW7%O4=M542ST11NW7%O5=M542ST11
+OS:NW7%O6=M542ST11)WIN(W1=FE88%W2=FE88%W3=FE88%W4=FE88%W5=FE88%W6=FE88)ECN(
+OS:R=Y%DF=Y%T=40%W=FAF0%O=M542NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS
+OS:%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=
+OS:Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=
+OS:R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T
+OS:=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=
+OS:S)
+
+Uptime guess: 38.762 days (since Fri Jun 13 13:28:32 2025)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=252 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT       ADDRESS
+1   370.48 ms 10.10.16.1 (10.10.16.1)
+2   450.79 ms searcher.htb (10.10.11.208)
+
+Read data files from: /usr/share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Jul 22 07:45:29 2025 -- 1 IP address (1 host up) scanned in 3707.66 seconds
