@@ -11,7 +11,7 @@ Resources for more labs <br>
 
 ---
 
-### 🟢 Easy (Pwned 31/40)  
+### 🟢 Easy (Pwned 32/40)  
 <details>
 <summary>Easy labs (Click to expand)</summary>
 
@@ -47,8 +47,8 @@ Resources for more labs <br>
 - Networked - retired (3/10) <br>
 --- Adventure Mode practice for Exam Setting --- <br>
 - Cozyhosting - retired (4/10) - Adventure Mode
-- Busqueda - retired (**WIP**) - Adventure Mode
-- Broadlight - retired - Adventure Mode
+- Busqueda - retired (4/10) - Adventure Mode
+- Broadlight - retired (**WIP**) - Adventure Mode
 - Support - retired - Adventure Mode
 - Servmon - retired - Adventure Mode <br>
 --- If more pratice is needed ---<br>
