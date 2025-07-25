@@ -1,5 +1,5 @@
 # WriteUps-HTB
-WriteUps for HTB Labs  
+WriteUps for HTB Labs, collection of machines that I will use to hone my skills.   
 Difficulty ratings are subjective (x/10)<br>
 Some writeups will contain POCs but highly recommend to get from source<br>
 On my path to take on OSCP again, got 0/100 for my first attempt and i am extremely titled by the thought of it, CPTS will be my practice... 
@@ -41,23 +41,28 @@ Resources for more labs <br>
 - Dog     - retired (2.5/10)
 - Help    - retired (4/10)
 - Usage   - retired (3.5/10)
-- LinkVortex  - retired (3/10)
+- LinkVortex - retired (3/10)
 - Pandora - retired (4/10)
 - Editorial - retired (3.5/10)
-- Networked - retired (3/10) <br>
+- Networked - retired (3/10)
+- Support - retired (**WIP**) 
+- Servmon - retired 
+- Mailing - retired 
+- Driver  - retired 
+- Granny  - retired 
+<br>
 --- Adventure Mode practice for Exam Setting --- <br>
 - Cozyhosting - retired (4/10) - Adventure Mode
-- Busqueda - retired (4/10) - Adventure Mode
-- Broadlight - retired (2/10) - Adventure Mode
-- Support - retired (**WIP**) - Adventure Mode
-- Servmon - retired - Adventure Mode <br>
---- If more pratice is needed ---<br>
-- Mailing 
-- Delivery 
-- MetaTwo
-- Driver
-- Trick
-- Shoppy
+- Busqueda  - retired (4/10) - Adventure Mode
+- Broadlight  - retired (2/10) - Adventure Mode
+- Delivery  - retired - Adventure Mode
+- MetaTwo   - retired - Adventure Mode
+- Trick     - retired - Adventure Mode 
+- Shoppy    - retired - Adventure Mode 
+- Sense     - retired - Adventure Mode
+- OpenAdmin - retired - Adventure Mode 
+<br>
+
 
 </details>
 
@@ -126,16 +131,15 @@ Resources for more labs <br>
 - Active
 - Forest - Medium
 - Sauna
-- Monteverde
+- Monteverde - Medium
 - Timelapse
 - Return
-- Cascade
-- Flight
-- Blackfield
+- Cascade - Medium
+- Flight - Hard
+- Blackfield - Hard
 - Cicada
-- Escape
-- TheFrizz
-- Adagio
+- Escape - Medium
+- TheFrizz - Medium
 
 </details>
 
