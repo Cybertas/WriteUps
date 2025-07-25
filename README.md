@@ -11,7 +11,7 @@ Resources for more labs <br>
 
 ---
 
-### 🟢 Easy (Pwned 33/41)  
+### 🟢 Easy (Pwned 34/41)  
 <details>
 <summary>Easy labs (Click to expand)</summary>
 
@@ -45,17 +45,17 @@ Resources for more labs <br>
 - Pandora - retired (4/10)
 - Editorial - retired (3.5/10)
 - Networked - retired (3/10)
-- Support - retired (**WIP**) 
+- Support - retired (5/10) 
 - Servmon - retired 
 - Mailing - retired 
 - Driver  - retired 
 - Granny  - retired 
 <br>
 --- Adventure Mode practice for Exam Setting --- <br>
-- Cozyhosting - retired (4/10) - Adventure Mode
-- Busqueda  - retired (4/10) - Adventure Mode
-- Broadlight  - retired (2/10) - Adventure Mode
-- Delivery  - retired - Adventure Mode
+- Cozyhosting - retired (4/10)  - Adventure Mode
+- Busqueda    - retired (4/10)  - Adventure Mode
+- Broadlight  - retired (2/10)  - Adventure Mode
+- Delivery  - retired (**WIP**) - Adventure Mode
 - MetaTwo   - retired - Adventure Mode
 - Trick     - retired - Adventure Mode 
 - Shoppy    - retired - Adventure Mode 
