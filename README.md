@@ -49,7 +49,7 @@ Resources for more labs <br>
 - Servmon - retired 
 - Mailing - retired 
 - Driver  - retired 
-- Granny  - retired 
+- Granny  - retired <br>
 --- Adventure Mode practice for Exam Setting --- <br>
 - Cozyhosting - retired (4/10)  - Adventure Mode <br>
 - Busqueda    - retired (4/10)  - Adventure Mode <br>
