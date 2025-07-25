@@ -52,16 +52,15 @@ Resources for more labs <br>
 - Granny  - retired 
 <br>
 --- Adventure Mode practice for Exam Setting --- <br>
-- Cozyhosting - retired (4/10)  - Adventure Mode
-- Busqueda    - retired (4/10)  - Adventure Mode
-- Broadlight  - retired (2/10)  - Adventure Mode
-- Delivery  - retired (**WIP**) - Adventure Mode
-- MetaTwo   - retired - Adventure Mode
-- Trick     - retired - Adventure Mode 
-- Shoppy    - retired - Adventure Mode 
-- Sense     - retired - Adventure Mode
-- OpenAdmin - retired - Adventure Mode 
-<br>
+- Cozyhosting - retired (4/10)  - Adventure Mode <br>
+- Busqueda    - retired (4/10)  - Adventure Mode <br>
+- Broadlight  - retired (2/10)  - Adventure Mode <br>
+- Delivery  - retired (**WIP**) - Adventure Mode <br>
+- MetaTwo   - retired - Adventure Mode <br>
+- Trick     - retired - Adventure Mode <br>
+- Shoppy    - retired - Adventure Mode <br>
+- Sense     - retired - Adventure Mode <br>
+- OpenAdmin - retired - Adventure Mode <br>
 
 
 </details>
